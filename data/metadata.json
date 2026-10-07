@@ -1,0 +1,39 @@
+{
+  "last_updated": "2026-10-07T20:39:50Z",
+  "sources_checked": [
+    "War.gov",
+    "USAspending",
+    "NASA",
+    "DIU",
+    "DARPA",
+    "SBIR",
+    "SAM.gov"
+  ],
+  "collector_status": {
+    "war": "partial",
+    "usaspending": "success",
+    "nasa": "success",
+    "diu": "failed: RuntimeError: No working feed found for DIU",
+    "darpa": "success",
+    "sbir": "failed: RuntimeError: SBIR public feed is not configured; collector skipped safely",
+    "sam": "success"
+  },
+  "collector_details": {
+    "war": {
+      "html_index_status": 403,
+      "rss_status": 200,
+      "discovery_method": "rss",
+      "announcements_discovered": 20,
+      "article_requests": 5,
+      "article_http_successes": 0,
+      "browser_attempts": 5,
+      "browser_successes": 0,
+      "structured_fallback_status": 200,
+      "structured_fallback_awards": 25,
+      "unresolved_announcements": 1,
+      "status": "partial"
+    }
+  },
+  "record_count": 403,
+  "disclosed_value_note": "Totals include disclosed amounts only."
+}

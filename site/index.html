@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search federal awards to companies headquartered in Montgomery County, Maryland.">
+  <title>Montgomery County Federal Contract Tracker</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b2f57'/%3E%3Cpath d='M8 9h16v4H8zm2 6h12v9H10z' fill='%23fff'/%3E%3Cpath d='M14 18h4v6h-4z' fill='%232c85df'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css?v=1.0.2">
+  <script src="./app.js?v=1.0.3" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to awards</a>
+  <header class="masthead">
+    <div class="brand-mark" aria-hidden="true"><span>MC</span></div>
+    <div class="title-block">
+      <p class="eyebrow">Montgomery County, Maryland</p>
+      <h1>Federal Contract Tracker</h1>
+      <p class="subtitle">Federal awards to companies headquartered in Montgomery County</p>
+    </div>
+    <div class="freshness" aria-live="polite">
+      <span class="freshness-label">Data status</span>
+      <strong id="last-updated">Loading…</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="status-banner" id="source-warning" hidden aria-live="polite"></section>
+
+    <section class="metrics" aria-label="Filtered award summary">
+      <article><span>Awards</span><strong id="metric-awards">—</strong><small>matching the current view</small></article>
+      <article><span>Announced value</span><strong id="metric-value">—</strong><small>disclosed amounts only</small></article>
+      <article><span>Companies</span><strong id="metric-companies">—</strong><small>distinct headquarters</small></article>
+      <article><span>Defense &amp; technology</span><strong id="metric-tech">—</strong><small>share of matching awards</small></article>
+    </section>
+
+    <section class="workspace" aria-label="Contract search and filters">
+      <div class="search-row">
+        <label class="search-field">
+          <span class="sr-only">Search contracts</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+          <input id="search" type="search" placeholder="Search company, description, agency, category, contract #, or location">
+          <kbd>/</kbd>
+        </label>
+        <button class="secondary-button" id="clear-filters" type="button">Clear filters</button>
+      </div>
+
+      <div class="filters">
+        <label>Date
+          <select id="date-filter">
+            <option value="30">Last 30 days</option><option value="0">Today</option><option value="7">Last 7 days</option>
+            <option value="ytd">Year to date</option><option value="all">All time</option><option value="custom">Custom dates</option>
+          </select>
+        </label>
+        <div class="custom-dates" id="custom-dates" hidden>
+          <label>From<input id="date-from" type="date"></label>
+          <label>To<input id="date-to" type="date"></label>
+        </div>
+        <label>Category<select id="category-filter"><option value="">All categories</option></select></label>
+        <label>Agency<select id="agency-filter"><option value="">All agencies</option></select></label>
+        <label>Company<select id="company-filter"><option value="">All companies</option></select></label>
+        <label>Amount
+          <select id="amount-filter"><option value="0">Any amount</option><option value="1000000">Over $1M</option><option value="10000000">Over $10M</option><option value="50000000">Over $50M</option><option value="100000000">Over $100M</option></select>
+        </label>
+        <label>Headquarters confidence
+          <select id="hq-filter"><option value="verified">Verified only</option><option value="strong" selected>Verified + strong</option><option value="all">Include needs review</option></select>
+        </label>
+        <label>Sort by
+          <select id="sort-filter"><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="largest">Largest value</option><option value="smallest">Smallest value</option><option value="company">Company name</option><option value="agency">Agency</option></select>
+        </label>
+      </div>
+    </section>
+
+    <section class="results-section" id="results" tabindex="-1">
+      <div class="results-heading">
+        <div><p class="section-kicker">Award register</p><h2 id="result-count">Loading awards…</h2></div>
+        <div class="download-actions">
+          <button class="secondary-button" id="download-filtered" type="button">Export filtered CSV</button>
+          <a class="secondary-button" id="download-csv" href="#" download>Download all CSV</a>
+          <a class="primary-button" id="download-json" href="#" download>Download JSON</a>
+        </div>
+      </div>
+
+      <div class="table-shell">
+        <table>
+          <thead><tr><th>Date</th><th>Company</th><th>Amount</th><th>Agency</th><th>Category</th><th>What it was for</th><th>Work location</th><th>Contract #</th><th>Source</th></tr></thead>
+          <tbody id="contract-rows"></tbody>
+        </table>
+        <div class="empty-state" id="empty-state" hidden>
+          <div aria-hidden="true">⌕</div><h3>No awards match this view</h3><p>Try a wider date range or clear one of the filters.</p>
+        </div>
+        <div class="loading-state" id="loading-state"><span></span><p>Loading federal award data…</p></div>
+      </div>
+      <p class="table-note">Select any row for full award details. Headquarters status describes the company—not where contract work or spending occurs.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>About this tracker</strong> Records come from official federal sources. Values are not summed when undisclosed, and work locations are never inferred from company headquarters.</p>
+    <p><a href="https://www.usaspending.gov/" target="_blank" rel="noopener noreferrer">USAspending.gov</a> · <a href="https://www.war.gov/News/Contracts/" target="_blank" rel="noopener noreferrer">War.gov contracts</a></p>
+  </footer>
+
+  <dialog id="detail-dialog" aria-labelledby="detail-title">
+    <div class="dialog-topline"><span>Award detail</span><button id="dialog-close" type="button" aria-label="Close award details">×</button></div>
+    <div id="detail-content"></div>
+  </dialog>
+
+  <template id="row-template">
+    <tr tabindex="0" role="button" aria-label="Open award details">
+      <td data-cell="date"></td><td data-cell="company"></td><td data-cell="amount"></td><td data-cell="agency"></td>
+      <td data-cell="category"></td><td data-cell="description"></td><td data-cell="location"></td><td data-cell="contract"></td><td data-cell="source"></td>
+    </tr>
+  </template>
+</body>
+</html>

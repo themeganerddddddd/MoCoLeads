@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>War.gov Contracts</title>
+    <item>
+      <title>Contracts for Oct. 6, 2026</title>
+      <link>https://www.war.gov/News/Contracts/Contract/Article/4620231/contracts-for-oct-6-2026/</link>
+      <pubDate>Tue, 06 Oct 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Contracts for Oct. 5, 2026</title>
+      <link>https://www.war.gov/News/Contracts/Contract/Article/4619000/contracts-for-oct-5-2026/</link>
+      <pubDate>Mon, 05 Oct 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>News release that is not a contract digest</title>
+      <link>https://www.war.gov/News/Releases/Release/Article/1/example/</link>
+      <pubDate>Tue, 06 Oct 2026 18:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
