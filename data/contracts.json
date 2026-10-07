@@ -66,7 +66,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4619270/contracts-for-oct-5-2026/",
-        "retrieved_at": "2026-10-07T20:39:50Z",
+        "retrieved_at": "2026-10-07T21:28:17Z",
         "announcement_date": "2026-10-05",
         "primary": true
       },
@@ -74,7 +74,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-07T20:39:50Z",
+        "retrieved_at": "2026-10-07T21:28:17Z",
         "announcement_date": "2026-10-05",
         "primary": false
       }
