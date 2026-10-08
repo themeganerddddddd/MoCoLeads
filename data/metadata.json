@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T15:26:40Z",
+  "last_updated": "2026-10-08T17:54:08Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -16,7 +16,7 @@
     "diu": "success",
     "darpa": "success",
     "sbir": "failed: RuntimeError: SBIR public feed is not configured; collector skipped safely",
-    "sam": "skipped"
+    "sam": "success"
   },
   "collector_details": {
     "war": {
@@ -37,14 +37,14 @@
     },
     "usaspending": {
       "status": "success",
-      "records_retrieved": 15159,
+      "records_retrieved": 83,
       "known_company_matches": 3,
       "county_discovery_matches": 67,
-      "place_of_performance_matches": 15089,
-      "outside_company_performance_matches": 8111,
-      "place_of_performance_lookback_days": 365,
+      "place_of_performance_matches": 13,
+      "outside_company_performance_matches": 13,
+      "place_of_performance_lookback_days": 7,
       "new_entities_discovered": 40,
-      "moco_matches": 7047
+      "moco_matches": 69
     },
     "nasa": {
       "records_retrieved": 0,
@@ -66,9 +66,9 @@
       "moco_matches": 0
     },
     "sam": {
-      "status": "skipped",
-      "reason": "SAM_API_KEY not set",
+      "status": "success",
       "records_retrieved": 0,
+      "mode": "entity_contact_enrichment",
       "moco_matches": 0
     }
   },
@@ -80,12 +80,12 @@
   },
   "contact_stats": {
     "companies_examined": 2983,
-    "company_contacts_found": 7,
-    "named_company_contacts": 7,
+    "company_contacts_found": 98,
+    "named_company_contacts": 98,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 0,
+    "sam_poc_names_found_this_run": 100,
     "federal_award_contacts": 0
   },
   "disclosed_value_note": "Totals include disclosed amounts only."
