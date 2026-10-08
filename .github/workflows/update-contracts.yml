@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "moco-contract-bot"
           git config user.email "moco-contract-bot@users.noreply.github.com"
-          git add data/contracts.json data/contracts.csv data/latest.json data/companies.json data/metadata.json data/company_candidates.csv data/war_processed.json
+          git add data/contracts.json data/contracts.csv data/latest.json data/companies.json data/metadata.json data/company_contacts.json data/production_report.json data/company_candidates.csv data/war_processed.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else

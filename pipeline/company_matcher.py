@@ -108,6 +108,15 @@ def is_possible_moco_address(location) -> bool:
     return moco_recipient_evidence(location) is not None
 
 
+def moco_performance_evidence(location) -> dict | None:
+    """Return Montgomery County evidence for the work location, never the recipient."""
+    evidence = moco_recipient_evidence(location)
+    if not evidence:
+        return None
+    reason = evidence["reason"].replace("recipient", "place of performance").replace("address", "location")
+    return {**evidence, "basis": "federal_place_of_performance", "reason": reason}
+
+
 def qualify_record(record: dict, companies: Iterable[dict]) -> tuple[dict | None, str | None, dict | None]:
     company, method = match_company(record, companies)
     if company:
@@ -127,6 +136,7 @@ def company_payload(company: dict | None, record: dict) -> dict:
     if company:
         status = company.get("hq_status") or "needs_review"
         return {
+            "company_id": company.get("company_id") or None,
             "canonical_name": company.get("canonical_name"), "legal_name": company.get("legal_name") or company.get("canonical_name"),
             "uei": company.get("uei") or record.get("recipient_uei"), "ultimate_parent": company.get("ultimate_parent") or None,
             "hq_city": company.get("hq_city") or None, "hq_state": company.get("hq_state") or None,
@@ -143,7 +153,10 @@ def company_payload(company: dict | None, record: dict) -> dict:
         city = location.get("city_name") or location.get("city")
     else:
         city = next((candidate.title() for candidate in MOCO_CITIES if re.search(rf"\b{re.escape(candidate)}\b", text)), None)
+    uei = str(record.get("recipient_uei") or "").strip().upper()
+    name_key = normalize_name(record.get("recipient_name")).replace(" ", "-")[:80] or "unknown-recipient"
     return {
+        "company_id": f"uei-{uei.casefold()}" if uei else f"name-{name_key}",
         "canonical_name": record.get("recipient_name") or "Unknown recipient", "legal_name": record.get("recipient_name"),
         "uei": record.get("recipient_uei"), "ultimate_parent": None, "hq_city": city, "hq_state": "MD" if evidence else None,
         "hq_county": "Montgomery County" if evidence else None, "hq_verified": False,

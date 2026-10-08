@@ -2,7 +2,7 @@
 
 const $ = (selector) => document.querySelector(selector);
 const dataBase = location.pathname.includes("/site/") ? "../data" : "./data";
-const state = { records: [], filtered: [], metadata: null, loadAttempts: [] };
+const state = { records: [], filtered: [], metadata: null, loadAttempts: [], activeView: "moco" };
 const techCategories = new Set(["Defense", "Defense Technology", "Space / Satellite", "Cybersecurity", "Artificial Intelligence / Data", "Software / IT", "Quantum", "Microelectronics / Semiconductor", "Advanced Communications", "Autonomous Systems / Drones", "Advanced Manufacturing"]);
 const qualifiedStatuses = new Set(["verified", "strong", "local_entity"]);
 
@@ -37,6 +37,7 @@ function mocoStatusLabel(status) {
 function mocoBasisLabel(basis) {
   return ({verified_hq:"Verified headquarters", verified_local_legal_entity:"Verified local legal entity", federal_recipient_address:"Federal recipient address", manual_registry:"Manual registry review"})[basis] || safe(basis, "Not documented").replaceAll("_", " ");
 }
+function viewRecords() { return MarketView.recordsForView(state.records, state.activeView); }
 
 async function fetchJson(url, label) {
   const attempt = {label, url, status: null, detail: null};
@@ -91,7 +92,7 @@ function setupMetadata() {
   $("#source-warning").hidden = true;
   const updated = state.metadata?.last_updated;
   const updateLabel = updated ? new Intl.DateTimeFormat("en-US", {month:"short", day:"numeric", year:"numeric", hour:"numeric", minute:"2-digit", timeZoneName:"short"}).format(new Date(updated)) : "not yet updated";
-  $("#last-updated").textContent = `Data loaded · ${state.records.length.toLocaleString()} records · Updated ${updateLabel}`;
+  $("#last-updated").textContent = `Data loaded · ${state.records.length.toLocaleString()} archive records · Updated ${updateLabel}`;
   const status = state.metadata?.collector_status || {};
   const failures = Object.entries(status).filter(([,value]) => String(value).startsWith("failed") || value === "partial").map(([name]) => name === "war" ? "War.gov" : ["diu","darpa","sbir","sam"].includes(name) ? name.toUpperCase() : name.charAt(0).toUpperCase()+name.slice(1));
   if (failures.length) {
@@ -108,9 +109,10 @@ function addOptions(selector, values) {
   [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b)).forEach(value => { const option = new Option(value, value); option.dataset.dynamic = "true"; select.add(option); });
 }
 function populateSelects() {
-  addOptions("#category-filter", state.records.map(r => r.classification?.primary));
-  addOptions("#agency-filter", state.records.map(r => r.award?.agency));
-  addOptions("#company-filter", state.records.map(r => r.company?.canonical_name));
+  const active = viewRecords();
+  addOptions("#category-filter", active.map(r => r.classification?.primary));
+  addOptions("#agency-filter", active.map(r => r.award?.agency));
+  addOptions("#company-filter", active.map(r => r.company?.canonical_name));
 }
 
 function cutoffDate(mode) {
@@ -131,12 +133,12 @@ function applyFilters() {
   const to = $("#date-to").value ? new Date(`${$("#date-to").value}T23:59:59Z`) : null;
   const category = $("#category-filter").value, agency = $("#agency-filter").value, company = $("#company-filter").value;
   const minAmount = Number($("#amount-filter").value), hq = $("#hq-filter").value;
-  state.filtered = state.records.filter(record => {
+  state.filtered = viewRecords().filter(record => {
     const valueDate = record.announcement_date || record.action_date;
     const date = valueDate ? new Date(`${valueDate}T12:00:00Z`) : null;
     const datePass = dateMode === "custom" ? (!from || (date && date >= from)) && (!to || (date && date <= to)) : !cutoff || (date && date >= cutoff);
     const hqStatus = record.company?.hq_status;
-    const hqPass = hq === "all" || (hq === "local" ? qualifiedStatuses.has(hqStatus) : hq === "review" ? [...qualifiedStatuses, "needs_review"].includes(hqStatus) : ["verified","strong"].includes(hqStatus));
+    const hqPass = state.activeView === "work" || hq === "all" || (hq === "local" ? qualifiedStatuses.has(hqStatus) : hq === "review" ? [...qualifiedStatuses, "needs_review"].includes(hqStatus) : ["verified","strong"].includes(hqStatus));
     return datePass && hqPass && (!query || searchable(record).includes(query)) && (!category || record.classification?.primary === category) && (!agency || record.award?.agency === agency) && (!company || record.company?.canonical_name === company) && (!minAmount || Number(record.award?.amount || 0) > minAmount);
   });
   sortRecords(); render();
@@ -153,13 +155,11 @@ function sortRecords() {
 
 function render() { renderMetrics(); renderRows(); }
 function renderMetrics() {
-  const total = state.filtered.reduce((sum,r) => sum + (Number(r.award?.amount) || 0), 0);
-  const companies = new Set(state.filtered.map(r => r.company?.canonical_name).filter(Boolean)).size;
-  const tech = state.filtered.filter(r => techCategories.has(r.classification?.primary)).length;
-  $("#metric-awards").textContent = state.filtered.length.toLocaleString();
-  $("#metric-value").textContent = formatValue(total);
-  $("#metric-companies").textContent = companies.toLocaleString();
-  $("#metric-tech").textContent = state.filtered.length ? `${Math.round(tech/state.filtered.length*100)}%` : "—";
+  const summary = MarketView.summarize(state.filtered, [...techCategories]);
+  $("#metric-awards").textContent = summary.awards.toLocaleString();
+  $("#metric-value").textContent = formatValue(summary.value);
+  $("#metric-companies").textContent = summary.companies.toLocaleString();
+  $("#metric-tech").textContent = summary.techShare === null ? "—" : `${summary.techShare}%`;
 }
 function renderRows() {
   const tbody = $("#contract-rows"); tbody.replaceChildren(); $("#loading-state").hidden = true;
@@ -170,7 +170,9 @@ function renderRows() {
     const row = $("#row-template").content.firstElementChild.cloneNode(true);
     const cell = name => row.querySelector(`[data-cell="${name}"]`);
     cell("date").textContent = formatDate(record.announcement_date || record.action_date);
-    cell("company").innerHTML = `<span class="company-name">${escapeHtml(record.company?.canonical_name)}</span><span class="hq-mini">MoCo entity: ${escapeHtml(record.company?.moco_city || record.company?.hq_city || "Under review")} · ${escapeHtml(mocoStatusLabel(record.company?.hq_status))}</span>`;
+    cell("company").innerHTML = `<span class="company-name">${escapeHtml(record.company?.canonical_name)}</span>${state.activeView === "moco" ? `<span class="hq-mini">MoCo entity: ${escapeHtml(record.company?.moco_city || record.company?.hq_city || "Under review")} · ${escapeHtml(mocoStatusLabel(record.company?.hq_status))}</span>` : `<span class="hq-mini">Outside Montgomery County · work location qualified</span>`}`;
+    cell("company-location").textContent = safe(record.location?.recipient_location);
+    cell("company-location").hidden = state.activeView !== "work";
     cell("amount").textContent = formatValue(record.award?.amount);
     cell("agency").textContent = safe(record.award?.subagency || record.award?.agency);
     cell("category").innerHTML = `<span class="category-tag">${escapeHtml(record.classification?.primary)}</span>`;
@@ -187,46 +189,75 @@ function renderRows() {
 
 function detailField(label, value, html = false) { return `<div class="detail-field"><dt>${escapeHtml(label)}</dt><dd>${html ? value : escapeHtml(safe(value))}</dd></div>`; }
 function contactCard(label, contact) {
-  if (!contact) return `<article class="contact-card contact-empty"><h4>${escapeHtml(label)}</h4><p>No publicly sourced contact is available.</p></article>`;
+  if (!contact) return "";
   const copyButton = (value, name) => value ? `<button class="copy-control" type="button" data-copy="${escapeHtml(value)}" aria-label="Copy ${escapeHtml(name)}">Copy</button>` : "";
   const source = contact.source_url ? `<a href="${escapeHtml(contact.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(contact.source_name || "Public source")} ↗</a>` : "Source unavailable";
   return `<article class="contact-card"><h4>${escapeHtml(label)}</h4>
     <p class="contact-name"><strong>${escapeHtml(safe(contact.name, "Public contact"))}</strong>${contact.title || contact.office ? `<span>${escapeHtml(contact.title || contact.office)}</span>` : ""}</p>
-    ${contact.email ? `<p><span>Email</span><a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>${copyButton(contact.email, "email address")}</p>` : ""}
+    ${contact.email ? `<p><span>Email</span><a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>${copyButton(contact.email, "email address")}</p>` : contact.name ? `<p><span>Email</span>Not publicly available</p>` : ""}
     ${contact.phone ? `<p><span>Phone</span><a href="tel:${escapeHtml(contact.phone)}">${escapeHtml(contact.phone)}</a>${copyButton(contact.phone, "phone number")}</p>` : ""}
-    <p class="contact-source"><span>Verified source</span>${source}${contact.verified_date ? ` · ${escapeHtml(formatDate(contact.verified_date))}` : ""}</p>
+    <p class="contact-source"><span>${escapeHtml(safe(contact.contact_quality, "public"))} quality · verified source</span>${source}${contact.verified_date ? ` · ${escapeHtml(formatDate(contact.verified_date))}` : ""}</p>
   </article>`;
 }
 function openDetail(r) {
   const sources = (r.sources?.length ? r.sources : [r.source]).filter(s => s?.source_url);
   const hq = [r.company?.hq_city, r.company?.hq_state].filter(Boolean).join(", ") || "Under review";
+  const outsideWork = r.market_relationship === "outside_company_working_in_moco";
+  const reportedLocation = outsideWork ? safe(r.location?.recipient_location) : hq;
+  const basisLine = outsideWork ? `<p>Market relationship: Outside company working in Montgomery County</p>` : `<p>MoCo basis: ${escapeHtml(mocoBasisLabel(r.company?.moco_basis))} (${Math.round(Number(r.company?.moco_confidence || 0) * 100)}% confidence)</p>`;
+  const companyContact = r.contacts?.company;
+  const federalContact = r.contacts?.federal || r.contacts?.government;
+  const contactPanel = companyContact || federalContact ? `<section class="contacts-panel"><h3>Contacts</h3><p>Company and federal/award contacts are kept separate and shown only with public-source provenance.</p><div class="contact-grid">${contactCard("COMPANY CONTACT", companyContact)}${contactCard("FEDERAL / AWARD CONTACT", federalContact)}</div></section>` : "";
+  const why = outsideWork ? `<section class="why-here"><h3>WHY THIS IS HERE</h3><p>This recipient is outside Montgomery County, but the official federal award lists a place of performance in Montgomery County, Maryland.</p></section>` : "";
   $("#detail-content").innerHTML = `<div class="detail-body">
-    <div class="detail-title-row"><div><p class="section-kicker">${escapeHtml(r.classification?.primary)}</p><h2 id="detail-title">${escapeHtml(r.company?.canonical_name)}</h2><p>Reported entity location: ${escapeHtml(hq)} · <span class="confidence">${escapeHtml(mocoStatusLabel(r.company?.hq_status))}</span></p><p>MoCo basis: ${escapeHtml(mocoBasisLabel(r.company?.moco_basis))} (${Math.round(Number(r.company?.moco_confidence || 0) * 100)}% confidence)</p></div><div class="detail-amount">${formatValue(r.award?.amount)}</div></div>
+    <div class="detail-title-row"><div><p class="section-kicker">${escapeHtml(r.classification?.primary)}</p><h2 id="detail-title">${escapeHtml(r.company?.canonical_name)}</h2><p>Reported entity location: ${escapeHtml(reportedLocation)} · <span class="confidence">${escapeHtml(mocoStatusLabel(r.company?.hq_status))}</span></p>${basisLine}</div><div class="detail-amount">${formatValue(r.award?.amount)}</div></div>
     <dl class="detail-grid">
       ${detailField("Ultimate parent", r.company?.ultimate_parent)}${detailField("Agency", r.award?.agency)}${detailField("Subagency", r.award?.subagency)}
       ${detailField("Contract number", r.award?.contract_number)}${detailField("Award ID", r.award?.award_id)}${detailField("Award type", r.award?.award_type)}
       ${detailField("Announcement date", formatDate(r.announcement_date))}${detailField("Action date", formatDate(r.action_date))}${detailField("Expected completion", r.award?.expected_completion)}
-      ${detailField("NAICS", r.award?.naics)}${detailField("PSC", r.award?.psc)}${detailField("Place of performance", r.location?.place_of_performance || r.location?.work_locations?.join("; "))}
+      ${detailField("NAICS", r.award?.naics)}${detailField("PSC", r.award?.psc)}${outsideWork ? detailField("Company location", r.location?.recipient_location) : ""}${detailField("Place of performance", r.location?.place_of_performance || r.location?.work_locations?.join("; "))}
     </dl>
+    ${why}
     <div class="detail-description"><h3>What it was for</h3><p>${escapeHtml(r.award?.description)}</p></div>
-    <section class="contacts-panel"><h3>Contacts</h3><p>Company and government contacts are kept separate and shown only with public-source provenance.</p><div class="contact-grid">${contactCard("Company contact", r.contacts?.company)}${contactCard("Government contact", r.contacts?.government)}</div></section>
+    ${contactPanel}
     <div class="source-list"><h3>Sources and retrieval provenance</h3><p>The official record remains primary; retrieval-provider links document fallback provenance.</p><div class="source-list-links">${sources.map(source => sourceLink(source)).join("")}</div></div>
   </div>`;
   $("#detail-dialog").showModal();
 }
 
 function exportFilteredCsv() {
-  const headers = ["Date","Company","HQ status","Amount","Agency","Category","Description","Work location","Contract number","Source URL"];
-  const rows = state.filtered.map(r => [r.announcement_date || r.action_date, r.company?.canonical_name, r.company?.hq_status, r.award?.amount, r.award?.agency, r.classification?.primary, r.award?.description, r.location?.place_of_performance, r.award?.contract_number || r.award?.award_id, r.source?.source_url]);
+  const exportObjects = MarketView.exportRows(state.filtered);
+  const headers = Object.keys(exportObjects[0] || {Date:"",Company:"","Company Location":"",Amount:"",Agency:"",Category:"","What It Was For":"","MoCo Work Location":"","Contract #":"",Source:"","Market Relationship":""});
+  const rows = exportObjects.map(row => headers.map(header => row[header]));
   const csv = [headers, ...rows].map(row => row.map(value => `"${safe(value,"").replaceAll('"','""')}"`).join(",")).join("\r\n");
-  const link = Object.assign(document.createElement("a"), {href: URL.createObjectURL(new Blob([csv], {type:"text/csv;charset=utf-8"})), download:"moco-federal-contracts-filtered.csv"});
+  const filename = state.activeView === "work" ? "work-in-montgomery-county-filtered.csv" : "montgomery-county-companies-filtered.csv";
+  const link = Object.assign(document.createElement("a"), {href: URL.createObjectURL(new Blob([csv], {type:"text/csv;charset=utf-8"})), download:filename});
   link.click(); URL.revokeObjectURL(link.href);
+}
+function setActiveView(view) {
+  state.activeView = view;
+  document.querySelectorAll(".market-tab").forEach(button => {
+    const active = button.dataset.view === view;
+    button.classList.toggle("active", active); button.setAttribute("aria-selected", String(active));
+  });
+  const work = view === "work";
+  $("#view-subtitle").textContent = work ? "Federal contract awards to outside companies for work performed in Montgomery County, Maryland" : "Federal awards to companies and contracting entities based in Montgomery County, Maryland";
+  $("#hq-filter-label").hidden = work;
+  document.querySelectorAll(".company-location-column").forEach(cell => { cell.hidden = !work; });
+  $("#work-location-heading").textContent = work ? "MoCo Work Location" : "Work location";
+  $("#register-kicker").textContent = work ? "Montgomery County work register" : "Award register";
+  $("#metric-awards-label").textContent = work ? "Awards performed in MoCo" : "Awards";
+  $("#metric-value-label").textContent = work ? "Federal award value" : "Announced value";
+  $("#metric-companies-label").textContent = work ? "Outside companies" : "Companies";
+  $("#metric-companies-note").textContent = work ? "recipients based outside the county" : "Montgomery County entities";
+  clearFilters(); populateSelects(); applyFilters();
 }
 function clearFilters() {
   $("#search").value = ""; $("#date-filter").value = "30"; $("#category-filter").value = ""; $("#agency-filter").value = ""; $("#company-filter").value = ""; $("#amount-filter").value = "0"; $("#hq-filter").value = "local"; $("#sort-filter").value = "newest"; $("#custom-dates").hidden = true; applyFilters();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".market-tab").forEach(button => button.addEventListener("click", () => setActiveView(button.dataset.view)));
   ["#search","#date-from","#date-to"].forEach(id => $(id).addEventListener("input", applyFilters));
   ["#date-filter","#category-filter","#agency-filter","#company-filter","#amount-filter","#hq-filter","#sort-filter"].forEach(id => $(id).addEventListener("change", () => { if (id === "#date-filter") $("#custom-dates").hidden = $(id).value !== "custom"; applyFilters(); }));
   $("#clear-filters").addEventListener("click", clearFilters); $("#download-filtered").addEventListener("click", exportFilteredCsv);

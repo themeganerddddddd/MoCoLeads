@@ -4,6 +4,7 @@ from copy import deepcopy
 from difflib import SequenceMatcher
 
 from .company_matcher import normalize_name
+from .contacts import choose_better_contact
 
 
 def _same(a: dict, b: dict) -> bool:
@@ -36,12 +37,13 @@ def merge_records(base: dict, incoming: dict) -> dict:
     for section in ("company", "award", "location"):
         for key, value in incoming.get(section, {}).items():
             result[section][key] = _merge_value(result[section].get(key), value)
-    result.setdefault("contacts", {"company": None, "government": None})
-    for kind in ("company", "government"):
+    result.setdefault("contacts", {"company": None, "federal": None})
+    result["contacts"]["federal"] = result["contacts"].get("federal") or result["contacts"].pop("government", None)
+    incoming_contacts = incoming.get("contacts", {})
+    incoming_federal = incoming_contacts.get("federal") or incoming_contacts.get("government")
+    for kind, incoming_contact in (("company", incoming_contacts.get("company")), ("federal", incoming_federal)):
         existing_contact = result["contacts"].get(kind)
-        incoming_contact = incoming.get("contacts", {}).get(kind)
-        if not existing_contact and incoming_contact:
-            result["contacts"][kind] = deepcopy(incoming_contact)
+        result["contacts"][kind] = deepcopy(choose_better_contact(existing_contact, incoming_contact))
     if structured:
         for key in ("award_id", "naics", "psc", "contract_number", "subagency"):
             result["award"][key] = _merge_value(structured["award"].get(key), result["award"].get(key))
@@ -70,11 +72,49 @@ def merge_records(base: dict, incoming: dict) -> dict:
 def deduplicate(records: list[dict]) -> tuple[list[dict], int]:
     output: list[dict] = []
     merged = 0
+    strong_index: dict[tuple[str, str], set[int]] = {}
+    uei_index: dict[tuple, set[int]] = {}
+    dated_index: dict[tuple, set[int]] = {}
+    fuzzy_index: dict[tuple, set[int]] = {}
+
+    def add_indexes(record: dict, index: int) -> None:
+        award, company = record["award"], record["company"]
+        for field in ("contract_number", "award_id"):
+            value = str(award.get(field) or "").upper()
+            if value:
+                strong_index.setdefault((field, value), set()).add(index)
+        uei = str(company.get("uei") or "").upper()
+        if uei:
+            uei_index.setdefault((uei, award.get("amount"), record.get("action_date")), set()).add(index)
+        name = normalize_name(company.get("canonical_name"))
+        amount = award.get("amount")
+        if name and amount is not None:
+            fuzzy_index.setdefault((name, amount), set()).add(index)
+            for value_date in {record.get("announcement_date"), record.get("action_date")}:
+                dated_index.setdefault((name, amount, value_date), set()).add(index)
+
+    def candidate_indexes(record: dict) -> set[int]:
+        award, company = record["award"], record["company"]
+        candidates: set[int] = set()
+        for field in ("contract_number", "award_id"):
+            value = str(award.get(field) or "").upper()
+            candidates.update(strong_index.get((field, value), set()))
+        uei = str(company.get("uei") or "").upper()
+        candidates.update(uei_index.get((uei, award.get("amount"), record.get("action_date")), set()))
+        name = normalize_name(company.get("canonical_name"))
+        amount = award.get("amount")
+        for value_date in {record.get("announcement_date"), record.get("action_date")}:
+            candidates.update(dated_index.get((name, amount, value_date), set()))
+        candidates.update(fuzzy_index.get((name, amount), set()))
+        return candidates
+
     for record in records:
-        existing = next((x for x in output if _same(x, record)), None)
-        if existing:
-            output[output.index(existing)] = merge_records(existing, record)
+        existing_index = next((index for index in candidate_indexes(record) if _same(output[index], record)), None)
+        if existing_index is not None:
+            output[existing_index] = merge_records(output[existing_index], record)
+            add_indexes(output[existing_index], existing_index)
             merged += 1
         else:
             output.append(deepcopy(record))
+            add_indexes(output[-1], len(output) - 1)
     return output, merged

@@ -6,8 +6,9 @@
   <meta name="description" content="Search federal awards to companies headquartered in Montgomery County, Maryland.">
   <title>Montgomery County Federal Contract Tracker</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b2f57'/%3E%3Cpath d='M8 9h16v4H8zm2 6h12v9H10z' fill='%23fff'/%3E%3Cpath d='M14 18h4v6h-4z' fill='%232c85df'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./styles.css?v=1.1.0">
-  <script src="./app.js?v=1.1.0" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=1.2.0">
+  <script src="./view-model.js?v=1.2.0" defer></script>
+  <script src="./app.js?v=1.2.0" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Skip to awards</a>
@@ -16,13 +17,20 @@
     <div class="title-block">
       <p class="eyebrow">Montgomery County, Maryland</p>
       <h1>Federal Contract Tracker</h1>
-      <p class="subtitle">Federal awards to companies and contracting entities based in Montgomery County, Maryland</p>
+      <p class="subtitle" id="view-subtitle">Federal awards to companies and contracting entities based in Montgomery County, Maryland</p>
     </div>
     <div class="freshness" aria-live="polite">
       <span class="freshness-label">Data status</span>
       <strong id="last-updated">Loading…</strong>
     </div>
   </header>
+
+  <nav class="market-tabs" aria-label="Contract market views">
+    <div>
+      <button class="market-tab active" type="button" data-view="moco" aria-selected="true">Montgomery County Companies</button>
+      <button class="market-tab" type="button" data-view="work" aria-selected="false">Work in Montgomery County</button>
+    </div>
+  </nav>
 
   <main>
     <section class="status-banner" id="source-warning" hidden aria-live="polite"></section>
@@ -37,9 +45,9 @@
     </section>
 
     <section class="metrics" aria-label="Filtered award summary">
-      <article><span>Awards</span><strong id="metric-awards">—</strong><small>matching the current view</small></article>
-      <article><span>Announced value</span><strong id="metric-value">—</strong><small>disclosed amounts only</small></article>
-      <article><span>Companies</span><strong id="metric-companies">—</strong><small>Montgomery County entities</small></article>
+      <article><span id="metric-awards-label">Awards</span><strong id="metric-awards">—</strong><small id="metric-awards-note">matching the current view</small></article>
+      <article><span id="metric-value-label">Announced value</span><strong id="metric-value">—</strong><small>disclosed amounts only</small></article>
+      <article><span id="metric-companies-label">Companies</span><strong id="metric-companies">—</strong><small id="metric-companies-note">Montgomery County entities</small></article>
       <article><span>Defense &amp; technology</span><strong id="metric-tech">—</strong><small>share of matching awards</small></article>
     </section>
 
@@ -71,7 +79,7 @@
         <label>Amount
           <select id="amount-filter"><option value="0">Any amount</option><option value="1000000">Over $1M</option><option value="10000000">Over $10M</option><option value="50000000">Over $50M</option><option value="100000000">Over $100M</option></select>
         </label>
-        <label>Montgomery County presence
+        <label id="hq-filter-label">Montgomery County presence
           <select id="hq-filter"><option value="hq">Verified / strong</option><option value="local" selected>Include local legal entities</option><option value="review">Include needs review</option><option value="all">All</option></select>
         </label>
         <label>Sort by
@@ -82,7 +90,7 @@
 
     <section class="results-section" id="results" tabindex="-1">
       <div class="results-heading">
-        <div><p class="section-kicker">Award register</p><h2 id="result-count">Loading awards…</h2></div>
+        <div><p class="section-kicker" id="register-kicker">Award register</p><h2 id="result-count">Loading awards…</h2></div>
         <div class="download-actions">
           <button class="secondary-button" id="download-filtered" type="button">Export filtered CSV</button>
           <a class="secondary-button" id="download-csv" href="#" download>Download all CSV</a>
@@ -92,7 +100,7 @@
 
       <div class="table-shell">
         <table>
-          <thead><tr><th>Date</th><th>Company</th><th>Amount</th><th>Agency</th><th>Category</th><th>What it was for</th><th>Work location</th><th>Contract #</th><th>Source</th></tr></thead>
+          <thead><tr><th>Date</th><th>Company</th><th class="company-location-column" hidden>Company Location</th><th>Amount</th><th>Agency</th><th>Category</th><th>What it was for</th><th id="work-location-heading">Work location</th><th>Contract #</th><th>Source</th></tr></thead>
           <tbody id="contract-rows"></tbody>
         </table>
         <div class="empty-state" id="empty-state" hidden>
@@ -116,7 +124,7 @@
 
   <template id="row-template">
     <tr tabindex="0" role="button" aria-label="Open award details">
-      <td data-cell="date"></td><td data-cell="company"></td><td data-cell="amount"></td><td data-cell="agency"></td>
+      <td data-cell="date"></td><td data-cell="company"></td><td data-cell="company-location" class="company-location-column" hidden></td><td data-cell="amount"></td><td data-cell="agency"></td>
       <td data-cell="category"></td><td data-cell="description"></td><td data-cell="location"></td><td data-cell="contract"></td><td data-cell="source"></td>
     </tr>
   </template>

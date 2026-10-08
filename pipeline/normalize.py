@@ -5,8 +5,10 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 
 from .classify import classify
-from .company_matcher import company_payload, match_company, moco_recipient_evidence
+from .company_matcher import company_payload, match_company, moco_performance_evidence, moco_recipient_evidence
+from .contacts import federal_contact_payload, registry_company_contact
 from .locations import format_location, parse_work_locations
+from .market import apply_market_relationship
 
 
 def parse_numeric_amount(value):
@@ -45,35 +47,13 @@ def format_code(value):
 
 
 def company_contact_payload(company: dict | None) -> dict | None:
-    if not company:
-        return None
-    source_url = company.get("contact_source")
-    email = company.get("contact_email")
-    phone = company.get("contact_phone")
-    if not source_url or not (email or phone):
-        return None
-    return {
-        "name": company.get("contact_name") or None,
-        "title": company.get("contact_title") or None,
-        "email": email or None,
-        "phone": phone or None,
-        "type": company.get("contact_type") or "unknown",
-        "source_name": "GSA eLibrary" if "gsaelibrary.gsa.gov" in source_url else "Company website",
-        "source_url": source_url,
-        "verified_date": company.get("contact_verified_date") or None,
-    }
+    """Backward-compatible import used by update/tests."""
+    return registry_company_contact(company)
 
 
 def government_contact_payload(raw: dict) -> dict | None:
-    values = {
-        "name": raw.get("government_contact_name"),
-        "email": raw.get("government_contact_email"),
-        "phone": raw.get("government_contact_phone"),
-        "office": raw.get("government_contact_office"),
-        "source_name": raw.get("government_contact_source_name") or ("SAM.gov" if raw.get("collector") == "sam" else None),
-        "source_url": raw.get("government_contact_source_url") or (raw.get("source_url") if raw.get("collector") == "sam" else None),
-    }
-    return values if any(values.get(field) for field in ("name", "email", "phone", "office")) else None
+    """Backward-compatible alias; new records store this as contacts.federal."""
+    return federal_contact_payload(raw)
 
 
 def normalize_record(raw: dict, companies: list[dict], retrieved_at: str | None = None) -> dict:
@@ -127,15 +107,21 @@ def normalize_record(raw: dict, companies: list[dict], retrieved_at: str | None 
             "contracting_activity": raw.get("contracting_activity"), "funding": raw.get("funding") or [],
             "raw_description": raw.get("raw_description"),
         },
-        "location": {"recipient_location": recipient_location, "place_of_performance": performance, "work_locations": work_locations},
+        "location": {
+            "recipient_location": recipient_location,
+            "place_of_performance": performance,
+            "work_locations": work_locations,
+            "recipient_moco_evidence": moco_recipient_evidence(raw.get("recipient_location")),
+            "performance_moco_evidence": moco_performance_evidence(raw.get("place_of_performance")),
+        },
         "classification": {}, "source": source, "sources": [source.copy(), *additional_sources],
         "match": {"method": match_method, "registry_company_id": company.get("company_id") if company else None},
         "contacts": {
             "company": company_contact_payload(company),
-            "government": government_contact_payload(raw),
+            "federal": federal_contact_payload(raw),
         },
     }
     if raw.get("retrieval"):
         record["retrieval"] = raw["retrieval"]
     record["classification"] = classify(record)
-    return record
+    return apply_market_relationship(record)

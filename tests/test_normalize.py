@@ -39,7 +39,7 @@ def test_unknown_official_moco_recipient_is_visible_local_entity():
     assert record["match"]["method"] == "federal_recipient_address"
 
 
-def test_company_and_government_contacts_remain_separate_and_provenanced():
+def test_company_and_federal_contacts_remain_separate_and_provenanced():
     company = {
         **COMPANY,
         "contact_name": "Contract Sales",
@@ -62,5 +62,5 @@ def test_company_and_government_contacts_remain_separate_and_provenanced():
     }, [company], "2026-10-08T12:00:00Z")
     assert record["contacts"]["company"]["email"] == "sales@example.com"
     assert record["contacts"]["company"]["source_name"] == "GSA eLibrary"
-    assert record["contacts"]["government"]["email"] == "jane@agency.gov"
-    assert record["contacts"]["government"]["source_name"] == "Agency announcement"
+    assert record["contacts"]["federal"]["email"] == "jane@agency.gov"
+    assert record["contacts"]["federal"]["source_name"] == "Agency announcement"

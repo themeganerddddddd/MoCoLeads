@@ -1,5 +1,14 @@
 # Montgomery County Federal Contract Tracker
 
+The public dashboard has two intentionally separate markets:
+
+- **Montgomery County Companies** — federal contract awards where the recipient is a verified Montgomery County company or local legal entity.
+- **Work in Montgomery County** — federal contract awards to recipients outside the county whose official USAspending place of performance is Montgomery County, Maryland (FIPS `24031`).
+
+A Montgomery County company performing work in Montgomery County remains in the first view only. The normalized `market_relationship`, `recipient_in_moco`, and `performance_in_moco` fields make that rule auditable.
+
+Company contacts and federal/award contacts are also distinct. Public GSA eLibrary contacts have priority, SAM Entity Management contributes names/titles only, and every displayed contact includes source provenance and a `contact_quality` value. Company enrichment is cached for 30 days in `data/company_contacts.json`.
+
 A production-oriented static dashboard for finding newly announced federal contracts awarded to companies and contracting legal entities based in Montgomery County, Maryland. The tracker separates verified headquarters, verified local legal entities, federal recipient addresses, ultimate parents, and contract work locations. It preserves the original federal source for every record and keeps a historical archive across daily runs.
 
 The browser application is plain HTML, CSS, and JavaScript. Collection and processing use Python. GitHub Actions updates the data daily and deploys the static site to GitHub Pages. No application server or database is required.

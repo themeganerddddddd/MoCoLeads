@@ -3,6 +3,9 @@ from __future__ import annotations
 from datetime import date
 from urllib.parse import urlparse
 
+from .contacts import CONTACT_QUALITIES
+from .market import RELATIONSHIPS
+
 
 class ValidationError(ValueError):
     pass
@@ -39,16 +42,20 @@ def validate_records(records: list[dict]) -> None:
         company_data = record.get("company", {})
         if company_data.get("hq_status") == "local_entity" and not company_data.get("moco_basis"):
             errors.append(f"{prefix}: local entity requires Montgomery County basis")
+        relationship = record.get("market_relationship")
+        if relationship not in RELATIONSHIPS:
+            errors.append(f"{prefix}: invalid market relationship")
+        if not isinstance(record.get("recipient_in_moco"), bool) or not isinstance(record.get("performance_in_moco"), bool):
+            errors.append(f"{prefix}: market relationship booleans required")
         contacts = record.get("contacts") or {}
-        for contact_kind in ("company", "government"):
+        for contact_kind in ("company", "federal"):
             contact = contacts.get(contact_kind)
             if not contact:
                 continue
-            if (contact.get("email") or contact.get("phone")) and (
-                not contact.get("source_name") or not contact.get("source_url")
-                or urlparse(contact.get("source_url")).scheme not in {"http", "https"}
-            ):
+            if not contact.get("source_name") or not contact.get("source_url") or urlparse(contact.get("source_url")).scheme not in {"http", "https"}:
                 errors.append(f"{prefix}: {contact_kind} contact requires public source provenance")
+            if contact.get("contact_quality") not in CONTACT_QUALITIES:
+                errors.append(f"{prefix}: {contact_kind} contact requires a valid contact quality")
         award = record.get("award", {})
         key = (str(award.get("contract_number") or "").upper(), str(award.get("award_id") or "").upper())
         if key != ("", "") and key in strong_keys:

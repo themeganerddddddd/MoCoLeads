@@ -16,16 +16,17 @@ def test_usaspending_queries_known_entities_and_montgomery_county(monkeypatch):
 
     def fake_post(url, json):
         payloads.append(json)
-        route = "county" if "recipient_locations" in json["filters"] else "known"
+        route = "performance" if "place_of_performance_locations" in json["filters"] else "county" if "recipient_locations" in json["filters"] else "known"
         item = {
             "Award ID": f"AWARD-{route}",
-            "Recipient Name": "Known Co" if route == "known" else "New Local Co",
+            "Recipient Name": "Known Co" if route == "known" else "New Local Co" if route == "county" else "Outside Co",
             "Recipient UEI": None,
             "Action Date": "2026-10-07",
             "Transaction Amount": 100,
             "Awarding Agency": "Agency",
             "generated_internal_id": f"ID-{route}",
             "Recipient Location": {"state_code": "MD", "county_code": "031"},
+            "Primary Place of Performance": {"city_name": "Rockville", "state_code": "MD", "county_code": "031"} if route == "performance" else None,
         }
         return FakeResponse({"results": [item], "page_metadata": {"hasNext": False}})
 
@@ -38,16 +39,20 @@ def test_usaspending_queries_known_entities_and_montgomery_county(monkeypatch):
         "legal_name": "Amentum Services Inc.", "aliases_list": [], "hq_status": "not_moco",
     }]
     records = usaspending.collect(companies, days=7, today=date(2026, 10, 8))
-    assert len(payloads) == 2
+    assert len(payloads) == 3
     assert payloads[0]["filters"]["recipient_search_text"] == ["Known Co LLC"]
     assert payloads[1]["filters"]["recipient_locations"] == [{"country": "USA", "state": "MD", "county": "031"}]
     assert payloads[1]["filters"]["time_period"] == [{"start_date": "2026-10-01", "end_date": "2026-10-08"}]
-    assert {record["discovery_route"] for record in records} == {"known_company", "county_recipient"}
+    assert payloads[2]["filters"]["place_of_performance_locations"] == [{"country": "USA", "state": "MD", "county": "031"}]
+    assert {record["discovery_route"] for record in records} == {"known_company", "county_recipient", "county_place_of_performance"}
     assert usaspending.get_last_report() == {
         "status": "success",
-        "records_retrieved": 2,
+        "records_retrieved": 3,
         "known_company_matches": 1,
         "county_discovery_matches": 1,
+        "place_of_performance_matches": 1,
+        "outside_company_performance_matches": 0,
+        "place_of_performance_lookback_days": 7,
         "new_entities_discovered": 1,
     }
 

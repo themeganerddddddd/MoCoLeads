@@ -5,7 +5,7 @@ from typing import Iterable
 from urllib.parse import quote
 
 from .common import post
-from pipeline.company_matcher import QUALIFYING_STATUSES, normalize_name
+from pipeline.company_matcher import QUALIFYING_STATUSES, normalize_name, qualify_record
 
 API_URL = "https://api.usaspending.gov/api/v2/search/spending_by_transaction/"
 FIELDS = [
@@ -45,10 +45,10 @@ def _record_from_item(item: dict, route: str, registry_company_id: str | None = 
     }
 
 
-def _collect_pages(base_filters: dict, route: str, seen: set[str], registry_company_id: str | None = None) -> list[dict]:
+def _collect_pages(base_filters: dict, route: str, seen: set[str], registry_company_id: str | None = None, max_pages: int = 20) -> list[dict]:
     records: list[dict] = []
     page = 1
-    while page <= 5:
+    while page <= max_pages:
         payload = {
             "filters": base_filters,
             "fields": FIELDS,
@@ -70,8 +70,8 @@ def _collect_pages(base_filters: dict, route: str, seen: set[str], registry_comp
     return records
 
 
-def collect(companies: Iterable[dict], days: int = 7, today: date | None = None) -> list[dict]:
-    """Fetch known entities plus all recent Montgomery County recipient transactions."""
+def collect(companies: Iterable[dict], days: int = 7, today: date | None = None, performance_days: int | None = None) -> list[dict]:
+    """Fetch known recipients, county recipients, and contracts performed in Montgomery County."""
     company_rows = list(companies)
     end = today or date.today()
     start = end - timedelta(days=max(days, 7))
@@ -103,6 +103,18 @@ def collect(companies: Iterable[dict], days: int = 7, today: date | None = None)
         seen,
     )
     records.extend(county_records)
+    performance_start = end - timedelta(days=max(performance_days or days, 7))
+    performance_records = _collect_pages(
+        {
+            "time_period": [{"start_date": performance_start.isoformat(), "end_date": end.isoformat()}],
+            "award_type_codes": ["A", "B", "C", "D"],
+            "place_of_performance_locations": [{"country": "USA", "state": "MD", "county": "031"}],
+        },
+        "county_place_of_performance",
+        seen,
+        max_pages=200,
+    )
+    records.extend(performance_records)
     registry_names = {
         normalize_name(value)
         for company in company_rows
@@ -120,6 +132,9 @@ def collect(companies: Iterable[dict], days: int = 7, today: date | None = None)
         "records_retrieved": len(records),
         "known_company_matches": known_count,
         "county_discovery_matches": len(county_records),
+        "place_of_performance_matches": len(performance_records),
+        "outside_company_performance_matches": sum(not bool(qualify_record(record, company_rows)[2]) for record in performance_records),
+        "place_of_performance_lookback_days": max(performance_days or days, 7),
         "new_entities_discovered": len(new_entities),
     })
     return records

@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-10-08T15:26:40Z",
+  "contact_enrichment": {
+    "companies_examined": 2983,
+    "company_contacts_found": 7,
+    "named_company_contacts": 7,
+    "company_contacts_with_email": 7,
+    "gsa_contacts": 7,
+    "generic_contacts": 0,
+    "sam_poc_names_found_this_run": 0,
+    "federal_award_contacts": 0
+  },
+  "bootstrap": {
+    "previous_archive_records": 12787,
+    "required_moco_record_floor": 470,
+    "moco_company_records": 6556,
+    "moco_record_floor_passed": true,
+    "outside_company_working_in_moco_records": 6231,
+    "work_records_earliest_date": "2026-01-30",
+    "work_records_latest_date": "2026-10-06",
+    "largest_10": [
+      {
+        "company": "ORANO FEDERAL SERVICES LLC",
+        "amount": 900000000.0,
+        "date": "2026-04-30",
+        "contract_number": "89243226FNE400214"
+      },
+      {
+        "company": "HITT CONTRACTING, INC.",
+        "amount": 51830842.0,
+        "date": "2026-09-19",
+        "contract_number": "1333ND26FNB190152"
+      },
+      {
+        "company": "DELL FEDERAL SYSTEMS L.P",
+        "amount": 36257729.14,
+        "date": "2026-03-02",
+        "contract_number": "75N92024F90001"
+      },
+      {
+        "company": "CHARLES RIVER LABORATORIES, INC.",
+        "amount": 32736347.0,
+        "date": "2026-03-13",
+        "contract_number": "75N93024C00003"
+      },
+      {
+        "company": "GLOBALTEKFORCECOM INC.",
+        "amount": 25780039.2,
+        "date": "2026-06-08",
+        "contract_number": "75N97025F00030"
+      },
+      {
+        "company": "NATIONAL MARROW DONOR PROGRAM",
+        "amount": 24432652.76,
+        "date": "2026-09-29",
+        "contract_number": "75R60222C00008"
+      },
+      {
+        "company": "A-TEK, INC.",
+        "amount": 19909139.13,
+        "date": "2026-09-21",
+        "contract_number": "75N97023F00096"
+      },
+      {
+        "company": "BLACK CANYON CONSULTING LLC",
+        "amount": 19626067.2,
+        "date": "2026-09-25",
+        "contract_number": "75N97023F00098"
+      },
+      {
+        "company": "BLACK CANYON CONSULTING LLC",
+        "amount": 16743286.96,
+        "date": "2026-09-02",
+        "contract_number": "47QFWA21F0042"
+      },
+      {
+        "company": "LEIDOS, INC.",
+        "amount": 16605318.87,
+        "date": "2026-09-22",
+        "contract_number": "693KA721C00014"
+      }
+    ],
+    "most_active_10": [
+      {
+        "company": "KELLY SERVICES, INC.",
+        "records": 218
+      },
+      {
+        "company": "TRADEBE ENVIRONMENTAL SERVICES, LLC",
+        "records": 145
+      },
+      {
+        "company": "APEX-PETROLEUM CORP",
+        "records": 123
+      },
+      {
+        "company": "GAP SOLUTIONS, INC.",
+        "records": 83
+      },
+      {
+        "company": "CARAHSOFT TECHNOLOGY CORP",
+        "records": 72
+      },
+      {
+        "company": "GUIDEHOUSE DIGITAL LLC",
+        "records": 62
+      },
+      {
+        "company": "INVICTA GLOBAL, LLC",
+        "records": 58
+      },
+      {
+        "company": "NEW TECH SOLUTIONS, INC.",
+        "records": 57
+      },
+      {
+        "company": "BECTON, DICKINSON AND COMPANY",
+        "records": 55
+      },
+      {
+        "company": "HONEYWELL INTERNATIONAL, INC",
+        "records": 52
+      }
+    ]
+  },
+  "archive_preservation_passed": true
+}
