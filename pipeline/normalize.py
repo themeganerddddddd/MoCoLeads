@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 
 from .classify import classify
-from .company_matcher import company_payload, match_company
+from .company_matcher import company_payload, match_company, moco_recipient_evidence
 from .locations import format_location, parse_work_locations
 
 
@@ -44,8 +44,42 @@ def format_code(value):
     return value
 
 
+def company_contact_payload(company: dict | None) -> dict | None:
+    if not company:
+        return None
+    source_url = company.get("contact_source")
+    email = company.get("contact_email")
+    phone = company.get("contact_phone")
+    if not source_url or not (email or phone):
+        return None
+    return {
+        "name": company.get("contact_name") or None,
+        "title": company.get("contact_title") or None,
+        "email": email or None,
+        "phone": phone or None,
+        "type": company.get("contact_type") or "unknown",
+        "source_name": "GSA eLibrary" if "gsaelibrary.gsa.gov" in source_url else "Company website",
+        "source_url": source_url,
+        "verified_date": company.get("contact_verified_date") or None,
+    }
+
+
+def government_contact_payload(raw: dict) -> dict | None:
+    values = {
+        "name": raw.get("government_contact_name"),
+        "email": raw.get("government_contact_email"),
+        "phone": raw.get("government_contact_phone"),
+        "office": raw.get("government_contact_office"),
+        "source_name": raw.get("government_contact_source_name") or ("SAM.gov" if raw.get("collector") == "sam" else None),
+        "source_url": raw.get("government_contact_source_url") or (raw.get("source_url") if raw.get("collector") == "sam" else None),
+    }
+    return values if any(values.get(field) for field in ("name", "email", "phone", "office")) else None
+
+
 def normalize_record(raw: dict, companies: list[dict], retrieved_at: str | None = None) -> dict:
     company, match_method = match_company(raw, companies)
+    if not company and moco_recipient_evidence(raw.get("recipient_location")):
+        match_method = "federal_recipient_address"
     amount = parse_numeric_amount(raw.get("amount"))
     recipient_location = format_location(raw.get("recipient_location"))
     performance = format_location(raw.get("place_of_performance"))
@@ -96,6 +130,10 @@ def normalize_record(raw: dict, companies: list[dict], retrieved_at: str | None 
         "location": {"recipient_location": recipient_location, "place_of_performance": performance, "work_locations": work_locations},
         "classification": {}, "source": source, "sources": [source.copy(), *additional_sources],
         "match": {"method": match_method, "registry_company_id": company.get("company_id") if company else None},
+        "contacts": {
+            "company": company_contact_payload(company),
+            "government": government_contact_payload(raw),
+        },
     }
     if raw.get("retrieval"):
         record["retrieval"] = raw["retrieval"]

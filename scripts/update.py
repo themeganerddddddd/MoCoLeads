@@ -12,9 +12,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from pipeline.classify import classify
-from pipeline.company_matcher import is_possible_moco_address, load_registry, match_company, location_text
+from pipeline.company_matcher import company_payload, is_possible_moco_address, load_registry, match_company, location_text, qualify_record
 from pipeline.deduplicate import deduplicate
-from pipeline.normalize import format_code, normalize_record
+from pipeline.normalize import company_contact_payload, format_code, normalize_record
 from pipeline.validation import validate_records
 
 COLLECTORS = ["war_contracts", "usaspending", "nasa", "diu", "darpa", "sbir", "sam"]
@@ -39,6 +39,9 @@ def collect_all(companies: list[dict]):
             raw.extend(found)
             key = name.replace("_contracts", "")
             report = module.get_last_report() if hasattr(module, "get_last_report") else {}
+            if report is not None:
+                report.setdefault("records_retrieved", len(found))
+                report["moco_matches"] = sum(1 for record in found if qualify_record(record, companies)[2])
             status[key] = report.get("status", "success")
             if report:
                 details[key] = report
@@ -46,7 +49,7 @@ def collect_all(companies: list[dict]):
         except Exception as exc:
             key = name.replace("_contracts", "")
             status[key] = f"failed: {type(exc).__name__}: {exc}"
-            if name == "war_contracts" and module is not None and hasattr(module, "get_last_report"):
+            if module is not None and hasattr(module, "get_last_report"):
                 details[key] = module.get_last_report()
             print(f"ERROR {label}: {type(exc).__name__}: {exc}", file=sys.stderr)
     return raw, status, details
@@ -59,17 +62,25 @@ def write_candidates(raw: list[dict], companies: list[dict], path: Path):
             for row in csv.DictReader(handle):
                 existing[(row.get("company"), row.get("award_url"))] = row
     today = datetime.now(timezone.utc).date().isoformat()
+    for row in existing.values():
+        company, _ = match_company({"recipient_name": row.get("company")}, companies)
+        if company and company.get("hq_status") == "local_entity":
+            row["suggested_status"] = "promoted_local_entity"
+        elif company and company.get("hq_status") in {"needs_review", "not_moco"}:
+            row["suggested_status"] = "needs_review"
     for record in raw:
-        company, _ = match_company(record, companies)
-        if not company and is_possible_moco_address(record.get("recipient_location")):
+        company, _, evidence = qualify_record(record, companies)
+        if evidence and is_possible_moco_address(record.get("recipient_location")):
             key = (record.get("recipient_name") or "Unknown", record.get("source_url") or "")
-            existing.setdefault(key, {
+            candidate = existing.setdefault(key, {
                 "company": key[0], "recipient_address": location_text(record.get("recipient_location")), "first_seen": today,
-                "award_source": record.get("source_name") or record.get("collector"), "award_url": key[1], "suggested_status": "needs_review",
+                "award_source": record.get("source_name") or record.get("collector"), "award_url": key[1], "suggested_status": "local_entity",
             })
+            if company and company.get("hq_status") == "local_entity":
+                candidate["suggested_status"] = "promoted_local_entity"
     fields = ["company", "recipient_address", "first_seen", "award_source", "award_url", "suggested_status"]
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader(); writer.writerows(existing.values())
     return len(existing)
 
@@ -86,6 +97,24 @@ def validate_historical_preservation(previous: list[dict], current: list[dict]) 
         raise RuntimeError(f"historical preservation guard blocked count drop from {len(previous)} to {len(current)}")
 
 
+def enrich_historical_records(records: list[dict], companies: list[dict]) -> None:
+    """Apply current entity qualification and public contact data without changing award history."""
+    for record in records:
+        raw = {
+            "recipient_name": record.get("company", {}).get("legal_name") or record.get("company", {}).get("canonical_name"),
+            "recipient_uei": record.get("company", {}).get("uei"),
+            "recipient_location": record.get("location", {}).get("recipient_location"),
+        }
+        company, _, evidence = qualify_record(raw, companies)
+        if not company or not evidence:
+            continue
+        record["company"] = {**record.get("company", {}), **company_payload(company, raw)}
+        record.setdefault("contacts", {"company": None, "government": None})
+        contact = company_contact_payload(company)
+        if contact:
+            record["contacts"]["company"] = contact
+
+
 def write_outputs(records: list[dict], status: dict, details: dict, companies: list[dict], retrieved_at: str):
     data_dir = ROOT / "data"
     data_dir.mkdir(exist_ok=True)
@@ -96,7 +125,7 @@ def write_outputs(records: list[dict], status: dict, details: dict, companies: l
     (data_dir / "companies.json").write_text(json.dumps(companies, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     fields = ["id", "announcement_date", "action_date", "company", "hq_city", "hq_status", "amount", "agency", "subagency", "category", "description", "work_location", "contract_number", "award_id", "source", "source_url"]
     with (data_dir / "contracts.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields); writer.writeheader()
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n"); writer.writeheader()
         for r in records:
             writer.writerow({
                 "id": r["id"], "announcement_date": r.get("announcement_date"), "action_date": r.get("action_date"),
@@ -117,12 +146,16 @@ def main():
     retrieved_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     normalized = []
     matched = 0
+    provisional = 0
     for item in raw:
-        company, _ = match_company(item, companies)
-        if company:
+        company, _, evidence = qualify_record(item, companies)
+        if evidence:
             matched += 1
+            if not company:
+                provisional += 1
             normalized.append(normalize_record(item, companies, retrieved_at))
     historical = load_json(ROOT / "data" / "contracts.json", [])
+    enrich_historical_records(historical, companies)
     combined, merged = deduplicate(historical + normalized)
     for record in combined:
         record["award"]["naics"] = format_code(record["award"].get("naics"))
@@ -131,7 +164,8 @@ def main():
     combined.sort(key=lambda r: (r.get("announcement_date") or r.get("action_date") or "", r.get("id", "")), reverse=True)
     validate_historical_preservation(historical, combined)
     write_outputs(combined, status, details, companies, retrieved_at)
-    print(f"Matched known MoCo companies: {matched}")
+    print(f"Qualified Montgomery County records: {matched}")
+    print(f"Provisional local entities: {provisional}")
     print(f"New possible MoCo companies: {candidates}")
     print(f"Duplicates merged: {merged}")
     print(f"New dashboard records: {max(0, len(combined) - len(historical))}")

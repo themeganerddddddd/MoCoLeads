@@ -22,3 +22,45 @@ def test_normalization_preserves_source_url_and_nulls():
     assert record["sources"][0]["source_url"] == url
     assert record["award"]["amount"] is None
     assert record["location"]["place_of_performance"] is None
+
+
+def test_unknown_official_moco_recipient_is_visible_local_entity():
+    record = normalize_record({
+        "recipient_name": "New Montgomery Vendor LLC",
+        "recipient_location": {"city_name": "Rockville", "state_code": "MD", "county_code": "031"},
+        "amount": 1000,
+        "source_name": "USAspending",
+        "source_url": "https://www.usaspending.gov/award/example/",
+        "action_date": "2026-10-07",
+    }, [], "2026-10-08T12:00:00Z")
+    assert record["company"]["hq_status"] == "local_entity"
+    assert record["company"]["moco_basis"] == "federal_recipient_address"
+    assert record["company"]["moco_confidence"] == 0.95
+    assert record["match"]["method"] == "federal_recipient_address"
+
+
+def test_company_and_government_contacts_remain_separate_and_provenanced():
+    company = {
+        **COMPANY,
+        "contact_name": "Contract Sales",
+        "contact_email": "sales@example.com",
+        "contact_phone": "301-555-0100",
+        "contact_type": "federal_contracting",
+        "contact_source": "https://www.gsaelibrary.gsa.gov/example",
+        "contact_verified_date": "2026-10-08",
+    }
+    record = normalize_record({
+        "recipient_name": "Example Tech",
+        "source_name": "Agency",
+        "source_url": "https://agency.gov/award",
+        "announcement_date": "2026-10-08",
+        "government_contact_name": "Jane Contracting Officer",
+        "government_contact_email": "jane@agency.gov",
+        "government_contact_office": "Acquisition Office",
+        "government_contact_source_name": "Agency announcement",
+        "government_contact_source_url": "https://agency.gov/award",
+    }, [company], "2026-10-08T12:00:00Z")
+    assert record["contacts"]["company"]["email"] == "sales@example.com"
+    assert record["contacts"]["company"]["source_name"] == "GSA eLibrary"
+    assert record["contacts"]["government"]["email"] == "jane@agency.gov"
+    assert record["contacts"]["government"]["source_name"] == "Agency announcement"

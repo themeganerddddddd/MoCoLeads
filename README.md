@@ -1,14 +1,15 @@
 # Montgomery County Federal Contract Tracker
 
-A production-oriented static dashboard for finding newly announced federal contracts awarded to companies headquartered in Montgomery County, Maryland. The tracker separates company headquarters from recipient offices and contract work locations, preserves the original federal source for every record, and keeps a historical archive across daily runs.
+A production-oriented static dashboard for finding newly announced federal contracts awarded to companies and contracting legal entities based in Montgomery County, Maryland. The tracker separates verified headquarters, verified local legal entities, federal recipient addresses, ultimate parents, and contract work locations. It preserves the original federal source for every record and keeps a historical archive across daily runs.
 
 The browser application is plain HTML, CSS, and JavaScript. Collection and processing use Python. GitHub Actions updates the data daily and deploys the static site to GitHub Pages. No application server or database is required.
 
 ## Sources
 
 - **War.gov contract announcements** — the primary same-day source for Department of Defense announcements. Records retain the individual announcement URL.
-- **USAspending** — transaction-level contract data for known registry companies, queried with a rolling seven-day overlap. Records link to the federal award where a generated award ID is available.
-- **NASA, DIU, and DARPA** — low-volume official feed collectors. These are intentionally independent and may report an unavailable status when an agency changes or removes its feed.
+- **USAspending** — transaction-level contract data queried with a rolling seven-day overlap through two routes: known registry entities and recipient legal addresses in Montgomery County (Maryland county FIPS `031`). Records link to the federal award where a generated award ID is available.
+- **DIU** — recent selections and award announcements discovered through the official DIU latest/news HTML index. A selection is retained when its amount is not disclosed.
+- **NASA and DARPA** — low-volume official feed collectors. These are intentionally independent and may report an unavailable status when an agency changes or removes its feed.
 - **SBIR/STTR** — optional hook that currently reports unavailable without interrupting the run.
 - **SAM.gov** — optional enrichment hook. It activates only when `SAM_API_KEY` is present and never exposes the secret to the site.
 
@@ -57,7 +58,7 @@ python -m pytest
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000/site/`. The frontend detects that development path and loads `../data/`. GitHub Pages deployment puts `index.html` at the artifact root and loads `./data/`, so project Pages paths such as `https://USERNAME.github.io/moco-federal-contracts/` work without hardcoded root URLs.
+Open `http://localhost:8000/site/`. The frontend detects that development path and loads `../data/`. GitHub Pages deployment puts `index.html` at the artifact root and loads `./data/`, so the production project path `https://themeganerddddddd.github.io/MoCoLeads/` works without hardcoded root URLs.
 
 ## Publishing to GitHub
 
@@ -89,17 +90,29 @@ Repository Actions need `contents: write` permission. If organization defaults b
 
 ## Company headquarters registry
 
-`companies/moco_companies.csv` is a deliberately small sample, not a comprehensive business directory. Add or edit rows using these fields:
+`companies/moco_companies.csv` is a curated evidence registry, not a comprehensive business directory. Official USAspending recipient addresses can qualify previously unknown entities without requiring a registry row. Add or edit rows using these fields:
 
 - `company_id`, `canonical_name`, `legal_name`, pipe-delimited `aliases`
 - `ultimate_parent`, `uei`
 - `hq_address`, `hq_city`, `hq_state`, `hq_zip`, `hq_county`
 - `hq_verified`, `hq_status`, `hq_confidence`, `hq_source`
 - `sector`, `website`, `notes`, `last_verified`
+- `moco_basis`, `moco_confidence`
+- `contact_name`, `contact_title`, `contact_email`, `contact_phone`, `contact_type`, `contact_source`, `contact_verified_date`
 
-Use `verified`, `strong`, `probable`, `needs_review`, or `not_moco` for `hq_status`. Exact UEIs take precedence over normalized names. Name matching is case- and punctuation-insensitive, but intentionally conservative.
+Use these entity statuses:
 
-An unfamiliar recipient with an address that appears to be in Montgomery County is written to `data/company_candidates.csv` with `needs_review`. It is **not** displayed as a confirmed headquarters match. A human should verify the corporate headquarters through an authoritative source, add the company to the registry, and then rerun the pipeline.
+- `verified`: independently verified Montgomery County headquarters.
+- `strong`: strong evidence of a Montgomery County headquarters.
+- `local_entity`: the awarded company/legal entity has an official Montgomery County business or federal recipient address, although its ultimate parent may be headquartered elsewhere.
+- `needs_review`: evidence conflicts or is insufficient.
+- `not_moco`: current authoritative evidence places the entity outside Montgomery County.
+
+The allowed qualification bases are `verified_hq`, `verified_local_legal_entity`, `federal_recipient_address`, and `manual_registry`. Exact UEIs take precedence over normalized names. Name matching is case- and punctuation-insensitive, but intentionally conservative. Place of performance never qualifies an entity.
+
+An unfamiliar recipient whose official federal recipient address identifies Montgomery County is displayed provisionally as `local_entity` and is also written to `data/company_candidates.csv` for later enrichment. Candidate review therefore improves the evidence instead of blocking visibility. Conflicting registry evidence takes precedence and can hold an entity at `needs_review` or `not_moco`.
+
+Contact information must be publicly published professional information from a company website, GSA eLibrary, or another named official source. Company and government contacts remain separate. Every published email or phone number requires a source URL; addresses are never guessed.
 
 ## Optional SAM.gov key
 
@@ -135,6 +148,7 @@ Each record contains:
 - `source`: the primary official source
 - `sources`: every retained official source after deduplication
 - `match`: registry match method and company ID for auditability
+- `contacts`: separately sourced company and government professional contacts
 
 `data/contracts.json` is the historical frontend source, `latest.json` contains the newest 25 records, `contracts.csv` is the flat download, `companies.json` is the generated registry view, and `metadata.json` reports freshness and collector health.
 
@@ -144,14 +158,14 @@ Classification considers agency, subagency, NAICS, PSC, description, and program
 
 ## Known limitations
 
-- The starter company registry is intentionally incomplete and needs ongoing human curation.
-- A recipient address is evidence for candidate review, not proof of headquarters.
+- The registry is intentionally incomplete and needs ongoing human curation.
+- A federal recipient address can establish a provisional local legal entity, but it does not prove that the ultimate parent is headquartered in Montgomery County.
 - Press announcements often omit UEI, NAICS, PSC, exact work locations, or award identifiers.
 - USAspending can lag same-day announcements and transaction amounts may represent modifications rather than total potential contract value.
-- NASA, DIU, DARPA, and SBIR publishing interfaces can change; their failure state is visible in metadata and on the dashboard.
+- NASA, DIU, DARPA, and SBIR publishing interfaces can change; their detailed status is visible in metadata and failures are surfaced on the dashboard.
 - Automated classification is useful for discovery but should not replace review for policy or investment decisions.
 - “Announced value” totals only disclosed numeric amounts. Headquarters in Montgomery County does not imply the work or spending occurs in Montgomery County.
 
 ## Tests and maintenance
 
-Run `python -m pytest`. Tests cover alias normalization, UEI precedence, Montgomery County candidate detection, amount parsing, War.gov paragraph extraction, classification, multiple locations, null handling, deduplication, historical preservation, validation, and source URL retention through normalization and merges.
+Run `python -m pytest`. Tests cover alias normalization, UEI precedence, Montgomery County cities/FIPS, recipient-versus-performance qualification, BAE and Amentum decisions, USAspending county discovery, DIU HTML fixtures, contact provenance/separation, default local-entity visibility, load diagnostics, amount parsing, War.gov extraction, classification, deduplication, historical preservation, validation, and source URL retention.

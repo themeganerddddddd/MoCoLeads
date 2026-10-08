@@ -11,8 +11,10 @@ MOCO_CITIES = {
     "bethesda", "rockville", "gaithersburg", "germantown", "silver spring", "takoma park",
     "chevy chase", "potomac", "olney", "wheaton", "kensington", "clarksburg", "burtonsville",
     "derwood", "poolesville", "damascus", "boyds", "montgomery village", "north bethesda",
+    "brookeville", "cabin john", "sandy spring", "spencerville", "dickerson", "barnesville",
+    "garrett park", "washington grove",
 }
-MOCO_ZIP_PREFIXES = {"208", "209"}
+QUALIFYING_STATUSES = {"verified", "strong", "local_entity"}
 
 
 def normalize_name(value: str | None) -> str:
@@ -75,27 +77,76 @@ def location_text(location) -> str:
     return str(location or "")
 
 
-def is_possible_moco_address(location) -> bool:
+def moco_recipient_evidence(location) -> dict | None:
+    """Return official recipient-address evidence; never inspect place of performance."""
     text = location_text(location).casefold()
-    city_match = any(re.search(rf"\b{re.escape(city)}\b", text) for city in MOCO_CITIES)
+    if isinstance(location, dict):
+        state = str(location.get("state_code") or location.get("state") or location.get("state_name") or "").casefold()
+        county = str(location.get("county_name") or location.get("county") or "").casefold()
+        county_code = str(location.get("county_code") or location.get("county_fips") or location.get("county_fips_code") or "").strip()
+        full_fips = str(location.get("fips") or location.get("location_fips") or "").strip()
+        city = str(location.get("city_name") or location.get("city") or "").casefold()
+        state_is_md = state in {"md", "maryland", "24"} or full_fips.startswith("24")
+        county_is_moco = county in {"montgomery", "montgomery county"} or county_code in {"031", "24031"} or full_fips == "24031"
+        if state_is_md and county_is_moco:
+            return {"basis": "federal_recipient_address", "confidence": 0.95, "reason": "Montgomery County recipient FIPS/county"}
+        if state_is_md and city in MOCO_CITIES:
+            return {"basis": "federal_recipient_address", "confidence": 0.85, "reason": f"official recipient city: {city.title()}, Maryland"}
+    if re.search(r"\b24031\b", text):
+        return {"basis": "federal_recipient_address", "confidence": 0.95, "reason": "Montgomery County FIPS 24031"}
     state_match = bool(re.search(r"\b(md|maryland)\b", text))
-    zip_match = any(re.search(rf"\b{prefix}\d{{2}}\b", text) for prefix in MOCO_ZIP_PREFIXES)
-    return state_match and (city_match or zip_match or "montgomery" in text)
+    county_match = bool(re.search(r"\bmontgomery(?:\s+county)?\b", text))
+    city = next((city for city in MOCO_CITIES if re.search(rf"\b{re.escape(city)}\b", text)), None)
+    if state_match and county_match:
+        return {"basis": "federal_recipient_address", "confidence": 0.95, "reason": "official Montgomery County recipient address"}
+    if state_match and city:
+        return {"basis": "federal_recipient_address", "confidence": 0.85, "reason": f"official recipient city: {city.title()}, Maryland"}
+    return None
+
+
+def is_possible_moco_address(location) -> bool:
+    return moco_recipient_evidence(location) is not None
+
+
+def qualify_record(record: dict, companies: Iterable[dict]) -> tuple[dict | None, str | None, dict | None]:
+    company, method = match_company(record, companies)
+    if company:
+        status = company.get("hq_status") or "needs_review"
+        if status in QUALIFYING_STATUSES:
+            return company, method, {
+                "basis": company.get("moco_basis") or ("verified_local_legal_entity" if status == "local_entity" else "manual_registry"),
+                "confidence": float(company.get("moco_confidence") or company.get("hq_confidence") or 0),
+                "reason": f"registry status: {status}",
+            }
+        return company, "registry_conflict", None
+    evidence = moco_recipient_evidence(record.get("recipient_location"))
+    return None, (evidence or {}).get("basis"), evidence
 
 
 def company_payload(company: dict | None, record: dict) -> dict:
     if company:
+        status = company.get("hq_status") or "needs_review"
         return {
             "canonical_name": company.get("canonical_name"), "legal_name": company.get("legal_name") or company.get("canonical_name"),
             "uei": company.get("uei") or record.get("recipient_uei"), "ultimate_parent": company.get("ultimate_parent") or None,
             "hq_city": company.get("hq_city") or None, "hq_state": company.get("hq_state") or None,
             "hq_county": company.get("hq_county") or None, "hq_verified": bool(company.get("hq_verified")),
-            "hq_status": company.get("hq_status") or "needs_review", "hq_confidence": float(company.get("hq_confidence") or 0),
+            "hq_status": status, "hq_confidence": float(company.get("hq_confidence") or 0),
+            "moco_city": company.get("hq_city") or None,
+            "moco_basis": company.get("moco_basis") or ("verified_local_legal_entity" if status == "local_entity" else "manual_registry"),
+            "moco_confidence": float(company.get("moco_confidence") or company.get("hq_confidence") or 0),
         }
-    possible = is_possible_moco_address(record.get("recipient_location"))
+    evidence = moco_recipient_evidence(record.get("recipient_location"))
+    location = record.get("recipient_location")
+    text = location_text(location).casefold()
+    if isinstance(location, dict):
+        city = location.get("city_name") or location.get("city")
+    else:
+        city = next((candidate.title() for candidate in MOCO_CITIES if re.search(rf"\b{re.escape(candidate)}\b", text)), None)
     return {
         "canonical_name": record.get("recipient_name") or "Unknown recipient", "legal_name": record.get("recipient_name"),
-        "uei": record.get("recipient_uei"), "ultimate_parent": None, "hq_city": None, "hq_state": None,
-        "hq_county": None, "hq_verified": False, "hq_status": "needs_review" if possible else "not_moco",
-        "hq_confidence": 0.35 if possible else 0.0,
+        "uei": record.get("recipient_uei"), "ultimate_parent": None, "hq_city": city, "hq_state": "MD" if evidence else None,
+        "hq_county": "Montgomery County" if evidence else None, "hq_verified": False,
+        "hq_status": "local_entity" if evidence else "not_moco", "hq_confidence": float((evidence or {}).get("confidence", 0)),
+        "moco_city": city, "moco_basis": (evidence or {}).get("basis"), "moco_confidence": float((evidence or {}).get("confidence", 0)),
     }

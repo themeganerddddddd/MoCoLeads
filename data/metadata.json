@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T21:28:17Z",
+  "last_updated": "2026-10-08T14:33:05Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -13,7 +13,7 @@
     "war": "partial",
     "usaspending": "success",
     "nasa": "success",
-    "diu": "failed: RuntimeError: No working feed found for DIU",
+    "diu": "success",
     "darpa": "success",
     "sbir": "failed: RuntimeError: SBIR public feed is not configured; collector skipped safely",
     "sam": "success"
@@ -30,10 +30,43 @@
       "browser_successes": 0,
       "structured_fallback_status": 200,
       "structured_fallback_awards": 25,
-      "unresolved_announcements": 16,
-      "status": "partial"
+      "unresolved_announcements": 15,
+      "status": "partial",
+      "records_retrieved": 25,
+      "moco_matches": 4
+    },
+    "usaspending": {
+      "status": "success",
+      "records_retrieved": 71,
+      "known_company_matches": 3,
+      "county_discovery_matches": 68,
+      "new_entities_discovered": 40,
+      "moco_matches": 70
+    },
+    "nasa": {
+      "records_retrieved": 0,
+      "moco_matches": 0
+    },
+    "diu": {
+      "index_status": 200,
+      "discovery_method": "html_index",
+      "announcements_discovered": 0,
+      "announcements_relevant": 0,
+      "article_successes": 0,
+      "article_failures": 0,
+      "records_retrieved": 0,
+      "status": "success",
+      "moco_matches": 0
+    },
+    "darpa": {
+      "records_retrieved": 0,
+      "moco_matches": 0
+    },
+    "sam": {
+      "records_retrieved": 0,
+      "moco_matches": 0
     }
   },
-  "record_count": 403,
+  "record_count": 470,
   "disclosed_value_note": "Totals include disclosed amounts only."
 }

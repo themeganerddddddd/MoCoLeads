@@ -2,8 +2,9 @@
 
 const $ = (selector) => document.querySelector(selector);
 const dataBase = location.pathname.includes("/site/") ? "../data" : "./data";
-const state = { records: [], filtered: [], metadata: null };
+const state = { records: [], filtered: [], metadata: null, loadAttempts: [] };
 const techCategories = new Set(["Defense", "Defense Technology", "Space / Satellite", "Cybersecurity", "Artificial Intelligence / Data", "Software / IT", "Quantum", "Microelectronics / Semiconductor", "Advanced Communications", "Autonomous Systems / Drones", "Advanced Manufacturing"]);
+const qualifiedStatuses = new Set(["verified", "strong", "local_entity"]);
 
 function safe(value, fallback = "Not disclosed") { return value === null || value === undefined || value === "" ? fallback : String(value); }
 function escapeHtml(value) { return safe(value, "").replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c])); }
@@ -30,27 +31,67 @@ function sourceLink(source, compact = false) {
   return `<a class="source-link" href="${escapeHtml(source.source_url)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
 }
 
-async function loadData() {
+function mocoStatusLabel(status) {
+  return ({verified:"Verified headquarters", strong:"Strong headquarters evidence", local_entity:"Local legal entity", needs_review:"Needs review", not_moco:"Not a Montgomery County entity"})[status] || safe(status, "Needs review");
+}
+function mocoBasisLabel(basis) {
+  return ({verified_hq:"Verified headquarters", verified_local_legal_entity:"Verified local legal entity", federal_recipient_address:"Federal recipient address", manual_registry:"Manual registry review"})[basis] || safe(basis, "Not documented").replaceAll("_", " ");
+}
+
+async function fetchJson(url, label) {
+  const attempt = {label, url, status: null, detail: null};
+  state.loadAttempts.push(attempt);
   try {
-    const [recordsResponse, metadataResponse] = await Promise.all([fetch(`${dataBase}/contracts.json`, {cache:"no-store"}), fetch(`${dataBase}/metadata.json`, {cache:"no-store"})]);
-    if (!recordsResponse.ok || !metadataResponse.ok) throw new Error("Data files could not be loaded");
-    state.records = await recordsResponse.json();
-    state.metadata = await metadataResponse.json();
+    const response = await fetch(url, {cache:"no-store"});
+    attempt.status = response.status;
+    attempt.detail = `${response.status} ${response.statusText || (response.ok ? "OK" : "Request failed")}`.trim();
+    if (!response.ok) throw new Error(attempt.detail);
+    try { return await response.json(); }
+    catch (error) { attempt.detail = `HTTP ${response.status}; invalid JSON: ${error.message}`; throw error; }
+  } catch (error) {
+    if (attempt.status === null) attempt.detail = `${error.name || "Error"}: ${error.message || error}`;
+    throw error;
+  }
+}
+
+async function loadData() {
+  state.loadAttempts = [];
+  $("#load-diagnostics").hidden = true;
+  $("#empty-state").hidden = true;
+  $("#loading-state").hidden = false;
+  $("#result-count").textContent = "Loading awards…";
+  try {
+    const results = await Promise.allSettled([
+      fetchJson(`${dataBase}/contracts.json`, "Contract records"),
+      fetchJson(`${dataBase}/metadata.json`, "Update metadata"),
+    ]);
+    const failure = results.find(result => result.status === "rejected");
+    if (failure) throw failure.reason;
+    state.records = results[0].value;
+    state.metadata = results[1].value;
     setupMetadata(); populateSelects(); applyFilters();
   } catch (error) {
     $("#loading-state").hidden = true;
-    $("#empty-state").hidden = false;
-    $("#empty-state h3").textContent = "Award data is unavailable";
-    $("#empty-state p").textContent = "Run the update pipeline or check the published data files, then refresh this page.";
+    $("#empty-state").hidden = true;
+    $("#load-diagnostics").hidden = false;
+    const list = $("#load-diagnostics-list");
+    list.replaceChildren(...state.loadAttempts.map(attempt => {
+      const item = document.createElement("li");
+      const code = document.createElement("code"); code.textContent = attempt.url;
+      const detail = document.createElement("span"); detail.textContent = `${attempt.label}: ${attempt.detail || "No response details"}`;
+      item.append(code, detail); return item;
+    }));
     $("#result-count").textContent = "Could not load awards";
-    $("#last-updated").textContent = "Unavailable";
+    $("#last-updated").textContent = "Data load failed";
     console.error(error);
   }
 }
 
 function setupMetadata() {
+  $("#source-warning").hidden = true;
   const updated = state.metadata?.last_updated;
-  $("#last-updated").textContent = updated ? `Updated ${new Intl.DateTimeFormat("en-US", {month:"long", day:"numeric", year:"numeric", hour:"numeric", minute:"2-digit", timeZoneName:"short"}).format(new Date(updated))}` : "Not yet updated";
+  const updateLabel = updated ? new Intl.DateTimeFormat("en-US", {month:"short", day:"numeric", year:"numeric", hour:"numeric", minute:"2-digit", timeZoneName:"short"}).format(new Date(updated)) : "not yet updated";
+  $("#last-updated").textContent = `Data loaded · ${state.records.length.toLocaleString()} records · Updated ${updateLabel}`;
   const status = state.metadata?.collector_status || {};
   const failures = Object.entries(status).filter(([,value]) => String(value).startsWith("failed") || value === "partial").map(([name]) => name === "war" ? "War.gov" : ["diu","darpa","sbir","sam"].includes(name) ? name.toUpperCase() : name.charAt(0).toUpperCase()+name.slice(1));
   if (failures.length) {
@@ -63,7 +104,8 @@ function setupMetadata() {
 
 function addOptions(selector, values) {
   const select = $(selector);
-  [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b)).forEach(value => select.add(new Option(value, value)));
+  select.querySelectorAll("option[data-dynamic]").forEach(option => option.remove());
+  [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b)).forEach(value => { const option = new Option(value, value); option.dataset.dynamic = "true"; select.add(option); });
 }
 function populateSelects() {
   addOptions("#category-filter", state.records.map(r => r.classification?.primary));
@@ -94,7 +136,7 @@ function applyFilters() {
     const date = valueDate ? new Date(`${valueDate}T12:00:00Z`) : null;
     const datePass = dateMode === "custom" ? (!from || (date && date >= from)) && (!to || (date && date <= to)) : !cutoff || (date && date >= cutoff);
     const hqStatus = record.company?.hq_status;
-    const hqPass = hq === "all" || (hq === "strong" ? ["verified","strong"].includes(hqStatus) : hqStatus === "verified");
+    const hqPass = hq === "all" || (hq === "local" ? qualifiedStatuses.has(hqStatus) : hq === "review" ? [...qualifiedStatuses, "needs_review"].includes(hqStatus) : ["verified","strong"].includes(hqStatus));
     return datePass && hqPass && (!query || searchable(record).includes(query)) && (!category || record.classification?.primary === category) && (!agency || record.award?.agency === agency) && (!company || record.company?.canonical_name === company) && (!minAmount || Number(record.award?.amount || 0) > minAmount);
   });
   sortRecords(); render();
@@ -128,7 +170,7 @@ function renderRows() {
     const row = $("#row-template").content.firstElementChild.cloneNode(true);
     const cell = name => row.querySelector(`[data-cell="${name}"]`);
     cell("date").textContent = formatDate(record.announcement_date || record.action_date);
-    cell("company").innerHTML = `<span class="company-name">${escapeHtml(record.company?.canonical_name)}</span><span class="hq-mini">HQ: ${escapeHtml([record.company?.hq_city, record.company?.hq_state].filter(Boolean).join(", ") || "Under review")}</span>`;
+    cell("company").innerHTML = `<span class="company-name">${escapeHtml(record.company?.canonical_name)}</span><span class="hq-mini">MoCo entity: ${escapeHtml(record.company?.moco_city || record.company?.hq_city || "Under review")} · ${escapeHtml(mocoStatusLabel(record.company?.hq_status))}</span>`;
     cell("amount").textContent = formatValue(record.award?.amount);
     cell("agency").textContent = safe(record.award?.subagency || record.award?.agency);
     cell("category").innerHTML = `<span class="category-tag">${escapeHtml(record.classification?.primary)}</span>`;
@@ -144,11 +186,22 @@ function renderRows() {
 }
 
 function detailField(label, value, html = false) { return `<div class="detail-field"><dt>${escapeHtml(label)}</dt><dd>${html ? value : escapeHtml(safe(value))}</dd></div>`; }
+function contactCard(label, contact) {
+  if (!contact) return `<article class="contact-card contact-empty"><h4>${escapeHtml(label)}</h4><p>No publicly sourced contact is available.</p></article>`;
+  const copyButton = (value, name) => value ? `<button class="copy-control" type="button" data-copy="${escapeHtml(value)}" aria-label="Copy ${escapeHtml(name)}">Copy</button>` : "";
+  const source = contact.source_url ? `<a href="${escapeHtml(contact.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(contact.source_name || "Public source")} ↗</a>` : "Source unavailable";
+  return `<article class="contact-card"><h4>${escapeHtml(label)}</h4>
+    <p class="contact-name"><strong>${escapeHtml(safe(contact.name, "Public contact"))}</strong>${contact.title || contact.office ? `<span>${escapeHtml(contact.title || contact.office)}</span>` : ""}</p>
+    ${contact.email ? `<p><span>Email</span><a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a>${copyButton(contact.email, "email address")}</p>` : ""}
+    ${contact.phone ? `<p><span>Phone</span><a href="tel:${escapeHtml(contact.phone)}">${escapeHtml(contact.phone)}</a>${copyButton(contact.phone, "phone number")}</p>` : ""}
+    <p class="contact-source"><span>Verified source</span>${source}${contact.verified_date ? ` · ${escapeHtml(formatDate(contact.verified_date))}` : ""}</p>
+  </article>`;
+}
 function openDetail(r) {
   const sources = (r.sources?.length ? r.sources : [r.source]).filter(s => s?.source_url);
   const hq = [r.company?.hq_city, r.company?.hq_state].filter(Boolean).join(", ") || "Under review";
   $("#detail-content").innerHTML = `<div class="detail-body">
-    <div class="detail-title-row"><div><p class="section-kicker">${escapeHtml(r.classification?.primary)}</p><h2 id="detail-title">${escapeHtml(r.company?.canonical_name)}</h2><p>Headquarters: ${escapeHtml(hq)} · <span class="confidence">${escapeHtml(r.company?.hq_status || "needs review")}</span></p></div><div class="detail-amount">${formatValue(r.award?.amount)}</div></div>
+    <div class="detail-title-row"><div><p class="section-kicker">${escapeHtml(r.classification?.primary)}</p><h2 id="detail-title">${escapeHtml(r.company?.canonical_name)}</h2><p>Reported entity location: ${escapeHtml(hq)} · <span class="confidence">${escapeHtml(mocoStatusLabel(r.company?.hq_status))}</span></p><p>MoCo basis: ${escapeHtml(mocoBasisLabel(r.company?.moco_basis))} (${Math.round(Number(r.company?.moco_confidence || 0) * 100)}% confidence)</p></div><div class="detail-amount">${formatValue(r.award?.amount)}</div></div>
     <dl class="detail-grid">
       ${detailField("Ultimate parent", r.company?.ultimate_parent)}${detailField("Agency", r.award?.agency)}${detailField("Subagency", r.award?.subagency)}
       ${detailField("Contract number", r.award?.contract_number)}${detailField("Award ID", r.award?.award_id)}${detailField("Award type", r.award?.award_type)}
@@ -156,6 +209,7 @@ function openDetail(r) {
       ${detailField("NAICS", r.award?.naics)}${detailField("PSC", r.award?.psc)}${detailField("Place of performance", r.location?.place_of_performance || r.location?.work_locations?.join("; "))}
     </dl>
     <div class="detail-description"><h3>What it was for</h3><p>${escapeHtml(r.award?.description)}</p></div>
+    <section class="contacts-panel"><h3>Contacts</h3><p>Company and government contacts are kept separate and shown only with public-source provenance.</p><div class="contact-grid">${contactCard("Company contact", r.contacts?.company)}${contactCard("Government contact", r.contacts?.government)}</div></section>
     <div class="source-list"><h3>Sources and retrieval provenance</h3><p>The official record remains primary; retrieval-provider links document fallback provenance.</p><div class="source-list-links">${sources.map(source => sourceLink(source)).join("")}</div></div>
   </div>`;
   $("#detail-dialog").showModal();
@@ -169,14 +223,20 @@ function exportFilteredCsv() {
   link.click(); URL.revokeObjectURL(link.href);
 }
 function clearFilters() {
-  $("#search").value = ""; $("#date-filter").value = "30"; $("#category-filter").value = ""; $("#agency-filter").value = ""; $("#company-filter").value = ""; $("#amount-filter").value = "0"; $("#hq-filter").value = "strong"; $("#sort-filter").value = "newest"; $("#custom-dates").hidden = true; applyFilters();
+  $("#search").value = ""; $("#date-filter").value = "30"; $("#category-filter").value = ""; $("#agency-filter").value = ""; $("#company-filter").value = ""; $("#amount-filter").value = "0"; $("#hq-filter").value = "local"; $("#sort-filter").value = "newest"; $("#custom-dates").hidden = true; applyFilters();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   ["#search","#date-from","#date-to"].forEach(id => $(id).addEventListener("input", applyFilters));
   ["#date-filter","#category-filter","#agency-filter","#company-filter","#amount-filter","#hq-filter","#sort-filter"].forEach(id => $(id).addEventListener("change", () => { if (id === "#date-filter") $("#custom-dates").hidden = $(id).value !== "custom"; applyFilters(); }));
   $("#clear-filters").addEventListener("click", clearFilters); $("#download-filtered").addEventListener("click", exportFilteredCsv);
+  $("#retry-load").addEventListener("click", loadData);
   $("#dialog-close").addEventListener("click", () => $("#detail-dialog").close());
+  $("#detail-content").addEventListener("click", async event => {
+    const button = event.target.closest("[data-copy]"); if (!button) return;
+    try { await navigator.clipboard.writeText(button.dataset.copy); button.textContent = "Copied"; setTimeout(() => { button.textContent = "Copy"; }, 1400); }
+    catch (error) { button.textContent = "Copy failed"; console.error(error); }
+  });
   $("#detail-dialog").addEventListener("click", event => { if (event.target === $("#detail-dialog")) $("#detail-dialog").close(); });
   document.addEventListener("keydown", event => { if (event.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { event.preventDefault(); $("#search").focus(); } });
   loadData();

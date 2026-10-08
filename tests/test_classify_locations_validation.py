@@ -25,3 +25,17 @@ def test_validation_rejects_duplicate_ids():
     base = {"id": "same", "announcement_date": "2026-10-07", "action_date": None, "company": {"canonical_name": "Example", "hq_county": "Montgomery County"}, "award": {"amount": None}, "source": {"name": "Agency", "source_url": "https://agency.gov/a"}}
     with pytest.raises(ValidationError):
         validate_records([base, dict(base)])
+
+
+def test_validation_requires_contact_provenance():
+    record = {
+        "id": "contact-test",
+        "announcement_date": "2026-10-08",
+        "action_date": None,
+        "company": {"canonical_name": "Example", "hq_county": "Montgomery County", "hq_status": "local_entity", "moco_basis": "federal_recipient_address"},
+        "award": {"amount": None},
+        "source": {"name": "Agency", "source_url": "https://agency.gov/a"},
+        "contacts": {"company": {"email": "sales@example.com"}, "government": None},
+    }
+    with pytest.raises(ValidationError, match="contact requires public source provenance"):
+        validate_records([record])

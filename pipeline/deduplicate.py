@@ -36,6 +36,12 @@ def merge_records(base: dict, incoming: dict) -> dict:
     for section in ("company", "award", "location"):
         for key, value in incoming.get(section, {}).items():
             result[section][key] = _merge_value(result[section].get(key), value)
+    result.setdefault("contacts", {"company": None, "government": None})
+    for kind in ("company", "government"):
+        existing_contact = result["contacts"].get(kind)
+        incoming_contact = incoming.get("contacts", {}).get(kind)
+        if not existing_contact and incoming_contact:
+            result["contacts"][kind] = deepcopy(incoming_contact)
     if structured:
         for key in ("award_id", "naics", "psc", "contract_number", "subagency"):
             result["award"][key] = _merge_value(structured["award"].get(key), result["award"].get(key))

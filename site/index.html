@@ -16,7 +16,7 @@
     <div class="title-block">
       <p class="eyebrow">Montgomery County, Maryland</p>
       <h1>Federal Contract Tracker</h1>
-      <p class="subtitle">Federal awards to companies headquartered in Montgomery County</p>
+      <p class="subtitle">Federal awards to companies and contracting entities based in Montgomery County, Maryland</p>
     </div>
     <div class="freshness" aria-live="polite">
       <span class="freshness-label">Data status</span>
@@ -26,11 +26,20 @@
 
   <main>
     <section class="status-banner" id="source-warning" hidden aria-live="polite"></section>
+    <section class="load-diagnostics" id="load-diagnostics" hidden role="alert">
+      <div>
+        <p class="section-kicker">Load diagnostics</p>
+        <h2>Federal award data could not be loaded</h2>
+        <p id="load-diagnostics-summary">The attempted data files and response details are shown below.</p>
+        <ul id="load-diagnostics-list"></ul>
+      </div>
+      <button class="primary-button" id="retry-load" type="button">Retry data load</button>
+    </section>
 
     <section class="metrics" aria-label="Filtered award summary">
       <article><span>Awards</span><strong id="metric-awards">—</strong><small>matching the current view</small></article>
       <article><span>Announced value</span><strong id="metric-value">—</strong><small>disclosed amounts only</small></article>
-      <article><span>Companies</span><strong id="metric-companies">—</strong><small>distinct headquarters</small></article>
+      <article><span>Companies</span><strong id="metric-companies">—</strong><small>Montgomery County entities</small></article>
       <article><span>Defense &amp; technology</span><strong id="metric-tech">—</strong><small>share of matching awards</small></article>
     </section>
 
@@ -62,8 +71,8 @@
         <label>Amount
           <select id="amount-filter"><option value="0">Any amount</option><option value="1000000">Over $1M</option><option value="10000000">Over $10M</option><option value="50000000">Over $50M</option><option value="100000000">Over $100M</option></select>
         </label>
-        <label>Headquarters confidence
-          <select id="hq-filter"><option value="verified">Verified only</option><option value="strong" selected>Verified + strong</option><option value="all">Include needs review</option></select>
+        <label>Montgomery County presence
+          <select id="hq-filter"><option value="hq">Verified / strong</option><option value="local" selected>Include local legal entities</option><option value="review">Include needs review</option><option value="all">All</option></select>
         </label>
         <label>Sort by
           <select id="sort-filter"><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="largest">Largest value</option><option value="smallest">Smallest value</option><option value="company">Company name</option><option value="agency">Agency</option></select>
@@ -91,12 +100,12 @@
         </div>
         <div class="loading-state" id="loading-state"><span></span><p>Loading federal award data…</p></div>
       </div>
-      <p class="table-note">Select any row for full award details. Headquarters status describes the company—not where contract work or spending occurs.</p>
+      <p class="table-note">Select any row for full award details. A qualifying local legal entity is not necessarily an ultimate-parent headquarters, and contract work may occur elsewhere.</p>
     </section>
   </main>
 
   <footer>
-    <p><strong>About this tracker</strong> Records come from official federal sources. Values are not summed when undisclosed, and work locations are never inferred from company headquarters.</p>
+    <p><strong>About this tracker</strong> Records come from official federal sources. Values are not summed when undisclosed, and work locations are never used to establish Montgomery County entity status.</p>
     <p><a href="https://www.usaspending.gov/" target="_blank" rel="noopener noreferrer">USAspending.gov</a> · <a href="https://www.war.gov/News/Contracts/" target="_blank" rel="noopener noreferrer">War.gov contracts</a></p>
   </footer>
 
