@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-09T17:28:03Z",
+  "generated_at": "2026-10-10T16:15:32Z",
   "contact_enrichment": {
-    "companies_examined": 2985,
-    "company_contacts_found": 196,
-    "named_company_contacts": 196,
+    "companies_examined": 2986,
+    "company_contacts_found": 290,
+    "named_company_contacts": 290,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 98,
+    "sam_poc_names_found_this_run": 97,
     "federal_award_contacts": 0
   },
   "bootstrap": {
-    "previous_archive_records": 12787,
+    "previous_archive_records": 12798,
     "required_moco_record_floor": 470,
-    "moco_company_records": 6565,
+    "moco_company_records": 6572,
     "moco_record_floor_passed": true,
-    "outside_company_working_in_moco_records": 6233,
+    "outside_company_working_in_moco_records": 6235,
     "work_records_earliest_date": "2026-01-30",
-    "work_records_latest_date": "2026-10-07",
+    "work_records_latest_date": "2026-10-08",
     "largest_10": [
       {
         "company": "ORANO FEDERAL SERVICES LLC",
@@ -56,6 +56,12 @@
         "contract_number": "75R60222C00008"
       },
       {
+        "company": "MATOS-GRUNLEY JOINT VENTURE",
+        "amount": 21292000.0,
+        "date": "2026-10-08",
+        "contract_number": "47PB5227F0001"
+      },
+      {
         "company": "A-TEK, INC.",
         "amount": 19909139.13,
         "date": "2026-09-21",
@@ -72,12 +78,6 @@
         "amount": 16743286.96,
         "date": "2026-09-02",
         "contract_number": "47QFWA21F0042"
-      },
-      {
-        "company": "LEIDOS, INC.",
-        "amount": 16605318.87,
-        "date": "2026-09-22",
-        "contract_number": "693KA721C00014"
       }
     ],
     "most_active_10": [
