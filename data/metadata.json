@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T16:40:19Z",
+  "last_updated": "2026-10-12T20:18:59Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -37,14 +37,14 @@
     },
     "usaspending": {
       "status": "success",
-      "records_retrieved": 98,
+      "records_retrieved": 97,
       "known_company_matches": 7,
-      "county_discovery_matches": 57,
+      "county_discovery_matches": 56,
       "place_of_performance_matches": 34,
       "outside_company_performance_matches": 34,
       "place_of_performance_lookback_days": 7,
-      "new_entities_discovered": 36,
-      "moco_matches": 62
+      "new_entities_discovered": 35,
+      "moco_matches": 61
     },
     "nasa": {
       "records_retrieved": 0,
@@ -80,12 +80,12 @@
   },
   "contact_stats": {
     "companies_examined": 2987,
-    "company_contacts_found": 386,
-    "named_company_contacts": 386,
+    "company_contacts_found": 478,
+    "named_company_contacts": 478,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 97,
+    "sam_poc_names_found_this_run": 96,
     "federal_award_contacts": 0
   },
   "disclosed_value_note": "Totals include disclosed amounts only."
