@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T20:18:59Z",
+  "last_updated": "2026-10-13T18:20:14Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -24,27 +24,27 @@
       "rss_status": 200,
       "discovery_method": "rss",
       "announcements_discovered": 20,
-      "article_requests": 18,
+      "article_requests": 17,
       "article_http_successes": 0,
-      "browser_attempts": 18,
+      "browser_attempts": 17,
       "browser_successes": 0,
       "structured_fallback_status": 200,
-      "structured_fallback_awards": 22,
+      "structured_fallback_awards": 18,
       "unresolved_announcements": 13,
       "status": "partial",
-      "records_retrieved": 22,
-      "moco_matches": 2
+      "records_retrieved": 18,
+      "moco_matches": 1
     },
     "usaspending": {
       "status": "success",
-      "records_retrieved": 97,
-      "known_company_matches": 7,
-      "county_discovery_matches": 56,
-      "place_of_performance_matches": 34,
-      "outside_company_performance_matches": 34,
+      "records_retrieved": 76,
+      "known_company_matches": 5,
+      "county_discovery_matches": 47,
+      "place_of_performance_matches": 24,
+      "outside_company_performance_matches": 24,
       "place_of_performance_lookback_days": 7,
-      "new_entities_discovered": 35,
-      "moco_matches": 61
+      "new_entities_discovered": 30,
+      "moco_matches": 50
     },
     "nasa": {
       "records_retrieved": 0,
@@ -80,8 +80,8 @@
   },
   "contact_stats": {
     "companies_examined": 2987,
-    "company_contacts_found": 478,
-    "named_company_contacts": 478,
+    "company_contacts_found": 566,
+    "named_company_contacts": 566,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
