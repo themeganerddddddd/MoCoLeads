@@ -1,5 +1,318 @@
 [
   {
+    "id": "moco-ad4d0837a9e6ea70",
+    "announcement_date": "2026-10-13",
+    "action_date": "2026-10-09",
+    "company": {
+      "company_id": "bae-systems-inc-rockville",
+      "canonical_name": "BAE Systems Inc.",
+      "legal_name": "BAE Systems Inc.",
+      "uei": null,
+      "ultimate_parent": "BAE Systems plc",
+      "hq_city": "Rockville",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.9,
+      "moco_city": "Rockville",
+      "moco_basis": "verified_local_legal_entity",
+      "moco_confidence": 0.9
+    },
+    "award": {
+      "amount": 796146,
+      "amount_display": "$796.1K",
+      "agency": "Department of Defense",
+      "subagency": "Navy",
+      "contract_number": "N0002427C4438",
+      "award_id": null,
+      "description": "maintenance, modernization and repair of USS Thomas Hudner (DDG 116) Fiscal 2027 Docking Restricted Availability",
+      "naics": null,
+      "psc": null,
+      "award_type": "Contract",
+      "expected_completion": "January 2028",
+      "expected_completion_date": null,
+      "award_date": "2026-10-09",
+      "action_type": "Contract",
+      "contract_type": "firm-fixed-price",
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": "BAE Systems Maritime Solutions Jacksonville LLC, Jacksonville, Florida, was awarded a $796,146 firm-fixed-price contract action for maintenance, modernization and repair of USS Thomas Hudner (DDG 116) Fiscal 2027 Docking Restricted Availability"
+    },
+    "location": {
+      "recipient_location": "Jacksonville, Florida",
+      "place_of_performance": "Mayport, Florida",
+      "work_locations": [
+        "Mayport, Florida"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Defense",
+      "secondary": []
+    },
+    "source": {
+      "name": "War.gov",
+      "source_type": "announcement",
+      "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4624853/contracts-for-oct-13-2026/",
+      "retrieved_at": "2026-10-14T15:50:54Z",
+      "announcement_date": "2026-10-13",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "War.gov",
+        "source_type": "announcement",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4624853/contracts-for-oct-13-2026/",
+        "retrieved_at": "2026-10-14T15:50:54Z",
+        "announcement_date": "2026-10-13",
+        "primary": true
+      },
+      {
+        "name": "Pipeworx",
+        "source_type": "retrieval_fallback",
+        "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
+        "retrieved_at": "2026-10-14T15:50:54Z",
+        "announcement_date": "2026-10-13",
+        "primary": false
+      }
+    ],
+    "match": {
+      "method": "alias_prefix",
+      "registry_company_id": "bae-systems-inc-rockville"
+    },
+    "contacts": {
+      "company": null,
+      "federal": null
+    },
+    "retrieval": {
+      "discovery_method": "war_rss",
+      "content_method": "pipeworx_fallback"
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-0f776709ab06362a",
+    "announcement_date": "2026-10-13",
+    "action_date": "2026-10-13",
+    "company": {
+      "company_id": "lockheed-martin",
+      "canonical_name": "Lockheed Martin",
+      "legal_name": "Lockheed Martin Corporation",
+      "uei": "NMHFLDYJJ4C5",
+      "ultimate_parent": null,
+      "hq_city": "Bethesda",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": true,
+      "hq_status": "verified",
+      "hq_confidence": 1.0,
+      "moco_city": "Bethesda",
+      "moco_basis": "verified_hq",
+      "moco_confidence": 1.0
+    },
+    "award": {
+      "amount": 117118040,
+      "amount_display": "$117.1M",
+      "agency": "Department of Defense",
+      "subagency": "Army",
+      "contract_number": "W58RGZ-27-D-A007",
+      "award_id": null,
+      "description": "Generation II radar frequency interferometer post-production support services for Apache attack helicopters",
+      "naics": null,
+      "psc": null,
+      "award_type": "Contract",
+      "expected_completion": "2031-10-12",
+      "expected_completion_date": "2031-10-12",
+      "award_date": null,
+      "action_type": "Contract",
+      "contract_type": "IDIQ",
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": "Army Contracting Command, Redstone Arsenal, Alabama,",
+      "funding": [],
+      "raw_description": "Lockheed Martin Corp., Owego, New York, was awarded a $117,118,040 cost-no-fee, cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Generation II radar frequency interferometer post-production support services for Apache attack helicopters"
+    },
+    "location": {
+      "recipient_location": "Owego, New York",
+      "place_of_performance": null,
+      "work_locations": [],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Defense",
+      "secondary": []
+    },
+    "source": {
+      "name": "War.gov",
+      "source_type": "announcement",
+      "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4624853/contracts-for-oct-13-2026/",
+      "retrieved_at": "2026-10-14T15:50:54Z",
+      "announcement_date": "2026-10-13",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "War.gov",
+        "source_type": "announcement",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4624853/contracts-for-oct-13-2026/",
+        "retrieved_at": "2026-10-14T15:50:54Z",
+        "announcement_date": "2026-10-13",
+        "primary": true
+      },
+      {
+        "name": "Pipeworx",
+        "source_type": "retrieval_fallback",
+        "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
+        "retrieved_at": "2026-10-14T15:50:54Z",
+        "announcement_date": "2026-10-13",
+        "primary": false
+      }
+    ],
+    "match": {
+      "method": "exact_name",
+      "registry_company_id": "lockheed-martin"
+    },
+    "contacts": {
+      "company": {
+        "name": "Alliant 2 Federal Contracting",
+        "title": "Federal contract contact",
+        "email": "Alliant2.gr-lm@lmco.com",
+        "phone": "(703) 367-6636",
+        "contact_type": "federal_contracting",
+        "contact_quality": "high",
+        "source_name": "GSA eLibrary",
+        "source_url": "https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=47QTCK18D0002&contractorName=LOCKHEED+MARTIN+CORPORATION&executeQuery=YES",
+        "verified_date": "2026-10-08"
+      },
+      "federal": null
+    },
+    "retrieval": {
+      "discovery_method": "war_rss",
+      "content_method": "pipeworx_fallback"
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-c3fdce45f5f56c84",
+    "announcement_date": "2026-10-12",
+    "action_date": "2026-10-12",
+    "company": {
+      "company_id": "uei-qqbxqr679km9",
+      "canonical_name": "CLARK CONSTRUCTION GROUP LLC",
+      "legal_name": "CLARK CONSTRUCTION GROUP LLC",
+      "uei": "QQBXQR679KM9",
+      "ultimate_parent": null,
+      "hq_city": "BETHESDA",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "BETHESDA",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 125771.0,
+      "amount_display": "$125.8K",
+      "agency": "General Services Administration",
+      "subagency": "Public Buildings Service",
+      "contract_number": "47PM0024C0001",
+      "award_id": "47PM0024C0001",
+      "description": "BUILDING 1 CONSTRUCTION, ST. ELIZABETH'S WEST CAMPUS, WASHINGTON, DC SE. THIS MODIFICATION INCORPORATES VARIOUS CHANGE ORDERS FOR ADDITIONAL WORK FOR THE PROJECT.",
+      "naics": "236220",
+      "psc": "Y1AA",
+      "award_type": "DEFINITIVE CONTRACT",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "BETHESDA, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0024C0001_4740_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-14T15:50:54Z",
+      "announcement_date": "2026-10-12",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0024C0001_4740_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-14T15:50:54Z",
+        "announcement_date": "2026-10-12",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Kelly Howley",
+        "title": "Senior Manager, Corporate Governance",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/QQBXQR679KM9/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
     "id": "moco-e5296db5c515239b",
     "announcement_date": "2026-10-09",
     "action_date": "2026-10-09",
@@ -75,7 +388,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N95021D00013_7529/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-09",
         "primary": true
       }
@@ -178,7 +491,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C323F00043_1605_GS00Q14OADS142_4732/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-09",
         "primary": true
       }
@@ -281,7 +594,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75H71024P01401_7527_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-09",
         "primary": true
       }
@@ -384,7 +697,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSN292201500009U_7529_GS00P10BSD0725_4740/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-09",
         "primary": true
       }
@@ -491,7 +804,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341425F00024_2036_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -598,7 +911,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24723F0657_3600_NNG15SD21B_8000/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -705,7 +1018,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27P0028_8000_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -812,7 +1125,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERH26F0012_6800_68HE0P24A0005_6800/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -915,7 +1228,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316027F0002OAS_1100_11316025A0002EOP_1100/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1018,7 +1331,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B12226F00000041_1540_47QSWA23D009E_4732/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1121,7 +1434,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_88310327F00007_8800_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1228,7 +1541,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F083N_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1331,7 +1644,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PB5227F0001_4740_47PL0122D0004_4740/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1438,7 +1751,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F085Z_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1541,7 +1854,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERH20F0027_6800_EPBPA16H0006_6800/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -1644,7 +1957,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_12314427F0006_1205_12314426A0022_1205/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-07",
         "primary": true
       }
@@ -1747,7 +2060,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310021P0021_3100_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-07",
         "primary": true
       }
@@ -1850,7 +2163,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310020F0054_3100_NRCHQ1017A0007_3100/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-07",
         "primary": true
       }
@@ -1953,7 +2266,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70LGLY24FGLB00127_7015_70RDAD20A00000003_7001/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-08",
         "primary": true
       }
@@ -2056,7 +2369,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_83310125P0026_8300_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-07",
         "primary": true
       }
@@ -2163,7 +2476,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HE0B26P0063_6800_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-07",
         "primary": true
       }
@@ -2270,7 +2583,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F07C6_4732_47QSSC26A000E_4732/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
+        "retrieved_at": "2026-10-14T15:50:54Z",
         "announcement_date": "2026-10-07",
         "primary": true
       }
@@ -2296,314 +2609,5 @@
     "market_relationship": "moco_company_working_in_moco",
     "recipient_in_moco": true,
     "performance_in_moco": true
-  },
-  {
-    "id": "moco-614cebed0caf0ba1",
-    "announcement_date": "2026-10-07",
-    "action_date": "2026-10-07",
-    "company": {
-      "company_id": "uei-qnr7b2cs89a3",
-      "canonical_name": "EAGLE INTEGRATED SERVICES, LLC",
-      "legal_name": "EAGLE INTEGRATED SERVICES, LLC",
-      "uei": "QNR7B2CS89A3",
-      "ultimate_parent": null,
-      "hq_city": "SAN ANTONIO",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "SAN ANTONIO",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": -40754.58,
-      "amount_display": "$-40.8K",
-      "agency": "Nuclear Regulatory Commission",
-      "subagency": "Nuclear Regulatory Commission",
-      "contract_number": "31310021F0110",
-      "award_id": "31310021F0110",
-      "description": "ONSITE CLERICAL, SECRETARIAL, AND ADMINISTRATIVE ASSISTANT SUPPORT SERVICES FOR THE NRC (NSIR)",
-      "naics": "541611",
-      "psc": "R699",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "SAN ANTONIO, TX",
-      "place_of_performance": "ROCKVILLE, MD",
-      "work_locations": [
-        "ROCKVILLE, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Professional Services",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310021F0110_3100_31310021D0003_3100/",
-      "retrieved_at": "2026-10-09T17:28:03Z",
-      "announcement_date": "2026-10-07",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310021F0110_3100_31310021D0003_3100/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
-        "announcement_date": "2026-10-07",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "KEN CHANDLER",
-        "title": null,
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/QNR7B2CS89A3/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-522f5ebd9d3f54b8",
-    "announcement_date": "2026-10-07",
-    "action_date": "2026-10-07",
-    "company": {
-      "company_id": "uei-ddm3ffxkrdg3",
-      "canonical_name": "PERFECT GLASSWORKS, LLC",
-      "legal_name": "PERFECT GLASSWORKS, LLC",
-      "uei": "DDM3FFXKRDG3",
-      "ultimate_parent": null,
-      "hq_city": "GAITHERSBURG",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "GAITHERSBURG",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "General Services Administration",
-      "subagency": "Public Buildings Service",
-      "contract_number": "47PE5226C0021",
-      "award_id": "47PE5226C0021",
-      "description": "ISSUE NOTICE TO PROCEED EFFECTIVE 10/7/2026",
-      "naics": "236220",
-      "psc": "Z1AA",
-      "award_type": "DEFINITIVE CONTRACT",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GAITHERSBURG, MD",
-      "place_of_performance": "WASHINGTON, DC",
-      "work_locations": [
-        "WASHINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PE5226C0021_4740_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-09T17:28:03Z",
-      "announcement_date": "2026-10-07",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PE5226C0021_4740_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
-        "announcement_date": "2026-10-07",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Mikhail An",
-        "title": "Managing Member",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/DDM3FFXKRDG3/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-35a7197754c6fc60",
-    "announcement_date": "2026-10-07",
-    "action_date": "2026-10-07",
-    "company": {
-      "company_id": "uei-jeandjtz8hj3",
-      "canonical_name": "FCN, INC.",
-      "legal_name": "FCN, INC.",
-      "uei": "JEANDJTZ8HJ3",
-      "ultimate_parent": null,
-      "hq_city": "ROCKVILLE",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "ROCKVILLE",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": -8470.0,
-      "amount_display": "$-8.5K",
-      "agency": "Department of the Treasury",
-      "subagency": "Office of the Comptroller of the Currency",
-      "contract_number": "2031JW25F00081",
-      "award_id": "2031JW25F00081",
-      "description": "SPLUNK CLOUD PLATFORM, SOFTWARE-AS-A-SERVICE (SAAS)",
-      "naics": "541519",
-      "psc": "DA10",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "ROCKVILLE, MD",
-      "place_of_performance": "WASHINGTON, DC",
-      "work_locations": [
-        "WASHINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Software / IT",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_2031JW25F00081_2046_NNG15SC71B_8000/",
-      "retrieved_at": "2026-10-09T17:28:03Z",
-      "announcement_date": "2026-10-07",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2031JW25F00081_2046_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-13T18:20:14Z",
-        "announcement_date": "2026-10-07",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Chris Gartin",
-        "title": "Operations Manager",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/JEANDJTZ8HJ3/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
   }
 ]
