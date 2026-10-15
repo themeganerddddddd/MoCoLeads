@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T15:50:54Z",
+  "last_updated": "2026-10-15T15:36:53Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -24,27 +24,27 @@
       "rss_status": 200,
       "discovery_method": "rss",
       "announcements_discovered": 20,
-      "article_requests": 16,
+      "article_requests": 15,
       "article_http_successes": 0,
-      "browser_attempts": 16,
+      "browser_attempts": 15,
       "browser_successes": 0,
       "structured_fallback_status": 200,
-      "structured_fallback_awards": 25,
+      "structured_fallback_awards": 23,
       "unresolved_announcements": 12,
       "status": "partial",
-      "records_retrieved": 25,
-      "moco_matches": 3
+      "records_retrieved": 23,
+      "moco_matches": 2
     },
     "usaspending": {
       "status": "success",
-      "records_retrieved": 58,
+      "records_retrieved": 71,
       "known_company_matches": 4,
-      "county_discovery_matches": 33,
-      "place_of_performance_matches": 21,
-      "outside_company_performance_matches": 21,
+      "county_discovery_matches": 41,
+      "place_of_performance_matches": 26,
+      "outside_company_performance_matches": 26,
       "place_of_performance_lookback_days": 7,
-      "new_entities_discovered": 22,
-      "moco_matches": 36
+      "new_entities_discovered": 32,
+      "moco_matches": 44
     },
     "nasa": {
       "records_retrieved": 0,
@@ -72,20 +72,20 @@
       "moco_matches": 0
     }
   },
-  "record_count": 12817,
+  "record_count": 12834,
   "market_counts": {
-    "moco_company": 388,
-    "outside_company_working_in_moco": 6237,
-    "moco_company_working_in_moco": 6192
+    "moco_company_working_in_moco": 6198,
+    "moco_company": 397,
+    "outside_company_working_in_moco": 6239
   },
   "contact_stats": {
-    "companies_examined": 2987,
-    "company_contacts_found": 660,
-    "named_company_contacts": 660,
+    "companies_examined": 2992,
+    "company_contacts_found": 752,
+    "named_company_contacts": 752,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 95,
+    "sam_poc_names_found_this_run": 92,
     "federal_award_contacts": 0
   },
   "disclosed_value_note": "Totals include disclosed amounts only."
