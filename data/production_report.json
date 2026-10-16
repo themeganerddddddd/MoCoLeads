@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-15T15:36:53Z",
+  "generated_at": "2026-10-16T15:23:43Z",
   "contact_enrichment": {
-    "companies_examined": 2992,
-    "company_contacts_found": 752,
-    "named_company_contacts": 752,
+    "companies_examined": 2995,
+    "company_contacts_found": 842,
+    "named_company_contacts": 842,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 92,
+    "sam_poc_names_found_this_run": 93,
     "federal_award_contacts": 0
   },
   "bootstrap": {
-    "previous_archive_records": 12817,
+    "previous_archive_records": 12834,
     "required_moco_record_floor": 470,
-    "moco_company_records": 6595,
+    "moco_company_records": 6604,
     "moco_record_floor_passed": true,
-    "outside_company_working_in_moco_records": 6239,
+    "outside_company_working_in_moco_records": 6244,
     "work_records_earliest_date": "2026-01-30",
-    "work_records_latest_date": "2026-10-13",
+    "work_records_latest_date": "2026-10-14",
     "largest_10": [
       {
         "company": "ORANO FEDERAL SERVICES LLC",
@@ -119,7 +119,7 @@
       },
       {
         "company": "HONEYWELL INTERNATIONAL, INC",
-        "records": 52
+        "records": 53
       }
     ]
   },
