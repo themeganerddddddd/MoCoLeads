@@ -75,7 +75,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40127P00006_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -178,7 +178,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_9594CS26P0021_9594_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -281,7 +281,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47HAA025F0054_4773_47HAA025A0004_4773/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -388,7 +388,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JA9425P00000025_1501_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -491,7 +491,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99018F00082_7529_HHSN292201300009I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -594,7 +594,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140R4026F0102_1425_36F79723D0002_3600/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -694,7 +694,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4626623/contracts-for-oct-15-2026/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       },
@@ -702,7 +702,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       }
@@ -809,7 +809,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80AFRC26P0008_8000_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -912,7 +912,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M223FNCNJ0454_1330_1305M223ANCNT0005_1330/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1015,7 +1015,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00016_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1118,7 +1118,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99018F00086_7529_HHSN292201300009I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1225,7 +1225,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341524F00048_2036_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1328,7 +1328,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0381_9534_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1431,7 +1431,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316027F0003OAS_1100_11316025A0002EOP_1100/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1534,7 +1534,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR22F00000160_7003_70FA4022A00000011_7022/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1639,7 +1639,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00003_7529_47QTCA23D00BQ_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1742,7 +1742,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316026F0014OMB_1100_11316025A0002EOP_1100/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1845,7 +1845,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_50310224F0113_5000_NNG15SD80B_8000/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1948,7 +1948,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00005_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2055,7 +2055,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSN29200034_7529_HHSN292200900013I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2162,7 +2162,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00010_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2265,7 +2265,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00002_7529_47QTCA25D00D4_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2372,7 +2372,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00008_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2475,7 +2475,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75P00122F80086_7570_GS07F9142S_4730/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2578,7 +2578,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02325F12500005_7008_70Z02322A12500001_7008/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2685,7 +2685,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0A06_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2792,7 +2792,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0A16_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2895,7 +2895,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310021F0095_3100_NRCHQ1017A0007_3100/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2998,7 +2998,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310021P0001_3100_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3101,7 +3101,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_73351022F0093_7300_15G1AC21A00000043_1504/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3204,7 +3204,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24524P0489_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3307,7 +3307,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00006_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3410,7 +3410,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PC5427P0001_4740_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3517,7 +3517,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERD23F0124_6800_47QTCH18D0013_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3620,7 +3620,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0425_12H2_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3727,7 +3727,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0A8L_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -3834,7 +3834,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F0357_1406_NNG15SC77B_8000/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       },
@@ -3842,7 +3842,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC24P0039_7530_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       }
@@ -3945,7 +3945,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C26227N0141_3600_36C26224D0104_3600/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -4047,7 +4047,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4625668/contracts-for-oct-14-2026/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       },
@@ -4055,7 +4055,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       }
@@ -4166,7 +4166,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_6913G622F500004_6901_GS03F0151X_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -4271,7 +4271,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70VT1522F00025_7004_GS35F122BA_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -4475,7 +4475,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZA25F00196_2041_2031ZA24D00006_2041/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -4578,7 +4578,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_33315924P00513012_3300_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -4681,7 +4681,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C26226P0188_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -4784,7 +4784,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QFSA23F0071_4732_47QFSA21D0006_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       },
@@ -4792,7 +4792,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QFSA23F0051_4732_47QFSA21D0006_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": false
       }
@@ -4899,7 +4899,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_28321327FA0010002_2800_28321322A00040003_2800/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5006,7 +5006,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C225C0001_1605_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5109,7 +5109,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40121P00263_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5212,7 +5212,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571PS27F80001_7571_47QTCA23D005Y_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5315,7 +5315,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F79100001_7008_70Z02324D79100001_7008/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5422,7 +5422,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_89503419FWA400570_8900_DEWA0003623_8900/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5525,7 +5525,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0125C0004_4740_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5632,7 +5632,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91995927F0001_9100_47QRAA20D0076_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5735,7 +5735,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSN29200001_7529_HHSN292201400008I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5840,7 +5840,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC26F0048_7530_47QTCA23D001Z_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -5943,7 +5943,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_89503419FWA400607_8900_DEWA0003623_8900/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -6050,7 +6050,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_9531CB25F0092_955F_47QTCA18D0081_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -6147,7 +6147,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4624853/contracts-for-oct-13-2026/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       },
@@ -6155,7 +6155,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": false
       }
@@ -6262,7 +6262,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24123P0350_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -6365,7 +6365,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0024C0001_4740_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-12",
         "primary": true
       }
@@ -6476,7 +6476,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N98022D00014_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": false
       },
@@ -6484,7 +6484,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N98026D00024_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       },
@@ -6492,7 +6492,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N90021D00030_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       }
@@ -11705,7 +11705,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       },
@@ -11713,7 +11713,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4625668/contracts-for-oct-14-2026/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       }
@@ -14595,7 +14595,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_61320625P0017_6100_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -23949,7 +23949,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126P00428_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-12",
         "primary": true
       }
@@ -27860,7 +27860,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00001_7529_75N98026A00020_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": false
       },
@@ -29515,7 +29515,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C26124P1463_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -34988,7 +34988,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99024F00003_7529_75N99022A00023_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": false
       }
@@ -42024,7 +42024,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00002_7529_75N99022A00015_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       },
@@ -47020,7 +47020,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99025F00002_7529_75N99023D00022_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": false
       }
@@ -49063,7 +49063,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99024C00050_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -53426,7 +53426,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_61320625F0062_6100_47PA0420D0064_4740/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -54587,7 +54587,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99026F00007_7529_75N99026A00006_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       },
@@ -57302,7 +57302,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_61320625F0063_6100_GS00P16BSD1206_4740/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -62268,7 +62268,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80057_7526_47QRAA25D005V_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -69637,7 +69637,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99026F00004_7529_75N99024D00011_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       }
@@ -76801,7 +76801,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N90025F00001_7529_75N98023D00020_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       },
@@ -89542,7 +89542,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0423F0882_1406_HHSN316201200040W_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -90568,7 +90568,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1719_8000_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -114522,7 +114522,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91003126F0041_9100_47QTCA20D000E_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -118868,7 +118868,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N94026F00003_7529_75N94025D00002_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -170536,6 +170536,14 @@
         "retrieved_at": "2026-10-08T15:26:40Z",
         "announcement_date": "2026-08-26",
         "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00001_7529_75N93019D00024_7529/",
+        "retrieved_at": "2026-10-18T14:36:58Z",
+        "announcement_date": "2026-10-14",
+        "primary": false
       }
     ],
     "match": {
@@ -181078,7 +181086,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75Q80123F80005_7528_GS00F009DA_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -212304,7 +212312,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -235268,7 +235286,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -235682,7 +235710,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John McCann",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/XY3CTFAZNWM6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -235989,7 +236027,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ciesielski",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PJANMEJLEEN5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -236288,7 +236336,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Julie Zou",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H42SCKKGRTU3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -236702,7 +236760,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Chau Tiffany Eastman",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SCP6ULK8ZMN4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -236799,7 +236867,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael K Gammill",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/F4J6LMD1WVF2/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -236892,7 +236970,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Denise Bartone",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C88MW7TCG4D8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -236985,7 +237073,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Kavita Kalatur",
+        "title": "Ms",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J9KJUJDWVUT1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -237308,7 +237406,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -237504,7 +237612,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Benjamin Woodward",
+        "title": "Mr.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/U3TMMLLKGE61/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -237953,7 +238071,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Gary E Bossart",
+        "title": "Director, Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EEL5LCLB97W5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -238260,7 +238388,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "VADIM KNYAZEV",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/XR2DYKLN4667/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -238862,7 +239000,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "CHRISTOPHER C BOGAN",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NGTPK8BLNRJ3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -239581,7 +239729,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Karamjeet Bassan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Q75UMHXN4WK4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -239785,7 +239943,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Edward J Lawton",
+        "title": "Senior Director of Sales & Business Development",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H5YCMCNUELL1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -239882,7 +240050,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "IRA F JAFFE",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GAHMANU8RPA7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -240546,7 +240724,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "BENJAMIN L HARRIS",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GGDEMAZJADM7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -240948,7 +241136,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Daniel Pickett",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GB9VB4RGAN65/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -241332,7 +241530,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jessica Zolynas",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HKQHNFKNKL15/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -241532,7 +241740,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Beth Smith",
+        "title": "Vice President & Controller",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/V6KCS3B53JN8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -241627,7 +241845,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Kyle Hansen",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/U9L4MEN3LUP9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -241817,7 +242045,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N94025F00103_7529_GS35F393CA_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -242037,7 +242265,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "MJ Peters",
+        "title": "Federal Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/M23WHK6U2RJ3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -242738,7 +242976,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -242982,7 +243230,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -243178,7 +243436,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Anne S Worth",
+        "title": "Owner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y3JBGTMMF2U6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -243943,7 +244211,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Steve Blackburn",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CGFMM2DJPAJ3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -244789,7 +245067,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "WILLIAM Gillan",
+        "title": "Chairman",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CYVCP8WGR4E9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -244882,7 +245170,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Stuart Lacock",
+        "title": "Sales Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CPYDZJK1S2K3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -244975,7 +245273,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donna Cooper",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SWGDQMY7PQ38/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -245363,7 +245671,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Chris Zuffa",
+        "title": "Dir of  Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PJGRPL17YR21/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -246096,7 +246414,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lincoln C Tyson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HACESFB4R759/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -246958,7 +247286,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Ariel Russell",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GKGQZ967KUA8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -247164,7 +247502,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310021F0105_3100_31310021D0003_3100/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       }
@@ -248447,7 +248785,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John Casey",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JSPPKLQMZMJ9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -248651,7 +248999,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Cevon Wallace",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HACXTELBJCZ2/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -249241,7 +249599,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Don Fenhagen",
+        "title": "Senior Partner and VP",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X5V6UB9HVCD8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -249925,7 +250293,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Bobby Mitchell",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PE8SC2CTNBY4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -250565,7 +250943,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -251082,7 +251470,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -251702,7 +252100,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Carroll",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZA4KHNKGQRJ4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -252207,7 +252615,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Fred Jones",
+        "title": "Contract Specialist / Assistant FSO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NTW5TQ1UJF57/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -252510,7 +252928,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "James L Paterek",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/E2UBKGNNGCX7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -252822,7 +253250,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Keren Williams McLendon",
+        "title": "President & CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LH87MJ74V1J6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -253022,7 +253460,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Vidya Murthy",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PDHFRLNEHHN8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -253638,7 +254086,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Levi Robinson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/YYPQU1PD6WJ5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -253735,7 +254193,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Helen J Dickerson",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HTV4DP7HGCU7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -254403,7 +254871,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Keren Williams McLendon",
+        "title": "President & CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LH87MJ74V1J6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -255261,7 +255739,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Anthony M Ribas",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GP2KL379MJ48/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -255770,7 +256258,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_61320625F0030_6100_GS03F137DA_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -256335,7 +256823,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Keren Williams McLendon",
+        "title": "President & CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LH87MJ74V1J6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -257143,7 +257641,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Raja Fenske",
+        "title": "Manager Operations",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/UKZDZ3TPMLU1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -257565,7 +258073,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -257765,7 +258283,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jordan Ruff",
+        "title": "HYPACK Director, Business Development",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/F93HU2JZAT79/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -257858,7 +258386,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Stefan Steinbacher",
+        "title": "DR",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EXEYBKCMXPJ5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -258161,7 +258699,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Daniel Bramkamp",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SBSPWNFZMML5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -258254,7 +258802,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Evan Kunz",
+        "title": "mr",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NNRCNN4VW7S7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -258553,7 +259111,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Rafael A Sosa Perez",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/E4UCGJ1NLLQ8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -258749,7 +259317,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -258949,7 +259527,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "TINA B ANTHONEY",
+        "title": "MARKETING MANAGER",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CNRUY7QK1FN4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -259145,7 +259733,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Micky Edmonds",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/P2J8E94K8KG6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -259353,7 +259951,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Marvin Peake",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N8PLK963HLC9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -259765,7 +260373,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John Markey",
+        "title": "LLC Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TLJNK2BY7SD7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -259866,7 +260484,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Dominic L Williams",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NE7MA2MFTA77/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -260280,7 +260908,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -260480,7 +261118,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Frank Feist",
+        "title": "Mr.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SR64A7T8KJX7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -260676,7 +261324,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "VIKAS ARORA",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/VGJGMYTG6HD3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -261140,7 +261798,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jesse Smith",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KN7FKNSG2LW4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -261237,7 +261905,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Banu Demiralp",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RUVQCG91UM64/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -261437,7 +262115,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Zekeria A Sheikh",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LJLEDTH713G9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -261534,7 +262222,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Trayci Koppie",
+        "title": "CO&GO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LRKDFMLDMTT7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -261627,7 +262325,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Moritz Kassner",
+        "title": "Mr",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C9BBL6KN3AE7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -261720,7 +262428,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "PATRICK TODD",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PEC7L2W5JNY7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -261803,7 +262521,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70RFP225FREC00012_7001_70RFP224DEC000011_7001/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -262027,7 +262745,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "janet smith",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LMJJFDN4WC91/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -262120,7 +262848,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John McCann",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/XY3CTFAZNWM6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -262853,7 +263591,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Pamela Nelson",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KRGPL7AL94P8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -263590,7 +264338,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Miriam A Vos-Afful",
+        "title": "Office/Finance Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/M9RJXA9M7L68/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -263889,7 +264647,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Orang Alem",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GBUDJ4GALQA8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -264089,7 +264857,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Leslie David",
+        "title": "Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CKJSLTC4NAY6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -264289,7 +265067,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Edward Chu",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LX9QFADENF53/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -264398,7 +265186,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Poupak Afshar",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/T2GJTLGN2NP3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -264596,7 +265394,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -265450,7 +266258,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Holly Sommers",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/S352L5PJLMP8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -266288,7 +267106,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "TERY HONG",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/YSLZLJKJ42L1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -267259,7 +268087,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Joshua C Delaney",
+        "title": "Managing Member",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GNNTAMX6HM36/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -267772,7 +268610,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Tess Flohr",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NP3NSFVMNUM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -268281,7 +269129,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ayerdis",
+        "title": "EO- Regulatory Compliance Admin",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JAFESE43FQM9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -268477,7 +269335,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Sylvia Franco",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TU1HN14TJ1U4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -269157,7 +270025,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -269611,7 +270489,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lee Griffiths",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/W96ECEQAABG6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -269704,7 +270592,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Melissa Taylor",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSBTWUBEJXH6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -269797,7 +270695,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -270100,7 +271008,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Ashley Peterson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GE2SRXMY74F3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -270197,7 +271115,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Nick Albino",
+        "title": "Controller",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KBJTBGAQEJL6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -271249,7 +272177,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Vincent Terlizzi",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZWCEGH2GQ5H7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -271342,7 +272280,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Wolf D Ihlenfeldt",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/FLN1AG4HLF95/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -271435,7 +272383,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Janelle Blocker",
+        "title": "Director, Public Sector Contracts & Compliance",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KJB1WJG4NXS7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -277191,7 +278149,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -278411,7 +279379,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERH25F0304_6800_68HE0P24A0003_6800/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -280893,7 +281861,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -282517,7 +283495,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Chau Tiffany Eastman",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SCP6ULK8ZMN4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -282909,7 +283897,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -293504,7 +294502,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Ashley Peterson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GE2SRXMY74F3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -298858,7 +299866,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -299993,7 +301011,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -301124,7 +302152,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Anthony M Ribas",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GP2KL379MJ48/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -302354,7 +303392,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Kavita Kalatur",
+        "title": "Ms",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J9KJUJDWVUT1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -302960,7 +304008,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Janelle Blocker",
+        "title": "Director, Public Sector Contracts & Compliance",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KJB1WJG4NXS7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -305909,7 +306967,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Edward Chu",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LX9QFADENF53/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -311831,7 +312899,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -319801,7 +320879,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Karamjeet Bassan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Q75UMHXN4WK4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -324113,7 +325201,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -326361,7 +327459,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -328696,7 +329804,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "MJ Peters",
+        "title": "Federal Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/M23WHK6U2RJ3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -329702,7 +330820,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40124F19036_7524_75F40120D00022_7524/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       },
@@ -332243,7 +333361,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -336228,7 +337356,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -336624,7 +337762,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -339216,7 +340364,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -340860,7 +342018,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91003126F0040_9100_47QTCA20D000E_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -347130,7 +348288,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -349172,7 +350340,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -350721,7 +351899,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -352604,7 +353792,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -354248,7 +355446,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -356927,7 +358135,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -371434,7 +372652,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Michael J Parker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8Z3ZDLDP926/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -372133,7 +373361,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ayerdis",
+        "title": "EO- Regulatory Compliance Admin",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JAFESE43FQM9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -384872,7 +386110,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "WILLIAM Gillan",
+        "title": "Chairman",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CYVCP8WGR4E9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -385478,7 +386726,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -387758,7 +389016,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -398347,7 +399615,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M224F0402_1330_1305M424D0029_1330/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -401089,7 +402357,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95025F00003_7529_75N95021D00010_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       },
@@ -405687,7 +406955,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -410056,7 +411334,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -410254,7 +411542,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -416505,7 +417803,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -419771,7 +421079,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -433296,7 +434614,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ayerdis",
+        "title": "EO- Regulatory Compliance Admin",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JAFESE43FQM9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -434870,7 +436198,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -435466,7 +436804,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Zengel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CV7ENBKG4VL3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -439159,7 +440507,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "BENJAMIN L HARRIS",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GGDEMAZJADM7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -440674,7 +442032,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Holly Sommers",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/S352L5PJLMP8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -443611,7 +444979,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Chris Zuffa",
+        "title": "Dir of  Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PJGRPL17YR21/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -448240,7 +449618,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -449432,7 +450820,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -452827,7 +454225,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -456411,7 +457819,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -458378,7 +459796,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -461342,7 +462770,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Ashley Peterson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GE2SRXMY74F3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -465894,7 +467332,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -467791,7 +469239,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John Casey",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JSPPKLQMZMJ9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -493791,7 +495249,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Vincent Terlizzi",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZWCEGH2GQ5H7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -496459,7 +497927,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -496752,7 +498230,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Daniel Pickett",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GB9VB4RGAN65/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -499980,7 +501468,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Denise Bartone",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C88MW7TCG4D8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -500689,7 +502187,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -504634,7 +506142,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jessica Zolynas",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HKQHNFKNKL15/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -506516,7 +508034,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N92024P00003_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -515269,7 +516787,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Karamjeet Bassan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Q75UMHXN4WK4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -518993,7 +520521,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -519484,7 +521022,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M224C0011_1330_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -526756,7 +528294,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -536769,7 +538317,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Cevon Wallace",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HACXTELBJCZ2/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -539858,7 +541416,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "BENJAMIN L HARRIS",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GGDEMAZJADM7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -541187,7 +542755,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -541918,7 +543496,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -557165,7 +558753,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Gary E Bossart",
+        "title": "Director, Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EEL5LCLB97W5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -557262,7 +558860,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Vincent Terlizzi",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZWCEGH2GQ5H7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -559965,7 +561573,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Karamjeet Bassan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Q75UMHXN4WK4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -566522,7 +568140,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -574278,7 +575906,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Dominic L Williams",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NE7MA2MFTA77/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -575334,7 +576972,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M224F0005_1330_47QTCB21D0239_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -587463,7 +589101,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSP23337004T_7570_HHSP233201500026I_7555/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       }
@@ -605272,7 +606910,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PC5426F0324_4740_47PN1124A0002_4740/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -633445,7 +635083,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Don Fenhagen",
+        "title": "Senior Partner and VP",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X5V6UB9HVCD8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -635096,7 +636744,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M222PNCNA0252_1330_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -652369,7 +654017,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -658214,7 +659872,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Karamjeet Bassan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Q75UMHXN4WK4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -658307,7 +659975,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ayerdis",
+        "title": "EO- Regulatory Compliance Admin",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JAFESE43FQM9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -663334,7 +665012,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "BENJAMIN L HARRIS",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GGDEMAZJADM7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -679567,7 +681255,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -706995,7 +708693,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Chris Zuffa",
+        "title": "Dir of  Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PJGRPL17YR21/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -708474,7 +710182,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Chau Tiffany Eastman",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SCP6ULK8ZMN4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -716478,7 +718196,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -727249,7 +728977,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -727631,7 +729369,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Josephine Fenton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5ZZFR2AQC63/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -728007,7 +729755,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Denise Bartone",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C88MW7TCG4D8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -729391,7 +731149,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -730090,7 +731858,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John McCann",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/XY3CTFAZNWM6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -768763,7 +770541,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "VIKAS ARORA",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/VGJGMYTG6HD3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -769850,7 +771638,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -773150,7 +774948,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lincoln C Tyson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HACESFB4R759/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -773263,7 +775071,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lincoln C Tyson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HACESFB4R759/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -773782,7 +775600,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lincoln C Tyson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HACESFB4R759/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -827587,7 +829415,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0424F1230_1406_GS00F009DA_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -840770,7 +842598,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -849846,7 +851684,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -853327,7 +855175,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Raja Fenske",
+        "title": "Manager Operations",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/UKZDZ3TPMLU1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -873999,7 +875857,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -874468,7 +876336,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -875470,7 +877348,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -881841,7 +883729,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Omari Teel",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFSULRKLVCB9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -922580,7 +924478,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Fred Jones",
+        "title": "Contract Specialist / Assistant FSO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NTW5TQ1UJF57/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -926718,7 +928626,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Micky Edmonds",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/P2J8E94K8KG6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -943007,7 +944925,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -960860,7 +962788,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -964016,7 +965954,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Leslie David",
+        "title": "Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CKJSLTC4NAY6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -971077,7 +973025,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Denise Bartone",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C88MW7TCG4D8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -980461,7 +982419,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M226F0095_1330_47QTCA19D006G_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -981763,7 +983721,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -989564,7 +991532,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Janelle Blocker",
+        "title": "Director, Public Sector Contracts & Compliance",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KJB1WJG4NXS7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1001925,7 +1003903,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ottenbreit",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CX22BZTAW656/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1002620,7 +1004608,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John Casey",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JSPPKLQMZMJ9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1016148,7 +1018146,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "WILLIAM Gillan",
+        "title": "Chairman",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CYVCP8WGR4E9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1029093,7 +1031101,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1047003,7 +1049021,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John Casey",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JSPPKLQMZMJ9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1047587,7 +1049615,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "IRA F JAFFE",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GAHMANU8RPA7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1066234,7 +1068272,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1073742,7 +1075790,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1074520,7 +1076578,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Donald Rodrick",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X7T8PBB7ELM3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1112028,7 +1114096,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Ayerdis",
+        "title": "EO- Regulatory Compliance Admin",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JAFESE43FQM9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1124629,7 +1126707,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John McCann",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/XY3CTFAZNWM6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1130258,7 +1132346,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "John McCann",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/XY3CTFAZNWM6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1150444,7 +1152542,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Daniel Pickett",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GB9VB4RGAN65/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1208312,7 +1210420,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Leslie David",
+        "title": "Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CKJSLTC4NAY6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1218301,7 +1220419,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Margaret Fantz",
+        "title": "Contract Specialist",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SP3XF3BGBSB3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1229747,7 +1231875,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99025C00030_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }
@@ -1270298,7 +1272426,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "EVELYN T Mulder",
+        "title": "Ms.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WJJTZWYHUQR6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1275448,7 +1277586,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Guy Steinbrink",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TSY3HH9UE7G3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1302266,7 +1304414,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alan Kaplan",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NKNSTJBPABX9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1305040,7 +1307198,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_28321325FDX030011_2800_GS35F636GA_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-13",
         "primary": true
       }

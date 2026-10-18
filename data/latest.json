@@ -75,7 +75,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40127P00006_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -178,7 +178,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_9594CS26P0021_9594_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -281,7 +281,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47HAA025F0054_4773_47HAA025A0004_4773/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -388,7 +388,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JA9425P00000025_1501_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -491,7 +491,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99018F00082_7529_HHSN292201300009I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -594,7 +594,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140R4026F0102_1425_36F79723D0002_3600/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -694,7 +694,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4626623/contracts-for-oct-15-2026/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       },
@@ -702,7 +702,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": false
       }
@@ -809,7 +809,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80AFRC26P0008_8000_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -912,7 +912,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M223FNCNJ0454_1330_1305M223ANCNT0005_1330/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1015,7 +1015,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00016_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1118,7 +1118,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99018F00086_7529_HHSN292201300009I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1225,7 +1225,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341524F00048_2036_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1328,7 +1328,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0381_9534_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1431,7 +1431,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316027F0003OAS_1100_11316025A0002EOP_1100/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1534,7 +1534,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR22F00000160_7003_70FA4022A00000011_7022/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1639,7 +1639,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00003_7529_47QTCA23D00BQ_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1742,7 +1742,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316026F0014OMB_1100_11316025A0002EOP_1100/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1845,7 +1845,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_50310224F0113_5000_NNG15SD80B_8000/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -1948,7 +1948,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00005_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2055,7 +2055,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSN29200034_7529_HHSN292200900013I_7529/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2162,7 +2162,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00010_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2265,7 +2265,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00002_7529_47QTCA25D00D4_4732/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-15",
         "primary": true
       }
@@ -2372,7 +2372,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00008_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2475,7 +2475,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75P00122F80086_7570_GS07F9142S_4730/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }
@@ -2578,7 +2578,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02325F12500005_7008_70Z02322A12500001_7008/",
-        "retrieved_at": "2026-10-17T14:15:01Z",
+        "retrieved_at": "2026-10-18T14:36:58Z",
         "announcement_date": "2026-10-14",
         "primary": true
       }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T14:15:01Z",
+  "last_updated": "2026-10-18T14:36:58Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -80,12 +80,12 @@
   },
   "contact_stats": {
     "companies_examined": 2999,
-    "company_contacts_found": 933,
-    "named_company_contacts": 933,
+    "company_contacts_found": 1022,
+    "named_company_contacts": 1022,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 92,
+    "sam_poc_names_found_this_run": 89,
     "federal_award_contacts": 0
   },
   "disclosed_value_note": "Totals include disclosed amounts only."
