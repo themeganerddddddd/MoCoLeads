@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T14:36:58Z",
+  "generated_at": "2026-10-19T17:30:21Z",
   "contact_enrichment": {
-    "companies_examined": 2999,
-    "company_contacts_found": 1022,
-    "named_company_contacts": 1022,
+    "companies_examined": 3000,
+    "company_contacts_found": 1110,
+    "named_company_contacts": 1110,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
@@ -13,11 +13,11 @@
   "bootstrap": {
     "previous_archive_records": 12875,
     "required_moco_record_floor": 470,
-    "moco_company_records": 6625,
+    "moco_company_records": 6637,
     "moco_record_floor_passed": true,
-    "outside_company_working_in_moco_records": 6250,
+    "outside_company_working_in_moco_records": 6253,
     "work_records_earliest_date": "2026-01-30",
-    "work_records_latest_date": "2026-10-15",
+    "work_records_latest_date": "2026-10-16",
     "largest_10": [
       {
         "company": "ORANO FEDERAL SERVICES LLC",
@@ -103,7 +103,7 @@
       },
       {
         "company": "GUIDEHOUSE DIGITAL LLC",
-        "records": 63
+        "records": 64
       },
       {
         "company": "INVICTA GLOBAL, LLC",
