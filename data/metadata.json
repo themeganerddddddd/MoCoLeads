@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T17:30:21Z",
+  "last_updated": "2026-10-20T15:40:43Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -30,21 +30,21 @@
       "browser_successes": 0,
       "structured_fallback_status": 200,
       "structured_fallback_awards": 24,
-      "unresolved_announcements": 9,
+      "unresolved_announcements": 8,
       "status": "partial",
       "records_retrieved": 24,
-      "moco_matches": 4
+      "moco_matches": 5
     },
     "usaspending": {
       "status": "success",
       "records_retrieved": 125,
       "known_company_matches": 4,
-      "county_discovery_matches": 74,
-      "place_of_performance_matches": 47,
-      "outside_company_performance_matches": 47,
+      "county_discovery_matches": 75,
+      "place_of_performance_matches": 46,
+      "outside_company_performance_matches": 46,
       "place_of_performance_lookback_days": 7,
-      "new_entities_discovered": 54,
-      "moco_matches": 78
+      "new_entities_discovered": 53,
+      "moco_matches": 79
     },
     "nasa": {
       "records_retrieved": 0,
@@ -80,12 +80,12 @@
   },
   "contact_stats": {
     "companies_examined": 3000,
-    "company_contacts_found": 1110,
-    "named_company_contacts": 1110,
+    "company_contacts_found": 1195,
+    "named_company_contacts": 1195,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 89,
+    "sam_poc_names_found_this_run": 88,
     "federal_award_contacts": 0
   },
   "disclosed_value_note": "Totals include disclosed amounts only."
