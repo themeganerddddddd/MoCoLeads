@@ -2,8 +2,8 @@
 
 The public dashboard has two intentionally separate markets:
 
-- **Montgomery County Companies** — federal contract awards where the recipient is a verified Montgomery County company or local legal entity.
-- **Work in Montgomery County** — federal contract awards to recipients outside the county whose official USAspending place of performance is Montgomery County, Maryland (FIPS `24031`).
+- **Internal · Montgomery County Companies** — federal contract awards where the recipient is a verified Montgomery County company or local legal entity.
+- **External Companies in MoCo** — federal contract awards to recipients outside the county whose official USAspending place of performance is Montgomery County, Maryland (FIPS `24031`).
 
 A Montgomery County company performing work in Montgomery County remains in the first view only. The normalized `market_relationship`, `recipient_in_moco`, and `performance_in_moco` fields make that rule auditable.
 
@@ -12,6 +12,8 @@ Company contacts and federal/award contacts are also distinct. Public GSA eLibra
 A production-oriented static dashboard for finding newly announced federal contracts awarded to companies and contracting legal entities based in Montgomery County, Maryland. The tracker separates verified headquarters, verified local legal entities, federal recipient addresses, ultimate parents, and contract work locations. It preserves the original federal source for every record and keeps a historical archive across daily runs.
 
 The browser application is plain HTML, CSS, and JavaScript. Collection and processing use Python. GitHub Actions updates the data daily and deploys the static site to GitHub Pages. No application server or database is required.
+
+Both public views show only awards with a disclosed total value of at least **$10,000**. Lower-value and undisclosed-value records remain in the canonical historical archive; the threshold affects presentation and exports only. The monthly CSV control exports the visible table schema for the selected month and year from the active Internal or External tab.
 
 ## Sources
 

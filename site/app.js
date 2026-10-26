@@ -70,7 +70,7 @@ async function loadData() {
     if (failure) throw failure.reason;
     state.records = results[0].value;
     state.metadata = results[1].value;
-    setupMetadata(); populateSelects(); applyFilters();
+    setupMetadata(); populateSelects(); populateExportPeriod(); applyFilters();
   } catch (error) {
     $("#loading-state").hidden = true;
     $("#empty-state").hidden = true;
@@ -115,6 +115,37 @@ function populateSelects() {
   addOptions("#company-filter", active.map(r => r.company?.canonical_name));
 }
 
+function recordDate(record) { return record.announcement_date || record.action_date || ""; }
+function populateExportPeriod() {
+  const datedRecords = viewRecords().filter(record => /^\d{4}-\d{2}-\d{2}$/.test(recordDate(record))).sort((a,b) => recordDate(b).localeCompare(recordDate(a)));
+  const yearSelect = $("#export-year");
+  const previousYear = yearSelect.value;
+  const previousMonth = $("#export-month").value;
+  const hasPreviousPeriod = Boolean(previousYear);
+  const years = [...new Set(datedRecords.map(record => recordDate(record).slice(0, 4)))];
+  yearSelect.replaceChildren(...years.map(year => new Option(year, year)));
+  const latestDate = recordDate(datedRecords[0]);
+  if (years.includes(previousYear)) yearSelect.value = previousYear;
+  else if (latestDate) yearSelect.value = latestDate.slice(0, 4);
+  if (hasPreviousPeriod && previousMonth) $("#export-month").value = previousMonth;
+  else if (latestDate) $("#export-month").value = String(Number(latestDate.slice(5, 7)));
+  updateMonthlyExportState();
+}
+
+function monthlyExportRecords() {
+  return MarketView.recordsForMonth(viewRecords(), $("#export-year").value, $("#export-month").value)
+    .sort((a,b) => recordDate(b).localeCompare(recordDate(a)));
+}
+
+function updateMonthlyExportState() {
+  const records = $("#export-year").value ? monthlyExportRecords() : [];
+  const label = state.activeView === "work" ? "external" : "internal";
+  $("#download-month").textContent = `Export ${label} month`;
+  $("#download-month").disabled = records.length === 0;
+  $("#monthly-export-count").textContent = `${records.length.toLocaleString()} qualifying ${records.length === 1 ? "award" : "awards"}`;
+  $("#monthly-export-help").textContent = `Exports the ${state.activeView === "work" ? "External Companies in MoCo" : "Internal"} table for the selected month, including only disclosed values of at least $10,000.`;
+}
+
 function cutoffDate(mode) {
   const latest = state.metadata?.last_updated ? new Date(state.metadata.last_updated) : new Date();
   if (mode === "all" || mode === "custom") return null;
@@ -139,7 +170,7 @@ function applyFilters() {
     const datePass = dateMode === "custom" ? (!from || (date && date >= from)) && (!to || (date && date <= to)) : !cutoff || (date && date >= cutoff);
     const hqStatus = record.company?.hq_status;
     const hqPass = state.activeView === "work" || hq === "all" || (hq === "local" ? qualifiedStatuses.has(hqStatus) : hq === "review" ? [...qualifiedStatuses, "needs_review"].includes(hqStatus) : ["verified","strong"].includes(hqStatus));
-    return datePass && hqPass && (!query || searchable(record).includes(query)) && (!category || record.classification?.primary === category) && (!agency || record.award?.agency === agency) && (!company || record.company?.canonical_name === company) && (!minAmount || Number(record.award?.amount || 0) > minAmount);
+    return datePass && hqPass && (!query || searchable(record).includes(query)) && (!category || record.classification?.primary === category) && (!agency || record.award?.agency === agency) && (!company || record.company?.canonical_name === company) && Number(record.award?.amount || 0) >= minAmount;
   });
   sortRecords(); render();
 }
@@ -226,13 +257,24 @@ function openDetail(r) {
 }
 
 function exportFilteredCsv() {
-  const exportObjects = MarketView.exportRows(state.filtered);
-  const headers = Object.keys(exportObjects[0] || {Date:"",Company:"","Company Location":"",Amount:"",Agency:"",Category:"","What It Was For":"","MoCo Work Location":"","Contract #":"",Source:"","Market Relationship":""});
+  const exportObjects = MarketView.exportRows(state.filtered, state.activeView);
+  downloadCsv(exportObjects, state.activeView === "work" ? "external-companies-in-moco-filtered.csv" : "internal-montgomery-county-companies-filtered.csv");
+}
+function downloadCsv(exportObjects, filename) {
+  const fallback = state.activeView === "work"
+    ? {Date:"",Company:"","Company Location":"",Amount:"",Agency:"",Category:"","What It Was For":"","MoCo Work Location":"","Contract #":"",Source:""}
+    : {Date:"",Company:"",Amount:"",Agency:"",Category:"","What It Was For":"","Work Location":"","Contract #":"",Source:""};
+  const headers = Object.keys(exportObjects[0] || fallback);
   const rows = exportObjects.map(row => headers.map(header => row[header]));
   const csv = [headers, ...rows].map(row => row.map(value => `"${safe(value,"").replaceAll('"','""')}"`).join(",")).join("\r\n");
-  const filename = state.activeView === "work" ? "work-in-montgomery-county-filtered.csv" : "montgomery-county-companies-filtered.csv";
   const link = Object.assign(document.createElement("a"), {href: URL.createObjectURL(new Blob([csv], {type:"text/csv;charset=utf-8"})), download:filename});
   link.click(); URL.revokeObjectURL(link.href);
+}
+function exportMonthlyCsv() {
+  const year = $("#export-year").value;
+  const month = String(Number($("#export-month").value)).padStart(2, "0");
+  const label = state.activeView === "work" ? "external-companies-in-moco" : "internal-montgomery-county-companies";
+  downloadCsv(MarketView.exportRows(monthlyExportRecords(), state.activeView), `${label}-${year}-${month}.csv`);
 }
 function setActiveView(view) {
   state.activeView = view;
@@ -250,10 +292,10 @@ function setActiveView(view) {
   $("#metric-value-label").textContent = work ? "Federal award value" : "Announced value";
   $("#metric-companies-label").textContent = work ? "Outside companies" : "Companies";
   $("#metric-companies-note").textContent = work ? "recipients based outside the county" : "Montgomery County entities";
-  clearFilters(); populateSelects(); applyFilters();
+  clearFilters(); populateSelects(); populateExportPeriod(); applyFilters();
 }
 function clearFilters() {
-  $("#search").value = ""; $("#date-filter").value = "30"; $("#category-filter").value = ""; $("#agency-filter").value = ""; $("#company-filter").value = ""; $("#amount-filter").value = "0"; $("#hq-filter").value = "local"; $("#sort-filter").value = "newest"; $("#custom-dates").hidden = true; applyFilters();
+  $("#search").value = ""; $("#date-filter").value = "30"; $("#category-filter").value = ""; $("#agency-filter").value = ""; $("#company-filter").value = ""; $("#amount-filter").value = "10000"; $("#hq-filter").value = "local"; $("#sort-filter").value = "newest"; $("#custom-dates").hidden = true; applyFilters();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -261,6 +303,8 @@ document.addEventListener("DOMContentLoaded", () => {
   ["#search","#date-from","#date-to"].forEach(id => $(id).addEventListener("input", applyFilters));
   ["#date-filter","#category-filter","#agency-filter","#company-filter","#amount-filter","#hq-filter","#sort-filter"].forEach(id => $(id).addEventListener("change", () => { if (id === "#date-filter") $("#custom-dates").hidden = $(id).value !== "custom"; applyFilters(); }));
   $("#clear-filters").addEventListener("click", clearFilters); $("#download-filtered").addEventListener("click", exportFilteredCsv);
+  ["#export-month", "#export-year"].forEach(id => $(id).addEventListener("change", updateMonthlyExportState));
+  $("#download-month").addEventListener("click", exportMonthlyCsv);
   $("#retry-load").addEventListener("click", loadData);
   $("#dialog-close").addEventListener("click", () => $("#detail-dialog").close());
   $("#detail-content").addEventListener("click", async event => {
