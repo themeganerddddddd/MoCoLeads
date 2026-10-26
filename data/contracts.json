@@ -75,7 +75,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0001_1205_12314422A0002_1205/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -182,7 +182,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0423F0992_1406_GS00F009DA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       },
@@ -190,7 +190,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0423F0298_1406_GS00F009DA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -293,7 +293,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027C00002_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -400,7 +400,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C25727N0088_3600_36C25725D0009_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -503,7 +503,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00046_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -606,7 +606,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00042_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -709,7 +709,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N90024C00005_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -812,7 +812,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97024F00011_7529_GS35F0426R_4730/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -915,7 +915,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD25FC0000034_7012_70CTD023A00000001_7012/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1020,7 +1020,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00002_2099_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1123,7 +1123,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HSTS0109JOPP254_7013_HSTS0109DOSO900_7013/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       },
@@ -1131,7 +1131,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HSTS0112JFDO009_7013_HSTS0109DOSO900_7013/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       },
@@ -1139,7 +1139,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HSTS0112JOTT004_7013_HSTS0109DOSO900_7013/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -1242,7 +1242,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00005_7529_75N93019D00026_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1343,7 +1343,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4632813/contracts-for-oct-23-2026/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       },
@@ -1351,7 +1351,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -1458,7 +1458,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27F80007_7571_NNG15SD19B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1561,7 +1561,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERL27F0003_6800_68HE0P24A0005_6800/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1664,7 +1664,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27F80004_7571_HHSN316201500059W_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1767,7 +1767,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_50310223F0158_5000_50310221G0006_5000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1874,7 +1874,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_86615426C00002_8600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1977,7 +1977,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PD5226F0288_4740_47PH0223D0003_4740/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2080,7 +2080,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_89303026FIM000201_8900_89303025AIM000022_8900/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2183,7 +2183,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40123F19046_7524_75F40122A00009_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2290,7 +2290,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00039_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2393,7 +2393,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00004_7529_GS00F286CA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2496,7 +2496,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H624F00033_2036_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2599,7 +2599,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140GG027P0006_1406_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2706,7 +2706,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2031JW27F00009_2046_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2813,7 +2813,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B51527F00000011_1540_15B51521A00000017_1540/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -2916,7 +2916,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C326F00075_1605_1605C323D0003_1605/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3019,7 +3019,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_16PBGC24C0037_1665_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3122,7 +3122,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C10G27F0001_3600_36C79119D0004_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       },
@@ -3130,7 +3130,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C10G27F0002_3600_36C79119D0005_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       }
@@ -3233,7 +3233,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JPSS26F00001629_1501_GS03F102CA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3336,7 +3336,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70T01026F7573N001_7013_70T02023A7573N001_7013/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3439,7 +3439,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80TECH27FA011_8000_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3546,7 +3546,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B80027P00000005_1540_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3649,7 +3649,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99027F00001_7529_75N99025D00001_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       },
@@ -3657,7 +3657,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99027F00001_7529_75N99026A00007_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       },
@@ -3665,7 +3665,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99027F00001_7529_75N99024A00004_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       },
@@ -3673,7 +3673,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99027F00001_7529_75N99026A00017_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -3776,7 +3776,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80LARC25P0003_8000_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3879,7 +3879,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990024F0393_9100_91990021D0004_9100/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -3982,7 +3982,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75H70425P00003_7527_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -4085,7 +4085,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00006_7529_75N93019D00027_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -4190,7 +4190,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24525N0689_3600_36C24523D0134_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -4293,7 +4293,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FDCMS0006_7008_47QRCA24DW187_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -4396,7 +4396,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00024_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -4499,7 +4499,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PE5427F0011_4740_47PF0022A0011_4740/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -4602,7 +4602,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1333LB23P00000085_1323_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -4705,7 +4705,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1232SA27F0002_12H2_47QTCA25D00DU_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -4808,7 +4808,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0265_1330_1305M424D0047_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -4911,7 +4911,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75P00119F00001_7570_GS35F0046N_4730/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5014,7 +5014,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F12500002_7008_70RWMD26AP0000001_7001/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5117,7 +5117,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M326F0109_1330_47QTCA23D006D_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5220,7 +5220,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00029_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5327,7 +5327,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0FX2_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       },
@@ -5335,7 +5335,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0FX1_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       },
@@ -5343,7 +5343,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0FX3_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       }
@@ -5446,7 +5446,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC24F0232_7530_47QTCA19D00GF_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5549,7 +5549,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140L6325F0011_1422_140L0622A0009_1422/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5652,7 +5652,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40121C00072_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5755,7 +5755,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70B01C26F00001079_7014_70B01C26D00000021_7014/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5858,7 +5858,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_GSQ0017AJ0079_4732_GS00Q09BGD0039_4735/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -5961,7 +5961,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSP233201400409G_7555_GS10F203AA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6068,7 +6068,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75P00124F37005_7570_75P00123A00007_7570/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6171,7 +6171,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140L4024F0015_1422_140L0622A0009_1422/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6274,7 +6274,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70RFP126FRE400015_7001_70RFP124DE4000002_7001/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6381,7 +6381,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N94023P00260_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6488,7 +6488,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75P00120F80221_7570_75N98018D00036_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6591,7 +6591,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM1125F0021_4740_47PF0023D0006_4740/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6698,7 +6698,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2099AC27F00012_2099_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6797,7 +6797,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z04425FC2PL0005_7008_70Z04422DC2PL0002_7008/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -6900,7 +6900,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75H70126F80002_7527_47QTCB21D0044_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -7007,7 +7007,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N94023P00011_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -7110,7 +7110,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B12226F00000040_1540_47QSWA23D009E_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -7213,7 +7213,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_88310326F00110_8800_88310326D00001_8800/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -7320,7 +7320,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00026_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -7423,7 +7423,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24E25N0087_3600_36C24E24D0022_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -7526,7 +7526,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PD5226F0235_4740_47PH0223D0003_4740/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -7629,7 +7629,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_693JK426C600016_6901_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -7736,7 +7736,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95025F00066_7529_GS35F023GA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -7839,7 +7839,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00007_7529_75N93019D00027_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -7942,7 +7942,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_50310221F0077_5000_50310221G0006_5000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8045,7 +8045,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990025F0100_9100_91990023D0017_9100/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8148,7 +8148,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97023F00106_7529_GS00F010CA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8253,7 +8253,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97023F00082_7529_47QTCA20D0077_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8356,7 +8356,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_89233025FNR400117_8900_GS00F243CA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8459,7 +8459,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24524P0252_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8562,7 +8562,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC23CA040_8000_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8665,7 +8665,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70B06C25F00001296_7014_70RDAD22A00000003_7001/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8768,7 +8768,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70B03C22F00000932_7014_GS03F102CA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8871,7 +8871,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_50310226F0008_5000_50310221A0001_5000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -8974,7 +8974,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C26226N0337_3600_36C26225D0053_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9081,7 +9081,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_12639527P0003_12K3_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9188,7 +9188,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSP233201600073C_7570_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9295,7 +9295,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0425F0920_1406_47QRAA19D001A_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9398,7 +9398,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD26FC0000032_7012_70CMSD24A00000002_7012/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9505,7 +9505,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N92023F00097_7529_GS07F6003R_4730/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9612,7 +9612,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00011_7529_75N93019D00024_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       },
@@ -9620,7 +9620,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00011_7529_75N93019D00027_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       }
@@ -9723,7 +9723,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140L1723F0079_1422_140L0622A0009_1422/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       },
@@ -9731,7 +9731,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140L1724F0036_1422_140L0622A0009_1422/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": false
       }
@@ -9834,7 +9834,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00008_7529_75N93019D00026_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -9941,7 +9941,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2031JW23F00110_2046_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10048,7 +10048,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2099AC27F00001_2099_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10151,7 +10151,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000139_7003_47QTCA18D00AX_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10258,7 +10258,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990021F0341_9100_91990020A0032_9100/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10361,7 +10361,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P00305_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -10464,7 +10464,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_33330225CF0010353_3300_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10557,7 +10557,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_F15CW10510_3300_F14CC10155_3300/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10660,7 +10660,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_693KA925F00090_6920_DTFAWA17A00030_6920/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -10763,7 +10763,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PD5226F0220_4740_47PH0223D0003_4740/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10866,7 +10866,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27P00001_7571_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -10969,7 +10969,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26C0587_1900_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       },
@@ -10977,7 +10977,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70FA5026P00000094_7022_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": false
       }
@@ -11080,7 +11080,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_6973GH26F00447_6920_6973GH26D00022_6920/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11187,7 +11187,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2099AC27F00002_2099_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11290,7 +11290,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSP233201500255G_7555_GS35F0281W_4730/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11393,7 +11393,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990025C0008_9100_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11496,7 +11496,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27FA035_8000_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11603,7 +11603,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERW27F0001_6800_47QTCA19D0009_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11710,7 +11710,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2031LL27F00001_2004_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11813,7 +11813,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR25F00000096_7003_GS10F177AA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -11920,7 +11920,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_28321327FDX030002_2800_NNG15SD80B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12023,7 +12023,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00019_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12126,7 +12126,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75P00120P00137_7570_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12233,7 +12233,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1333BJ18F00284065_1344_DOC45PAPT1320017_1344/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12336,7 +12336,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00020_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12443,7 +12443,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z0G327FAPP10001_7008_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12546,7 +12546,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM1023F0001_4740_GS06F0062S_4730/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12649,7 +12649,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0424F1118_1406_NNG15SC71B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -12752,7 +12752,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24123P0170_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -16939,7 +16939,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00002_7529_75N98024D00007_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -21178,7 +21178,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N92025D00022_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": false
       },
@@ -21186,7 +21186,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N92026D00002_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": false
       },
@@ -21194,7 +21194,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N92025D00026_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": false
       },
@@ -21202,7 +21202,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N98022A00040_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       },
@@ -21210,7 +21210,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N95021D00010_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       },
@@ -21218,7 +21218,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N90024D00006_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       },
@@ -21226,7 +21226,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00001_7529_75N91022A00005_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -23429,7 +23429,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0E6B_4732_47QSSC26A000E_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": false
       }
@@ -25614,7 +25614,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERC24F0495_6800_68HERC24A0015_6800/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -27184,7 +27184,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C10G27F0003_3600_36C79119D0006_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       },
@@ -27624,7 +27624,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C25225P0083_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": false
       }
@@ -31037,7 +31037,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24823P0011_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -35433,7 +35433,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F00405_7571_NNG15SD80B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -37011,7 +37011,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_61320623F0005_6100_47QSMA21D08R3_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -37851,7 +37851,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC26F0171_7530_47QRAA21D0033_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -40144,7 +40144,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99026F00026_7529_75N99024D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -43154,7 +43154,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00001_7529_75N90023A00004_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       },
@@ -45117,7 +45117,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126F19018_7524_75F40124A00007_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       },
@@ -49101,7 +49101,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99022F00002_7529_75N99019D00016_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       },
@@ -54813,7 +54813,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126F19005_7524_75F40121A00005_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       },
@@ -56542,7 +56542,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00002_7529_75N90025A00002_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       },
@@ -71537,7 +71537,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99022F00036_7529_SPE60421D7500_9700/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -73179,7 +73179,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00006_7529_75N98026D00030_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       },
@@ -84235,7 +84235,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99026F00004_7529_75N99024D00018_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": false
       },
@@ -92538,7 +92538,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40123F19001_7524_75F40123D00004_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       }
@@ -100548,7 +100548,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126F19004_7524_75F40125A00011_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       },
@@ -101440,7 +101440,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QACA26F0496_4732_47QACA26A0057_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -102221,7 +102221,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01301_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -107145,7 +107145,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95026F00001_7529_75N95021D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       },
@@ -107153,7 +107153,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95026F00001_7529_75N95021D00010_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       }
@@ -115623,7 +115623,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990022C0051_9100_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -118180,7 +118180,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95026F00005_7529_75N95021D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": false
       }
@@ -130725,7 +130725,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571PS26F68008_7571_75N95021D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": false
       }
@@ -130828,7 +130828,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99022F00013_7529_GS00P16BSD1206_4740/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -132667,7 +132667,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95025F00014_7529_75N95021D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       },
@@ -157140,7 +157140,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_28321326FA0010090_2800_28321321A00040015_2800/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -161040,7 +161040,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JA0525C00000010_1501_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -173412,7 +173412,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1333ND25FNB180069_1341_47QTCA18D00DU_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -175078,7 +175078,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02323F92800002_7008_GS00Q14OADS111_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -201081,7 +201081,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M426F0086_1330_NNG15SD11B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -209960,7 +209960,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_86614623C00001_8600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -211868,7 +211868,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24523P0735_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -214180,7 +214180,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95026F00013_7529_75N95021D00012_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       },
@@ -224887,7 +224887,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15M40026FA3500027_1544_47QTCA18D0081_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -234427,7 +234427,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47QSSC27F0GMU_4732_47QSSC26A000H_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       }
@@ -236721,7 +236721,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERL26F0132_6800_68HE0P24A0005_6800/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -244635,7 +244635,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93025F00001_7529_75N93019D00027_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       }
@@ -274115,7 +274115,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M226F0066_1330_1305M225A0002_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -278817,7 +278817,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B51526F00000015_1540_15B51521A00000060_1540/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -283824,7 +283824,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40125F19014_7524_75F40120D00020_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -287605,7 +287605,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95024F00109_7529_75N95021D00010_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -295364,7 +295364,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HERW26F0178_6800_68HERC24A0002_6800/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -299978,7 +299978,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426C0040_1406_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -305991,7 +305991,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00022_7529_75N95021D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       },
@@ -314382,7 +314382,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M426F0085_1330_NNG15SD60B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -321144,7 +321144,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126P00251_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -335726,7 +335726,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC25FJ113_7530_36F79723D0002_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -356284,7 +356284,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B60826F00000104_1540_36F79726D0023_3600/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -368391,7 +368391,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99025C00022_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -369017,7 +369017,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M225F0286_1330_1305M225A0002_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -372874,7 +372874,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310025F0064_3100_47QRAA24D009N_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -388666,7 +388666,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98025C00014_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -420411,7 +420411,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JPSS24F00000188_1501_GS35F0235U_4730/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -421085,7 +421085,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95025F00003_7529_75N95021D00011_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       }
@@ -422751,7 +422751,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571PS26F80033_7571_75N93025D00001_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -430600,7 +430600,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M225F0273_1330_1305M225A0002_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -456076,7 +456076,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M225F0258_1330_1305M225A0002_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -456702,7 +456702,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M225F0284_1330_1305M225A0002_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -457974,7 +457974,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_89243126FSC000021_8900_89303025AIM000023_8900/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -501399,7 +501399,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Robin Cibrano",
+        "title": "Principal",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NAYDQDDJG8W7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -508703,7 +508713,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Errin Green",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/V5GUTNN46EK6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -508796,7 +508816,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Roustem D Saiakhov",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/VR7GK47SL858/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -508893,7 +508923,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Gang Kai Poh",
+        "title": "Owner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EU1QGC6BA995/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -508986,7 +509026,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Joe D'Andrea",
+        "title": "Contract Administrator",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EUL7TR9MX1H9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -509515,7 +509565,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Ariel Russell",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/X1NCU18Q19T9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -509644,7 +509704,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "MANU UPPAL",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KCBMZ9CX26C8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -510165,7 +510235,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Sreedhar Chanamolu",
+        "title": "VP",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TFJMJ4YJ95C5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -510367,7 +510447,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Sandeep Suri",
+        "title": "Mr.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZS5CMPHGBK85/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -510678,7 +510768,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Erik M Sell",
+        "title": "Sr VP Government  Contracting",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PFA6BBPHE2T8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -510771,7 +510871,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Curtis Beyer",
+        "title": "Senior Counsel",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/UKP9XPKMCGT5/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -511074,7 +511184,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Qian Dresp",
+        "title": "Senior Manager, Government Programs & Pricing",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZKN3LZ6VP556/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -511167,7 +511287,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Danielle Cibello",
+        "title": "VP Sales",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JQJXT7N7J438/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -512128,7 +512258,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Troy Doller",
+        "title": "Senior Director, Government Sales",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JJKKJ9PYWAP1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -512221,7 +512361,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jay B Umholtz",
+        "title": "Vice President, Government Solutions",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y479Y7CNRYJ7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -513768,7 +513918,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Alex Shovaly",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SENNVSJDUES4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -514178,7 +514338,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "WILLIAM GRAHAM",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/MSJ8NJQDMWB1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -515210,7 +515380,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Elizabeth J Tarquin",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J79PD1VNHN81/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -515303,7 +515483,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "DANIEL Laxton",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/E2NGNK5SGK87/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -516139,7 +516329,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "JONATHAN LEBBY",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/U2P6HC1KJWN3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -516236,7 +516436,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Linda Haddad",
+        "title": "President/CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/VJ5GAPQ3PN45/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -516329,7 +516539,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Kevin Hamer",
+        "title": "Chief Executive Officer",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RTE3PY2JTCR3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -517171,7 +517391,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "MARCY Sculley",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J24MW8EKHC15/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -517367,7 +517597,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "TONY BESASIE",
+        "title": "Chief Sales & Marketing Officer",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PAZHQEMYTSD8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -517567,7 +517807,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Roman Berdychevski",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y1LECHAMT3Q7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -519249,7 +519499,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Timothy H Schilbach",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H87BYF1M2HV9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -519552,7 +519812,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Craig A Mount",
+        "title": "Program Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/F6LWXKL8G819/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -519752,7 +520022,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "RICHARD LUXENBERG",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KCRFCPNJAYT7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -520154,7 +520434,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Venkat Veeramneni",
+        "title": "President/CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NYUCLC7Y8AG1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -520568,7 +520858,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Manjit Singh",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HJLDZFVPNNX7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -520768,7 +521068,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Stacy Catanach",
+        "title": "Associate Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/G389MFAYJNG9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -520968,7 +521278,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Mellissa Brandt",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KLD9H6G65LW6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -521596,7 +521916,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Suzie Yin Har Schmieder",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/QQNHKQM5N2W1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -524482,7 +524812,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N91023F00001_7529_75N98022D00034_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": false
       }
@@ -525631,7 +525961,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Tessa M Ryker",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/QS7KRGY1LDF6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -526027,7 +526367,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "MARIA KOLB",
+        "title": "Sales Administrator",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/MFD1M8EGV4Y9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -526124,7 +526474,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jon Sievert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N38NEXPESGF8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -526217,7 +526577,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Fernanda Stevens",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DBDJB8EBJZ85/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -526310,7 +526680,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "PATCHI GRUSHOLT",
+        "title": "Manager, Legal Corporate Compliance and FSO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JFXMP1DYAWK9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -526506,7 +526886,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Victor Tchiprout",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Z4PKS3DSFYS8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -526702,7 +527092,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Stephen D Rapp",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DXYPJFHB21D6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -526876,7 +527276,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Miriam Haj-Ahmad",
+        "title": "Executive Asst.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SB5ZH66FTV27/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -527538,7 +527948,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Olha Katynska",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5JMG3517VM7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -528051,7 +528471,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Steve Ricke",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TK67EL9NPMD9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -528675,7 +529105,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Faisal Quader",
+        "title": "Preisdent",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KAEHGAS4WKH7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -528768,7 +529208,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lisa K Garcia",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WRMWVFF8J7Z3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -529563,7 +530013,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "RIC P HAMMETT",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J25LZMLKHLS7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -529977,7 +530437,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Eileen Mood",
+        "title": "Managing Member",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/V83QKZATUEL9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -530274,7 +530744,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "KATHRYN L HARRIS",
+        "title": "Dr.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y9WLQ9BCGKU8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -530680,7 +531160,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Justin Lu",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/M8X8UMJN4285/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -531488,7 +531978,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jacqueline M Rodriguez",
+        "title": "Sr Acct Mgr Clnt Svc",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/T2SDN8AHFSY6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -532001,7 +532501,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Greg Conville",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NC4HD64269K4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -532094,7 +532604,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "David Andersen",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/F735CR855KA3/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -532397,7 +532917,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Gregg Spagnolo",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JRVYBYF79D83/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -532807,7 +533337,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -533003,7 +533543,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Krista Nazelrod",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RGF1VPYZ4U13/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -533096,7 +533646,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Pablo Kizelsztein",
+        "title": "Director, Research Authority",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/FZGGEMMR3PP9/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -533373,7 +533933,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Marina A Amat",
+        "title": "Managing Partner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y434LKXQF9M4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -534310,7 +534880,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Zane Maden",
+        "title": "Corporate Legal Counsel",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CJSZL2YC2R43/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -534621,7 +535201,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Sharee Hixson",
+        "title": "President & CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C44JAE11LNB8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -534714,7 +535304,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Scott Lee",
+        "title": "Parts Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/V36VBWZ6ZVK8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -535558,7 +536158,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Monica Rust",
+        "title": "Director of Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H8L4SLLMSV15/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -535754,7 +536364,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Renee Connolly",
+        "title": "Sr. Manager, Contracts & Billing",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/FKMQJVS8MJL1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -536263,7 +536883,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Stephen J Yuter",
+        "title": "Director, Government Contracts",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y1BCLK312MY7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -536667,7 +537297,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Joseph Jacovino",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/YQQ3FTQ733D6/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -539226,7 +539866,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B31626F00000023_1540_15B31621A00000215_1540/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -540159,7 +540799,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571PS26F80027_7571_47QTCA22D001A_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -543275,7 +543915,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N93024C00040_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -544206,7 +544846,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1332KP22FNEEA0044_1330_1332KP22DNEEG0002_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -552327,7 +552967,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSN292201400014U_7529_DEAM3609GO29039_8900/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -563372,7 +564012,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571PS26F68002_7571_75N95021D00013_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -565278,7 +565918,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jon Sievert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N38NEXPESGF8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -573831,7 +574481,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Krista Nazelrod",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RGF1VPYZ4U13/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -574417,7 +575077,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126P00104_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -600916,7 +601576,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jon Sievert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N38NEXPESGF8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -608411,7 +609081,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95025F00004_7529_75N95021D00010_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": false
       }
@@ -629979,7 +630649,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B51526F00000066_1540_15B51521A00000017_1540/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -637116,7 +637786,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Troy Doller",
+        "title": "Senior Director, Government Sales",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JJKKJ9PYWAP1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -637399,7 +638079,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C226F00011_1605_47QRAA19D00A2_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -637512,7 +638192,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Venkat Veeramneni",
+        "title": "President/CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NYUCLC7Y8AG1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -674307,7 +674997,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z08025P29580B00_7008_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -695752,7 +696442,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Krista Nazelrod",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RGF1VPYZ4U13/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -702853,7 +703553,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99024F00006_7529_75N99020D00013_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       },
@@ -721044,7 +721744,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_15BNAS21FW9M10055_1540_NNG15SC15B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -739663,7 +740363,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40122F19008_7524_75F40122A00009_7524/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": false
       }
@@ -742867,7 +743567,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C24525P0102_3600_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -745081,7 +745781,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M423FNAAJ0081_1330_1305L420ANAAJ0052_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -776142,7 +776842,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PC5426P0020_4740_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -785169,7 +785869,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0425C0049_1406_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -786763,7 +787463,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M323FNFFK0110_1330_1305M418DNFFK0010_1330/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -852116,7 +852816,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Krista Nazelrod",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RGF1VPYZ4U13/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -869053,7 +869763,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -885127,7 +885847,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Venkat Veeramneni",
+        "title": "President/CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NYUCLC7Y8AG1/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -906844,7 +907574,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Zane Maden",
+        "title": "Corporate Legal Counsel",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CJSZL2YC2R43/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -911256,7 +911996,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "RICHARD LUXENBERG",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KCRFCPNJAYT7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -924723,7 +925473,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -939461,7 +940221,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -942390,7 +943160,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341123F00010_2036_47QTCA18D0081_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -946960,7 +947730,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Zane Maden",
+        "title": "Corporate Legal Counsel",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CJSZL2YC2R43/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -959255,7 +960035,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00007_2036_GS00F136CA_4732/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-19",
         "primary": true
       }
@@ -980795,7 +981575,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -987832,7 +988622,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Greg Conville",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NC4HD64269K4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -999353,7 +1000153,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1000163,7 +1000973,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jon Sievert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N38NEXPESGF8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1013436,7 +1014256,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_1331L522FNAAJ0439_1301_NNG15SD68B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -1020323,7 +1021143,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Faisal Quader",
+        "title": "Preisdent",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KAEHGAS4WKH7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1026148,7 +1026978,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Krista Nazelrod",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RGF1VPYZ4U13/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1026639,7 +1027479,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM23F1266_1900_19AQMM18D0073_1900/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-21",
         "primary": true
       }
@@ -1040379,7 +1041219,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jon Sievert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N38NEXPESGF8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1047442,7 +1048292,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1058321,7 +1059181,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Greg Conville",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NC4HD64269K4/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1094258,7 +1095128,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40126P00020_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -1096636,7 +1097506,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Krista Nazelrod",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RGF1VPYZ4U13/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "outside_company_working_in_moco",
@@ -1120989,7 +1121869,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "RIC P HAMMETT",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J25LZMLKHLS7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1121086,7 +1121976,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1128027,7 +1128927,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1142028,7 +1142938,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "RIC P HAMMETT",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J25LZMLKHLS7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1161800,7 +1162720,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1172125,7 +1173055,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95026F00003_7529_75N95021D00013_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1175424,7 +1176354,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_693KA818F00069_6920_DTFAWA17D00040_6920/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-22",
         "primary": true
       }
@@ -1184083,7 +1185013,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1198698,7 +1199638,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0099_3600_NNG15SD21B_8000/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1219583,7 +1220523,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N95024F00082_7529_75N95021D00013_7529/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-20",
         "primary": true
       }
@@ -1255016,7 +1255956,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1292975,7 +1293925,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1296234,7 +1297194,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1296959,7 +1297929,7 @@
         "name": "USAspending",
         "source_type": "structured_award",
         "source_url": "https://www.usaspending.gov/award/CONT_AWD_70B03C25F00000912_7014_70RDAD22A00000003_7001/",
-        "retrieved_at": "2026-10-25T15:01:11Z",
+        "retrieved_at": "2026-10-26T17:24:41Z",
         "announcement_date": "2026-10-23",
         "primary": true
       }
@@ -1312473,7 +1313443,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1312572,7 +1313552,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Jon Sievert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N38NEXPESGF8/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1315241,7 +1316231,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Olha Katynska",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y5JMG3517VM7/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1316045,7 +1317045,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",
@@ -1319962,7 +1320972,17 @@
       "registry_company_id": null
     },
     "contacts": {
-      "company": null,
+      "company": {
+        "name": "Lori Marler",
+        "title": "Credentialing Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EJLTKDV69789/coreData?status=Active",
+        "verified_date": null
+      },
       "federal": null
     },
     "market_relationship": "moco_company_working_in_moco",

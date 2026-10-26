@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T15:01:11Z",
+  "generated_at": "2026-10-26T17:24:41Z",
   "contact_enrichment": {
     "companies_examined": 3020,
-    "company_contacts_found": 1584,
-    "named_company_contacts": 1584,
+    "company_contacts_found": 1648,
+    "named_company_contacts": 1648,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
@@ -11,7 +11,7 @@
     "federal_award_contacts": 0
   },
   "bootstrap": {
-    "previous_archive_records": 12997,
+    "previous_archive_records": 13015,
     "required_moco_record_floor": 470,
     "moco_company_records": 6735,
     "moco_record_floor_passed": true,
