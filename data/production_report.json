@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-28T17:11:24Z",
+  "generated_at": "2026-10-29T17:27:17Z",
   "contact_enrichment": {
-    "companies_examined": 3020,
-    "company_contacts_found": 1787,
-    "named_company_contacts": 1787,
+    "companies_examined": 3031,
+    "company_contacts_found": 1857,
+    "named_company_contacts": 1857,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 73,
+    "sam_poc_names_found_this_run": 71,
     "federal_award_contacts": 0
   },
   "bootstrap": {
-    "previous_archive_records": 13018,
+    "previous_archive_records": 13020,
     "required_moco_record_floor": 470,
-    "moco_company_records": 6740,
+    "moco_company_records": 6780,
     "moco_record_floor_passed": true,
-    "outside_company_working_in_moco_records": 6280,
+    "outside_company_working_in_moco_records": 6294,
     "work_records_earliest_date": "2026-01-30",
-    "work_records_latest_date": "2026-10-23",
+    "work_records_latest_date": "2026-10-27",
     "largest_10": [
       {
         "company": "ORANO FEDERAL SERVICES LLC",
@@ -83,7 +83,7 @@
     "most_active_10": [
       {
         "company": "KELLY SERVICES, INC.",
-        "records": 220
+        "records": 221
       },
       {
         "company": "TRADEBE ENVIRONMENTAL SERVICES, LLC",
@@ -95,7 +95,7 @@
       },
       {
         "company": "GAP SOLUTIONS, INC.",
-        "records": 85
+        "records": 86
       },
       {
         "company": "CARAHSOFT TECHNOLOGY CORP",
