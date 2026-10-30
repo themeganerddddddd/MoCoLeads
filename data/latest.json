@@ -1,5 +1,942 @@
 [
   {
+    "id": "moco-a708bb04effeb5e6",
+    "announcement_date": "2026-10-29",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "bae-systems-inc-rockville",
+      "canonical_name": "BAE Systems Inc.",
+      "legal_name": "BAE Systems Inc.",
+      "uei": null,
+      "ultimate_parent": "BAE Systems plc",
+      "hq_city": "Rockville",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.9,
+      "moco_city": "Rockville",
+      "moco_basis": "verified_local_legal_entity",
+      "moco_confidence": 0.9
+    },
+    "award": {
+      "amount": 66526423,
+      "amount_display": "$66.5M",
+      "agency": "Department of Defense",
+      "subagency": "Navy",
+      "contract_number": "N0002427C4405",
+      "award_id": null,
+      "description": "maintenance, modernization and repair of USS St Louis (LCS 19) Fiscal 2027 Docking Selected Restricted Availability",
+      "naics": null,
+      "psc": null,
+      "award_type": "Contract",
+      "expected_completion": "December 2027",
+      "expected_completion_date": null,
+      "award_date": "2026-10-28",
+      "action_type": "Contract",
+      "contract_type": "firm-fixed-price",
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": "BAE Systems Maritime Solutions Jacksonville LLC, Jacksonville, Florida, was awarded a $66,526,423 firm-fixed-price contract action for maintenance, modernization and repair of USS St Louis (LCS 19) Fiscal 2027 Docking Selected Restricted Availability"
+    },
+    "location": {
+      "recipient_location": "Jacksonville, Florida",
+      "place_of_performance": "Mayport, Florida",
+      "work_locations": [
+        "Mayport, Florida"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Defense",
+      "secondary": []
+    },
+    "source": {
+      "name": "War.gov",
+      "source_type": "announcement",
+      "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4637206/contracts-for-oct-29-2026/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-29",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "War.gov",
+        "source_type": "announcement",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4637206/contracts-for-oct-29-2026/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-29",
+        "primary": true
+      },
+      {
+        "name": "Pipeworx",
+        "source_type": "retrieval_fallback",
+        "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-29",
+        "primary": false
+      }
+    ],
+    "match": {
+      "method": "alias_prefix",
+      "registry_company_id": "bae-systems-inc-rockville"
+    },
+    "contacts": {
+      "company": null,
+      "federal": null
+    },
+    "retrieval": {
+      "discovery_method": "war_rss",
+      "content_method": "pipeworx_fallback"
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-ff91129cd8994a44",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-glgwmh9bmp76",
+      "canonical_name": "GOVCONNECTION INC",
+      "legal_name": "GOVCONNECTION INC",
+      "uei": "GLGWMH9BMP76",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": -5658.52,
+      "amount_display": "$-5.7K",
+      "agency": "Council of the Inspectors General on Integrity and Efficiency",
+      "subagency": "Council of the Inspectors General on Integrity and Efficiency",
+      "contract_number": "9531BL24P0036",
+      "award_id": "9531BL24P0036",
+      "description": "ADOBE LICENSEES",
+      "naics": "513210",
+      "psc": "N059",
+      "award_type": "PURCHASE ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_9531BL24P0036_9511_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_9531BL24P0036_9511_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Raymond H McIlwain",
+        "title": "Sr. Director Contracts & Compliance",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GLGWMH9BMP76/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-fa1181c749f7e73d",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-nrnemln2llu1",
+      "canonical_name": "IMPYRIAN LLC",
+      "legal_name": "IMPYRIAN LLC",
+      "uei": "NRNEMLN2LLU1",
+      "ultimate_parent": null,
+      "hq_city": "FULTON",
+      "hq_state": null,
+      "hq_county": null,
+      "hq_verified": false,
+      "hq_status": "not_moco",
+      "hq_confidence": 0.0,
+      "moco_city": "FULTON",
+      "moco_basis": null,
+      "moco_confidence": 0.0
+    },
+    "award": {
+      "amount": -137971.79,
+      "amount_display": "$-138K",
+      "agency": "Department of Health and Human Services",
+      "subagency": "Food and Drug Administration",
+      "contract_number": "75F40124C00110",
+      "award_id": "75F40124C00110",
+      "description": "THE U.S. FOOD AND DRUG ADMINISTRATION (FDA) HEREBY INTENDS TO PROCURE THE MAMMOGRAPHY QUALITY STANDARDS ACT (MQSA), PATIENT PROVIDER NOTIFICATION (PPN) SERVICES FOR THE FDA'S CENTER FOR DEVICES AND RADIOLOGICAL HEALTH (CDRH) VIA A DIRECT 8(A) AW",
+      "naics": "561110",
+      "psc": "R699",
+      "award_type": "DEFINITIVE CONTRACT",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "FULTON, MD",
+      "place_of_performance": "SILVER SPRING, MD",
+      "work_locations": [
+        "SILVER SPRING, MD"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40124C00110_7524_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40124C00110_7524_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": null,
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "MATTHEW A MCCATHORINE",
+        "title": "MANAGING PARTNER",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NRNEMLN2LLU1/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "outside_company_working_in_moco",
+    "recipient_in_moco": false,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-f16fef05cc370398",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-jeandjtz8hj3",
+      "canonical_name": "FCN, INC.",
+      "legal_name": "FCN, INC.",
+      "uei": "JEANDJTZ8HJ3",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 68765.04,
+      "amount_display": "$68.8K",
+      "agency": "Department of the Treasury",
+      "subagency": "Departmental Offices",
+      "contract_number": "2099CH27F00002",
+      "award_id": "2099CH27F00002",
+      "description": "TRUENAS GOLD-LEVEL 24X7 HELP DESK SOFTWARE SUPPORT",
+      "naics": "541519",
+      "psc": "7B21",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "RESTON, VA",
+      "work_locations": [
+        "RESTON, VA"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Software / IT",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_2099CH27F00002_2001_NNG15SC71B_8000/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2099CH27F00002_2001_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Chris Gartin",
+        "title": "Operations Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JEANDJTZ8HJ3/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-e3d1d9c344d44cc3",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-pfdwqax9bhx6",
+      "canonical_name": "KEBROS & ASSOCIATES LLC",
+      "legal_name": "KEBROS & ASSOCIATES LLC",
+      "uei": "PFDWQAX9BHX6",
+      "ultimate_parent": null,
+      "hq_city": "SILVER SPRING",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "SILVER SPRING",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 4710.4,
+      "amount_display": "$4.7K",
+      "agency": "Department of Justice",
+      "subagency": "Federal Prison System / Bureau of Prisons",
+      "contract_number": "15B12227F00000010",
+      "award_id": "15B12227F00000010",
+      "description": "PHLEBOTOMY SERVICES FY 27 OPTION YEAR #2 PENDING FUNDS AVAILABILITY",
+      "naics": "561320",
+      "psc": "Q999",
+      "award_type": "BPA CALL",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "SILVER SPRING, MD",
+      "place_of_performance": "SILVER SPRING, MD",
+      "work_locations": [
+        "SILVER SPRING, MD"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B12227F00000010_1540_15B12224A00000090_1540/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B12227F00000010_1540_15B12224A00000090_1540/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Kunle Eboda",
+        "title": "Mr:",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PFDWQAX9BHX6/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company_working_in_moco",
+    "recipient_in_moco": true,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-d9609b17e9d5d156",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-n9d3y2snvl23",
+      "canonical_name": "WBK ENGINEERING LLC",
+      "legal_name": "WBK ENGINEERING LLC",
+      "uei": "N9D3Y2SNVL23",
+      "ultimate_parent": null,
+      "hq_city": "SAINT CHARLES",
+      "hq_state": null,
+      "hq_county": null,
+      "hq_verified": false,
+      "hq_status": "not_moco",
+      "hq_confidence": 0.0,
+      "moco_city": "SAINT CHARLES",
+      "moco_basis": null,
+      "moco_confidence": 0.0
+    },
+    "award": {
+      "amount": 0.0,
+      "amount_display": "$0",
+      "agency": "Department of the Interior",
+      "subagency": "Departmental Offices",
+      "contract_number": "140D0424F1360",
+      "award_id": "140D0424F1360",
+      "description": "HEALTH SYSTEM PLANNING (HSP) FOR EMERGENCY DEPARTMENT (ED)/URGENT CARE (UC) CRITERIA",
+      "naics": "541611",
+      "psc": "R799",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "SAINT CHARLES, IL",
+      "place_of_performance": "ROCKVILLE, MD",
+      "work_locations": [
+        "ROCKVILLE, MD"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Professional Services",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0424F1360_1406_140D0424D0113_1406/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0424F1360_1406_140D0424D0113_1406/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F0980_1406_140D0424D0113_1406/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      }
+    ],
+    "match": {
+      "method": null,
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Jeremy R Berg",
+        "title": "COO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N9D3Y2SNVL23/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "outside_company_working_in_moco",
+    "recipient_in_moco": false,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-d0dcec53ec6bdb02",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-fkdjn2qzt8j6",
+      "canonical_name": "POSTERITY GROUP LLC",
+      "legal_name": "POSTERITY GROUP LLC",
+      "uei": "FKDJN2QZT8J6",
+      "ultimate_parent": null,
+      "hq_city": "DERWOOD",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "DERWOOD",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": -16910.39,
+      "amount_display": "$-16.9K",
+      "agency": "Department of Veterans Affairs",
+      "subagency": "Department of Veterans Affairs",
+      "contract_number": "36C25221C0048",
+      "award_id": "36C25221C0048",
+      "description": "PERFUSIONISTS SERVICES (HINES VA HOSPITAL)",
+      "naics": "561320",
+      "psc": "Q523",
+      "award_type": "DEFINITIVE CONTRACT",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "DERWOOD, MD",
+      "place_of_performance": "HINES, IL",
+      "work_locations": [
+        "HINES, IL"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C25221C0048_3600_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C25221C0048_3600_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "NICOLE ANTOINE",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/FKDJN2QZT8J6/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-cf9c1b3e3c5fa5d1",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-pnfdfkkwucb3",
+      "canonical_name": "SERVICE DISABLED VETERANS BUSINESS ASSOCIATION, INC.",
+      "legal_name": "SERVICE DISABLED VETERANS BUSINESS ASSOCIATION, INC.",
+      "uei": "PNFDFKKWUCB3",
+      "ultimate_parent": null,
+      "hq_city": "SILVER SPRING",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "SILVER SPRING",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 161869.52,
+      "amount_display": "$161.9K",
+      "agency": "General Services Administration",
+      "subagency": "Public Buildings Service",
+      "contract_number": "47PJ5227F0010",
+      "award_id": "47PJ5227F0010",
+      "description": "TASK ORDER TO PROVIDE THE VA WITH CLEANING/CUSTODIAL SERVICE FOR THE CAFETERIA, CANTEEN STORE AND STARBUCKS LOCATED AT THE VETERANS AFFAIRS HEADQUARTERS BUILDING, 810 VERMONT AVENUE NW., WASHINGTON, DC 20420 (DC0007ZZ).",
+      "naics": "561210",
+      "psc": "Z1AA",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "SILVER SPRING, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PJ5227F0010_4740_47PM0525D0008_4740/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PJ5227F0010_4740_47PM0525D0008_4740/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Suchada Subgranon",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PNFDFKKWUCB3/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-bdfe59768fef83a7",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "westat",
+      "canonical_name": "Westat",
+      "legal_name": "Westat Inc.",
+      "uei": "NVUWAFWQ57S5",
+      "ultimate_parent": null,
+      "hq_city": "Rockville",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": true,
+      "hq_status": "verified",
+      "hq_confidence": 1.0,
+      "moco_city": "Rockville",
+      "moco_basis": "verified_hq",
+      "moco_confidence": 1.0
+    },
+    "award": {
+      "amount": 1614361.0,
+      "amount_display": "$1.6M",
+      "agency": "Department of Education",
+      "subagency": "Department of Education",
+      "contract_number": "91990025C0002",
+      "award_id": "91990025C0002",
+      "description": "THIS AWARD FOR THE NATIONAL ASSESSMENT OF EDUCATIONAL PROGRESS SAMPLING AND WEIGHTING SERVICES IS BEING MODIFIED TO EXERCISE OPTION YEAR 2.",
+      "naics": "541720",
+      "psc": "B506",
+      "award_type": "DEFINITIVE CONTRACT",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990025C0002_9100_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_91990025C0002_9100_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "uei",
+      "registry_company_id": "westat"
+    },
+    "contacts": {
+      "company": {
+        "name": "Rod Mohadjer",
+        "title": null,
+        "email": "RodMohadjer@westat.com",
+        "phone": "301-294-3941",
+        "contact_type": "federal_contracting",
+        "contact_quality": "high",
+        "source_name": "GSA eLibrary",
+        "source_url": "https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=GS-00F-009DA&contractorName=WESTAT%2C+INC.&executeQuery=YES",
+        "verified_date": "2026-10-08"
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
     "id": "moco-b5555bab2188e696",
     "announcement_date": "2026-10-28",
     "action_date": "2026-10-28",
@@ -72,7 +1009,7 @@
         "name": "War.gov",
         "source_type": "announcement",
         "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4636156/contracts-for-oct-28-2026/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
+        "retrieved_at": "2026-10-30T17:03:19Z",
         "announcement_date": "2026-10-28",
         "primary": true
       },
@@ -80,7 +1017,7 @@
         "name": "Pipeworx",
         "source_type": "retrieval_fallback",
         "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
+        "retrieved_at": "2026-10-30T17:03:19Z",
         "announcement_date": "2026-10-28",
         "primary": false
       }
@@ -112,1726 +1049,33 @@
     "performance_in_moco": false
   },
   {
-    "id": "moco-f513fcb46db8d356",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
+    "id": "moco-b1a63daa7d3ea86d",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
     "company": {
-      "company_id": "uei-hg4lds637yk1",
-      "canonical_name": "ONEIDA COMMUNICATIONS, INC.",
-      "legal_name": "ONEIDA COMMUNICATIONS, INC.",
-      "uei": "HG4LDS637YK1",
+      "company_id": "uei-qck1ldj3a6k5",
+      "canonical_name": "CELLINK LLC",
+      "legal_name": "CELLINK LLC",
+      "uei": "QCK1LDJ3A6K5",
       "ultimate_parent": null,
-      "hq_city": "UPPER MARLBORO",
+      "hq_city": "BLACKSBURG",
       "hq_state": null,
       "hq_county": null,
       "hq_verified": false,
       "hq_status": "not_moco",
       "hq_confidence": 0.0,
-      "moco_city": "UPPER MARLBORO",
+      "moco_city": "BLACKSBURG",
       "moco_basis": null,
       "moco_confidence": 0.0
     },
     "award": {
-      "amount": -2704453.5,
-      "amount_display": "$-2.7M",
-      "agency": "Department of Health and Human Services",
-      "subagency": "Office of the Assistant Secretary for Financial Resources",
-      "contract_number": "75N97023F00002",
-      "award_id": "75N97023F00002",
-      "description": "PROFESSIONAL SERVICES FOR CABLING SUPPORT - (ONEIDA COMMUNICATIONS, INC)",
-      "naics": "541519",
-      "psc": "R408",
-      "award_type": "BPA CALL",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "UPPER MARLBORO, MD",
-      "place_of_performance": "BETHESDA, MD",
-      "work_locations": [
-        "BETHESDA, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Advanced Communications",
-      "secondary": [
-        "Software / IT"
-      ]
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97023F00002_7529_75N97021A00003_7529/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97023F00002_7529_75N97021A00003_7529/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Travis Geist",
-        "title": null,
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/HG4LDS637YK1/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-f156c87c0680080f",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "lockheed-martin",
-      "canonical_name": "Lockheed Martin",
-      "legal_name": "Lockheed Martin Corporation",
-      "uei": "NMHFLDYJJ4C5",
-      "ultimate_parent": null,
-      "hq_city": "Bethesda",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": true,
-      "hq_status": "verified",
-      "hq_confidence": 1.0,
-      "moco_city": "Bethesda",
-      "moco_basis": "verified_hq",
-      "moco_confidence": 1.0
-    },
-    "award": {
-      "amount": 13259000,
-      "amount_display": "$13.3M",
-      "agency": "Department of Defense",
-      "subagency": "Navy",
-      "contract_number": "N0001925F0120",
-      "award_id": null,
-      "description": "Lockheed Martin Corp., Fort Worth, Texas, is awarded a $13,259,000 cost-plus-fixed-fee, level-of-effort modification (P00006) to a previously awarded delivery order (N0001925F0120) under a basic ordering agreement (N0001924G0010). This modification definitizes the undefinitized contract action established under the base delivery order and adds 50,000 labor hours to continue integration efforts for the F135 engine core upgrade and support the transition of the power thermal management upgrade into the preliminary design phase. The work supports the Air Force, Marine Corps, Navy, and F-35 Cooperative Program Partners. Work will be performed in Fort Worth, Texas (47%); Torrance, California (13%); El Segundo, California (6%); Blackburn, Great Britain (6%); Cheltenham, Great Britain (6%); Haltom City, Texas (4%); South Bend, Indiana (4%); Windsor Locks, Connecticut (4%); West Hartford, Connecticut (4%); Rockford, Illinois (4%); and Orlando, Florida (2%), and is expected to be completed in April 2027. No funds will be obligated at the time of award. This contract modification was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "naics": null,
-      "psc": null,
-      "award_type": "Modification",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": "Modification",
-      "contract_type": "cost-plus-fixed-fee",
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": "Naval Air Systems Command, Patuxent River, Maryland,",
-      "funding": [],
-      "raw_description": "Lockheed Martin Corp., Fort Worth, Texas, is awarded a $13,259,000 cost-plus-fixed-fee, level-of-effort modification (P00006) to a previously awarded delivery order (N0001925F0120) under a basic ordering agreement (N0001924G0010). This modification definitizes the undefinitized contract action established under the base delivery order and adds 50,000 labor hours to continue integration efforts for the F135 engine core upgrade and support the transition of the power thermal management upgrade into the preliminary design phase. The work supports the Air Force, Marine Corps, Navy, and F-35 Cooperative Program Partners. Work will be performed in Fort Worth, Texas (47%); Torrance, California (13%); El Segundo, California (6%); Blackburn, Great Britain (6%); Cheltenham, Great Britain (6%); Haltom City, Texas (4%); South Bend, Indiana (4%); Windsor Locks, Connecticut (4%); West Hartford, Connecticut (4%); Rockford, Illinois (4%); and Orlando, Florida (2%), and is expected to be completed in April 2027. No funds will be obligated at the time of award. This contract modification was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
-    },
-    "location": {
-      "recipient_location": "Fort Worth, Texas",
-      "place_of_performance": "Fort Worth, Texas (47%); Torrance, California (13%); El Segundo, California (6%); Blackburn, Great Britain (6%); Cheltenham, Great Britain (6%); Haltom City, Texas (4%); South Bend, Indiana (4%); Windsor Locks, Connecticut (4%); West Hartford, Connecticut (4%); Rockford, Illinois (4%); Orlando, Florida (2%)",
-      "work_locations": [
-        "Fort Worth, Texas (47%)",
-        "Torrance, California (13%)",
-        "El Segundo, California (6%)",
-        "Blackburn, Great Britain (6%)",
-        "Cheltenham, Great Britain (6%)",
-        "Haltom City, Texas (4%)",
-        "South Bend, Indiana (4%)",
-        "Windsor Locks, Connecticut (4%)",
-        "West Hartford, Connecticut (4%)",
-        "Rockford, Illinois (4%)",
-        "Orlando, Florida (2%)"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Defense",
-      "secondary": []
-    },
-    "source": {
-      "name": "War.gov",
-      "source_type": "announcement",
-      "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4634810/contracts-for-oct-27-2026/",
-      "retrieved_at": "2026-10-28T17:11:24Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "War.gov",
-        "source_type": "announcement",
-        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4634810/contracts-for-oct-27-2026/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      },
-      {
-        "name": "Pipeworx",
-        "source_type": "retrieval_fallback",
-        "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": false
-      }
-    ],
-    "match": {
-      "method": "exact_name",
-      "registry_company_id": "lockheed-martin"
-    },
-    "contacts": {
-      "company": {
-        "name": "Alliant 2 Federal Contracting",
-        "title": "Federal contract contact",
-        "email": "Alliant2.gr-lm@lmco.com",
-        "phone": "(703) 367-6636",
-        "contact_type": "federal_contracting",
-        "contact_quality": "high",
-        "source_name": "GSA eLibrary",
-        "source_url": "https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=47QTCK18D0002&contractorName=LOCKHEED+MARTIN+CORPORATION&executeQuery=YES",
-        "verified_date": "2026-10-08"
-      },
-      "federal": null
-    },
-    "retrieval": {
-      "discovery_method": "war_rss",
-      "content_method": "pipeworx_fallback"
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-d98eec9ce9a3f5a4",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-rm64ej3cj7z5",
-      "canonical_name": "ALLIANT ENTERPRISES, LLC",
-      "legal_name": "ALLIANT ENTERPRISES, LLC",
-      "uei": "RM64EJ3CJ7Z5",
-      "ultimate_parent": null,
-      "hq_city": "GRAND RAPIDS",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "GRAND RAPIDS",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": -65040.0,
-      "amount_display": "$-65K",
+      "amount": 25680.0,
+      "amount_display": "$25.7K",
       "agency": "Department of Health and Human Services",
       "subagency": "National Institutes of Health",
-      "contract_number": "75N90025P00588",
-      "award_id": "75N90025P00588",
-      "description": "SYNAPSEVNA SOFTWARE LICENSE AND MAINTENANCE FOR 1 YEAR",
-      "naics": "513210",
-      "psc": "DB01",
-      "award_type": "PURCHASE ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GRAND RAPIDS, MI",
-      "place_of_performance": "BETHESDA, MD",
-      "work_locations": [
-        "BETHESDA, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Software / IT",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N90025P00588_7529_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N90025P00588_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Robert W Taylor",
-        "title": "Manager",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/RM64EJ3CJ7Z5/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-ccb0635af13649ad",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-fqcged5fhjg3",
-      "canonical_name": "DRU ENTERPRISES INC",
-      "legal_name": "DRU ENTERPRISES INC",
-      "uei": "FQCGED5FHJG3",
-      "ultimate_parent": null,
-      "hq_city": "GERMANTOWN",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "GERMANTOWN",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 14000.0,
-      "amount_display": "$14K",
-      "agency": "District of Columbia Courts",
-      "subagency": "District of Columbia Courts",
-      "contract_number": "95C67827P0032",
-      "award_id": "95C67827P0032",
-      "description": "CONTRACTOR SHALL PROVIDE COURTROOM AUDIO TECHNOLOGY M$S SERVICES IN ACCORDANCE TO CONTRACT NO. DCSC-22-SS-112. OPTION YEAR FOUR(4)",
-      "naics": "423430",
-      "psc": "7B22",
-      "award_type": "PURCHASE ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GERMANTOWN, MD",
-      "place_of_performance": "WASHINGTON, DC",
-      "work_locations": [
-        "WASHINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_95C67827P0032_9534_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_95C67827P0032_9534_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "ANDREW SRNECZ",
-        "title": "President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/FQCGED5FHJG3/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-cab10940062eeb95",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-u3w9udck31w7",
-      "canonical_name": "CAPITAL COLORS, LLC",
-      "legal_name": "CAPITAL COLORS, LLC",
-      "uei": "U3W9UDCK31W7",
-      "ultimate_parent": null,
-      "hq_city": "SILVER SPRING",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "SILVER SPRING",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 5287.0,
-      "amount_display": "$5.3K",
-      "agency": "Department of Labor",
-      "subagency": "Office of the Assistant Secretary for Administration and Management",
-      "contract_number": "1605C126F00053",
-      "award_id": "1605C126F00053",
-      "description": "OSHA PAINTING SERVICES (SUITE# N3119 & N3622)",
-      "naics": "561210",
-      "psc": "Z1AA",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "SILVER SPRING, MD",
-      "place_of_performance": "WASHINGTON, DC",
-      "work_locations": [
-        "WASHINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C126F00053_1605_1605C323D0003_1605/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C126F00053_1605_1605C323D0003_1605/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Vernon Ramey",
-        "title": "Vice President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/U3W9UDCK31W7/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-c81c3adf0d2438d4",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-jmvmggnjga29",
-      "canonical_name": "GOVPLACE, LLC",
-      "legal_name": "GOVPLACE, LLC",
-      "uei": "JMVMGGNJGA29",
-      "ultimate_parent": null,
-      "hq_city": "BETHESDA",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "BETHESDA",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "Department of Homeland Security",
-      "subagency": "Office of Procurement Operations",
-      "contract_number": "70RCSJ26FR0000016",
-      "award_id": "70RCSJ26FR0000016",
-      "description": "TO UPDATE THE ADMINISTRATIVE CONTRACTING OFFICER (CO)",
-      "naics": "541519",
-      "psc": "7A21",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "BETHESDA, MD",
-      "place_of_performance": "ARLINGTON, DC",
-      "work_locations": [
-        "ARLINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Software / IT",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000016_7001_NNG15SC77B_8000/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000016_7001_NNG15SC77B_8000/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Autumn Trevino",
-        "title": "Contracts Manager",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/JMVMGGNJGA29/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-b1ab554516b52ec7",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-pfdwqax9bhx6",
-      "canonical_name": "KEBROS & ASSOCIATES LLC",
-      "legal_name": "KEBROS & ASSOCIATES LLC",
-      "uei": "PFDWQAX9BHX6",
-      "ultimate_parent": null,
-      "hq_city": "SILVER SPRING",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "SILVER SPRING",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 49824.0,
-      "amount_display": "$49.8K",
-      "agency": "Department of Justice",
-      "subagency": "Federal Prison System / Bureau of Prisons",
-      "contract_number": "15B41827F00000021",
-      "award_id": "15B41827F00000021",
-      "description": "FY27 B1 SMARTCARE DA-MOA-PT-RT NOV26 15BFA023A00000062",
-      "naics": "561320",
-      "psc": "Q999",
-      "award_type": "BPA CALL",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "SILVER SPRING, MD",
-      "place_of_performance": "SILVER SPRING, MD",
-      "work_locations": [
-        "SILVER SPRING, MD"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B41827F00000021_1540_15BFA023A00000062_1540/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B41827F00000021_1540_15BFA023A00000062_1540/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Kunle Eboda",
-        "title": "Mr:",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/PFDWQAX9BHX6/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company_working_in_moco",
-    "recipient_in_moco": true,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-aee30d5aaae1bdc3",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-ckfzmk7x16m1",
-      "canonical_name": "RESEARCH PLANNING, INC.",
-      "legal_name": "RESEARCH PLANNING, INC.",
-      "uei": "CKFZMK7X16M1",
-      "ultimate_parent": null,
-      "hq_city": "COLUMBIA",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "COLUMBIA",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": 174414.36,
-      "amount_display": "$174.4K",
-      "agency": "Department of Commerce",
-      "subagency": "National Oceanic and Atmospheric Administration",
-      "contract_number": "1305M226F0008",
-      "award_id": "1305M226F0008",
-      "description": "EXERCISE OPTION PERIOD ONE FOR OR&R IAW FAR 52.217-9 AND DOC OBLIGATION APPROVALS OR-FY27-04926.",
-      "naics": "541620",
-      "psc": "F999",
-      "award_type": "BPA CALL",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "COLUMBIA, SC",
-      "place_of_performance": "SILVER SPRING, MD",
-      "work_locations": [
-        "SILVER SPRING, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Professional Services",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M226F0008_1330_1305M223ANCNR0007_1330/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_1305M226F0008_1330_1305M223ANCNR0007_1330/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Scott Zengel",
-        "title": "Senior Vice President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/CKFZMK7X16M1/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-9117ad097bc2d157",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-c23qw5u7mqb6",
-      "canonical_name": "COLLEGE OF AMERICAN PATHOLOGISTS",
-      "legal_name": "COLLEGE OF AMERICAN PATHOLOGISTS",
-      "uei": "C23QW5U7MQB6",
-      "ultimate_parent": null,
-      "hq_city": "NORTHFIELD",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "NORTHFIELD",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": 19652.43,
-      "amount_display": "$19.7K",
-      "agency": "Department of Health and Human Services",
-      "subagency": "National Institutes of Health",
-      "contract_number": "75N98027P00050",
-      "award_id": "75N98027P00050",
-      "description": "NCI - 2027 CAP PROFICIENCY TEST SAMPLES FOR MOLECULAR PATHOLOGY - SEVERABLE",
-      "naics": "541380",
-      "psc": "Q301",
-      "award_type": "PURCHASE ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "NORTHFIELD, IL",
-      "place_of_performance": "BETHESDA, MD",
-      "work_locations": [
-        "BETHESDA, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00050_7529_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00050_7529_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Mark Lamont",
-        "title": null,
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/C23QW5U7MQB6/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-86d4b3f1ac06e935",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-vur8qkpp8ny3",
-      "canonical_name": "BINARY EXCHANGE TECHNOLOGIES LLC",
-      "legal_name": "BINARY EXCHANGE TECHNOLOGIES LLC",
-      "uei": "VUR8QKPP8NY3",
-      "ultimate_parent": null,
-      "hq_city": "GERMANTOWN",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "GERMANTOWN",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 14975.88,
-      "amount_display": "$15K",
-      "agency": "Department of Homeland Security",
-      "subagency": "U.S. Coast Guard",
-      "contract_number": "70Z04323PTRCM0003",
-      "award_id": "70Z04323PTRCM0003",
-      "description": "TRACEN CAPE MAY WATER TREATMANT SERV.",
-      "naics": "561210",
-      "psc": "H168",
-      "award_type": "PURCHASE ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GERMANTOWN, MD",
-      "place_of_performance": "CAPE MAY, NJ",
-      "work_locations": [
-        "CAPE MAY, NJ"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z04323PTRCM0003_7008_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z04323PTRCM0003_7008_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "JOSEPH N SCHWARTZ",
-        "title": null,
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/VUR8QKPP8NY3/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-82095b8cd7d74a2a",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-u3w9udck31w7",
-      "canonical_name": "CAPITAL COLORS, LLC",
-      "legal_name": "CAPITAL COLORS, LLC",
-      "uei": "U3W9UDCK31W7",
-      "ultimate_parent": null,
-      "hq_city": "SILVER SPRING",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "SILVER SPRING",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 61874.25,
-      "amount_display": "$61.9K",
-      "agency": "General Services Administration",
-      "subagency": "Public Buildings Service",
-      "contract_number": "47PM0426C0003",
-      "award_id": "47PM0426C0003",
-      "description": "CORRECTION TO AN EASI DE-OBLIGATION",
-      "naics": "236220",
-      "psc": "Z1AA",
-      "award_type": "DEFINITIVE CONTRACT",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "SILVER SPRING, MD",
-      "place_of_performance": "WASHINGTON, DC",
-      "work_locations": [
-        "WASHINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0426C0003_4740_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0426C0003_4740_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Vernon Ramey",
-        "title": "Vice President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/U3W9UDCK31W7/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-7f47c7d3e1990d3a",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "lockheed-martin",
-      "canonical_name": "Lockheed Martin",
-      "legal_name": "Lockheed Martin Corporation",
-      "uei": "NMHFLDYJJ4C5",
-      "ultimate_parent": null,
-      "hq_city": "Bethesda",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": true,
-      "hq_status": "verified",
-      "hq_confidence": 1.0,
-      "moco_city": "Bethesda",
-      "moco_basis": "verified_hq",
-      "moco_confidence": 1.0
-    },
-    "award": {
-      "amount": 9755583,
-      "amount_display": "$9.8M",
-      "agency": "Department of Defense",
-      "subagency": "Navy",
-      "contract_number": "N0001927C1010",
-      "award_id": null,
-      "description": "Lockheed Martin Corp., Owego, New York, is awarded a $9,755,583 firm-fixed-price and cost-plus-fixed-fee contract for updated AN/ALQ-230 electronic support measures and radar warning receiver operational flight program software, and Canadian Mission Data Load Tool software, for the government of Canada s CH-148 Cyclone helicopter fleet. The effort includes software development, documentation, testing, installation, and training to address documented software and system trouble reports. Work will be performed in Owego, New York (97%); Ottawa, Canada (1%); Halifax, Canada (1%); and Patuxent River, Maryland (1%), and is expected to be completed in October 2030. Foreign Military Sales funds in the amount of $9,755,583 will be obligated at the time of award. This contract was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001927C1010).",
-      "naics": null,
-      "psc": null,
-      "award_type": "Contract",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": "Contract",
-      "contract_type": "firm-fixed-price",
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": "Naval Air Systems Command, Patuxent River, Maryland,",
-      "funding": [],
-      "raw_description": "Lockheed Martin Corp., Owego, New York, is awarded a $9,755,583 firm-fixed-price and cost-plus-fixed-fee contract for updated AN/ALQ-230 electronic support measures and radar warning receiver operational flight program software, and Canadian Mission Data Load Tool software, for the government of Canada s CH-148 Cyclone helicopter fleet. The effort includes software development, documentation, testing, installation, and training to address documented software and system trouble reports. Work will be performed in Owego, New York (97%); Ottawa, Canada (1%); Halifax, Canada (1%); and Patuxent River, Maryland (1%), and is expected to be completed in October 2030. Foreign Military Sales funds in the amount of $9,755,583 will be obligated at the time of award. This contract was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001927C1010)."
-    },
-    "location": {
-      "recipient_location": "Owego, New York",
-      "place_of_performance": "Owego, New York (97%); Ottawa, Canada (1%); Halifax, Canada (1%); Patuxent River, Maryland (1%)",
-      "work_locations": [
-        "Owego, New York (97%)",
-        "Ottawa, Canada (1%)",
-        "Halifax, Canada (1%)",
-        "Patuxent River, Maryland (1%)"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Defense Technology",
-      "secondary": [
-        "Software / IT"
-      ]
-    },
-    "source": {
-      "name": "War.gov",
-      "source_type": "announcement",
-      "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4634810/contracts-for-oct-27-2026/",
-      "retrieved_at": "2026-10-28T17:11:24Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "War.gov",
-        "source_type": "announcement",
-        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4634810/contracts-for-oct-27-2026/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      },
-      {
-        "name": "Pipeworx",
-        "source_type": "retrieval_fallback",
-        "source_url": "https://pipeworx.io/packs/dod-contract-announcements/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": false
-      }
-    ],
-    "match": {
-      "method": "exact_name",
-      "registry_company_id": "lockheed-martin"
-    },
-    "contacts": {
-      "company": {
-        "name": "Alliant 2 Federal Contracting",
-        "title": "Federal contract contact",
-        "email": "Alliant2.gr-lm@lmco.com",
-        "phone": "(703) 367-6636",
-        "contact_type": "federal_contracting",
-        "contact_quality": "high",
-        "source_name": "GSA eLibrary",
-        "source_url": "https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=47QTCK18D0002&contractorName=LOCKHEED+MARTIN+CORPORATION&executeQuery=YES",
-        "verified_date": "2026-10-08"
-      },
-      "federal": null
-    },
-    "retrieval": {
-      "discovery_method": "war_rss",
-      "content_method": "pipeworx_fallback"
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-7e6144ffc3b22b24",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-pnfdfkkwucb3",
-      "canonical_name": "SERVICE DISABLED VETERANS BUSINESS ASSOCIATION, INC.",
-      "legal_name": "SERVICE DISABLED VETERANS BUSINESS ASSOCIATION, INC.",
-      "uei": "PNFDFKKWUCB3",
-      "ultimate_parent": null,
-      "hq_city": "SILVER SPRING",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "SILVER SPRING",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 104358.65,
-      "amount_display": "$104.4K",
-      "agency": "General Services Administration",
-      "subagency": "Public Buildings Service",
-      "contract_number": "47PJ5227F0006",
-      "award_id": "47PJ5227F0006",
-      "description": "VA HQ SUITE CARPET REPLACEMENT - SUITE 400, SUITE 475, SUITE 700 AND SUITE 1075, 810 VERMONT AVENUE NW WASHINGTON DC",
-      "naics": "561210",
-      "psc": "Z1AA",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "SILVER SPRING, MD",
-      "place_of_performance": "SILVER SPRING, MD",
-      "work_locations": [
-        "SILVER SPRING, MD"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PJ5227F0006_4740_47PM0525D0008_4740/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PJ5227F0006_4740_47PM0525D0008_4740/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Suchada Subgranon",
-        "title": null,
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/PNFDFKKWUCB3/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company_working_in_moco",
-    "recipient_in_moco": true,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-7b6005feb30cb0c0",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-wjgjty322nk4",
-      "canonical_name": "APPLIED STATISTICS & MANAGEMENT INC",
-      "legal_name": "APPLIED STATISTICS & MANAGEMENT INC",
-      "uei": "WJGJTY322NK4",
-      "ultimate_parent": null,
-      "hq_city": "TEMECULA",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "TEMECULA",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": 147000.0,
-      "amount_display": "$147K",
-      "agency": "Department of Health and Human Services",
-      "subagency": "Indian Health Service",
-      "contract_number": "75H70424P00045",
-      "award_id": "75H70424P00045",
-      "description": "CREDENTIALING 0.00 INCLUDES BASE OPERATIONS, HELPDESK, CUSTOMIZED REPORTING, ENHANCEMENTS AND TRAINING DEVELOPMENT/CLASSES. SEE PWS FOR ADDITIONAL",
-      "naics": "513210",
-      "psc": "7F20",
-      "award_type": "PURCHASE ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "TEMECULA, CA",
-      "place_of_performance": "ROCKVILLE, MD",
-      "work_locations": [
-        "ROCKVILLE, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75H70424P00045_7527_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75H70424P00045_7527_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Trung l Phan",
-        "title": "President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/WJGJTY322NK4/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-76bcd609e449e0d8",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-ehvwqc5ljrv9",
-      "canonical_name": "PTG INTERNATIONAL, INC.",
-      "legal_name": "PTG INTERNATIONAL, INC.",
-      "uei": "EHVWQC5LJRV9",
-      "ultimate_parent": null,
-      "hq_city": "GERMANTOWN",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "GERMANTOWN",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": -5415.0,
-      "amount_display": "$-5.4K",
-      "agency": "Department of Health and Human Services",
-      "subagency": "Food and Drug Administration",
-      "contract_number": "75F40124P00433",
-      "award_id": "75F40124P00433",
-      "description": "TEAM BUILDING FOR CENTER FOR TOBACOO PRODUCTS",
-      "naics": "611430",
-      "psc": "U008",
-      "award_type": "PURCHASE ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GERMANTOWN, MD",
-      "place_of_performance": "SILVER SPRING, MD",
-      "work_locations": [
-        "SILVER SPRING, MD"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40124P00433_7524_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40124P00433_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "David Hauge",
-        "title": "President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/EHVWQC5LJRV9/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company_working_in_moco",
-    "recipient_in_moco": true,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-6ee434ce445f4eb8",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-cp4nw4reph28",
-      "canonical_name": "EG MANAGEMENT SERVICES, INC.",
-      "legal_name": "EG MANAGEMENT SERVICES, INC.",
-      "uei": "CP4NW4REPH28",
-      "ultimate_parent": null,
-      "hq_city": "GERMANTOWN",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "GERMANTOWN",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "General Services Administration",
-      "subagency": "Public Buildings Service",
-      "contract_number": "47PM0124F0002",
-      "award_id": "47PM0124F0002",
-      "description": "NCTE",
-      "naics": "236220",
-      "psc": "Z2AA",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GERMANTOWN, MD",
-      "place_of_performance": "WASHINGTON, DC",
-      "work_locations": [
-        "WASHINGTON, DC"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": null
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0124F0002_4740_47PM0518D0030_4740/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_47PM0124F0002_4740_47PM0518D0030_4740/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Ravi V Vasist",
-        "title": "President",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/CP4NW4REPH28/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company",
-    "recipient_in_moco": true,
-    "performance_in_moco": false
-  },
-  {
-    "id": "moco-61ffacfab7bd0f89",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-ntgalu6xecj5",
-      "canonical_name": "YOKOGAWA CORPORATION OF AMERICA",
-      "legal_name": "YOKOGAWA CORPORATION OF AMERICA",
-      "uei": "NTGALU6XECJ5",
-      "ultimate_parent": null,
-      "hq_city": "NEWNAN",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "NEWNAN",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "Department of Health and Human Services",
-      "subagency": "Food and Drug Administration",
-      "contract_number": "75F40125P00005",
-      "award_id": "75F40125P00005",
-      "description": "PREVENTIVE MAINTENANCE AND UNLIMITED REPAIR AGREEMENT FOR A YOKOGAWA CV8000 MICROSCOPE SYSTEM (S/N: 11U200021), BASE + 2 OPTION YEARS",
+      "contract_number": "75N98027P00047",
+      "award_id": "75N98027P00047",
+      "description": "NIDCD - MAINTENANCE AGREEMENT ON THE F.SIGHT 2.0 BASE + 2 OPTION YEAR - SEVERABLE",
       "naics": "811210",
       "psc": "J066",
       "award_type": "PURCHASE ORDER",
@@ -1851,217 +1095,7 @@
       "raw_description": null
     },
     "location": {
-      "recipient_location": "NEWNAN, GA",
-      "place_of_performance": "SILVER SPRING, MD",
-      "work_locations": [
-        "SILVER SPRING, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40125P00005_7524_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75F40125P00005_7524_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "STEVE CREWS",
-        "title": "GM Manufacturing",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/NTGALU6XECJ5/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-573bab9e1f6a1ae7",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-lfdfjpulhsf5",
-      "canonical_name": "PKH ENTERPRISES, LLC",
-      "legal_name": "PKH ENTERPRISES, LLC",
-      "uei": "LFDFJPULHSF5",
-      "ultimate_parent": null,
-      "hq_city": "CHEVY CHASE",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "CHEVY CHASE",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "Department of Homeland Security",
-      "subagency": "U.S. Immigration and Customs Enforcement",
-      "contract_number": "70CMSW23C00000041",
-      "award_id": "70CMSW23C00000041",
-      "description": "INFORMATION GOVERNANCE AND PRIVACY COMPLIANCE AND CAPABILTIY SUPPORT SERVICES THIS IS A CLOSEOUT MODIFICATION",
-      "naics": "541611",
-      "psc": "R699",
-      "award_type": "DEFINITIVE CONTRACT",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "CHEVY CHASE, MD",
-      "place_of_performance": "CHEVY CHASE, MD",
-      "work_locations": [
-        "CHEVY CHASE, MD"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Professional Services",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSW23C00000041_7012_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSW23C00000041_7012_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Donald A Gabbin",
-        "title": null,
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/LFDFJPULHSF5/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company_working_in_moco",
-    "recipient_in_moco": true,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-4bd320bf5a7faf51",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-ns1xgb16fnf3",
-      "canonical_name": "CHAPPELLE MECHANICAL SERVICES LLC",
-      "legal_name": "CHAPPELLE MECHANICAL SERVICES LLC",
-      "uei": "NS1XGB16FNF3",
-      "ultimate_parent": null,
-      "hq_city": "LORTON",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "LORTON",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": 291798.0,
-      "amount_display": "$291.8K",
-      "agency": "Department of Health and Human Services",
-      "subagency": "National Institutes of Health",
-      "contract_number": "75N99027F00002",
-      "award_id": "75N99027F00002",
-      "description": "C202604 C202605 C202606 CONDENSATE RETURN UNIT AND AHU6 PRECOOLING COIL REPLACEMENTS BUILDINGS 37, 31B, AND 50",
-      "naics": "236220",
-      "psc": "Y1JZ",
-      "award_type": "BPA CALL",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "LORTON, VA",
+      "recipient_location": "BLACKSBURG, VA",
       "place_of_performance": "BETHESDA, MD",
       "work_locations": [
         "BETHESDA, MD"
@@ -2080,18 +1114,18 @@
     "source": {
       "name": "USAspending",
       "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99027F00002_7529_75N99026A00007_7529/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00047_7529_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
       "primary": true
     },
     "sources": [
       {
         "name": "USAspending",
         "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N99027F00002_7529_75N99026A00007_7529/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00047_7529_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
         "primary": true
       }
     ],
@@ -2101,14 +1135,14 @@
     },
     "contacts": {
       "company": {
-        "name": "Luke Chappelle",
-        "title": null,
+        "name": "Nathan Tran",
+        "title": "Senior Accountant",
         "email": null,
         "phone": null,
         "contact_type": "governmentbusinesspoc",
         "contact_quality": "medium",
         "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/NS1XGB16FNF3/coreData?status=Active",
+        "source_url": "https://sam.gov/entity/QCK1LDJ3A6K5/coreData?status=Active",
         "verified_date": null
       },
       "federal": null
@@ -2118,112 +1152,9 @@
     "performance_in_moco": true
   },
   {
-    "id": "moco-38750466aa3563ac",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-hafqpf3e1jk4",
-      "canonical_name": "ASPEN SYSTEMS, INC",
-      "legal_name": "ASPEN SYSTEMS, INC",
-      "uei": "HAFQPF3E1JK4",
-      "ultimate_parent": null,
-      "hq_city": "WHEAT RIDGE",
-      "hq_state": null,
-      "hq_county": null,
-      "hq_verified": false,
-      "hq_status": "not_moco",
-      "hq_confidence": 0.0,
-      "moco_city": "WHEAT RIDGE",
-      "moco_basis": null,
-      "moco_confidence": 0.0
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "Nuclear Regulatory Commission",
-      "subagency": "Nuclear Regulatory Commission",
-      "contract_number": "31310022F0079",
-      "award_id": "31310022F0079",
-      "description": "PURCHASE EXTENDED WARRANTY ON NRC OWNED ASPEN HARDWARE",
-      "naics": "811212",
-      "psc": "DC01",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "WHEAT RIDGE, CO",
-      "place_of_performance": "ROCKVILLE, MD",
-      "work_locations": [
-        "ROCKVILLE, MD"
-      ],
-      "recipient_moco_evidence": null,
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310022F0079_3100_47QTCA21D0065_4732/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_31310022F0079_3100_47QTCA21D0065_4732/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": null,
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Mako Furukawa",
-        "title": "Sales",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/HAFQPF3E1JK4/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "outside_company_working_in_moco",
-    "recipient_in_moco": false,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-368d983568963dee",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
+    "id": "moco-acf338774de8c940",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
     "company": {
       "company_id": "uei-pfdwqax9bhx6",
       "canonical_name": "KEBROS & ASSOCIATES LLC",
@@ -2241,16 +1172,1404 @@
       "moco_confidence": 0.95
     },
     "award": {
-      "amount": 53934.04,
-      "amount_display": "$53.9K",
+      "amount": 8227.2,
+      "amount_display": "$8.2K",
       "agency": "Department of Justice",
       "subagency": "Federal Prison System / Bureau of Prisons",
-      "contract_number": "15B41827F00000019",
-      "award_id": "15B41827F00000019",
-      "description": "FY27 B1 SMARTCARE DA-MOA-PT-RT OCT26",
+      "contract_number": "15BGCS26F12000004",
+      "award_id": "15BGCS26F12000004",
+      "description": "TEMPORARY DENTAL ASSISTANT SERVICES FOR FY 27 OCT/NOV",
       "naics": "561320",
-      "psc": "Q999",
+      "psc": "R497",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "SILVER SPRING, MD",
+      "place_of_performance": "PINE KNOT, KY",
+      "work_locations": [
+        "PINE KNOT, KY"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Professional Services",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_15BGCS26F12000004_1540_36F79726D0023_3600/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_15BGCS26F12000004_1540_36F79726D0023_3600/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Kunle Eboda",
+        "title": "Mr:",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PFDWQAX9BHX6/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-aae839dbd2bb5577",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-qhblbnkkv4u3",
+      "canonical_name": "ICF INCORPORATED, L.L.C.",
+      "legal_name": "ICF INCORPORATED, L.L.C.",
+      "uei": "QHBLBNKKV4U3",
+      "ultimate_parent": null,
+      "hq_city": "RESTON",
+      "hq_state": null,
+      "hq_county": null,
+      "hq_verified": false,
+      "hq_status": "not_moco",
+      "hq_confidence": 0.0,
+      "moco_city": "RESTON",
+      "moco_basis": null,
+      "moco_confidence": 0.0
+    },
+    "award": {
+      "amount": -915.75,
+      "amount_display": "$-916",
+      "agency": "Department of Health and Human Services",
+      "subagency": "National Institutes of Health",
+      "contract_number": "75N97023F00029",
+      "award_id": "75N97023F00029",
+      "description": "2026 UDO CLOSEOUT INITIATIVE",
+      "naics": "541611",
+      "psc": "R707",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "RESTON, VA",
+      "place_of_performance": "BETHESDA, MD",
+      "work_locations": [
+        "BETHESDA, MD"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Professional Services",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97023F00029_7529_GS00F010CA_4732/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N97023F00029_7529_GS00F010CA_4732/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": null,
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Karolyn Gardner",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "outside_company_working_in_moco",
+    "recipient_in_moco": false,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-a3b475b5e4141771",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-phzdz8sj5cm1",
+      "canonical_name": "CDW GOVERNMENT LLC",
+      "legal_name": "CDW GOVERNMENT LLC",
+      "uei": "PHZDZ8SJ5CM1",
+      "ultimate_parent": null,
+      "hq_city": "VERNON HILLS",
+      "hq_state": null,
+      "hq_county": null,
+      "hq_verified": false,
+      "hq_status": "not_moco",
+      "hq_confidence": 0.0,
+      "moco_city": "VERNON HILLS",
+      "moco_basis": null,
+      "moco_confidence": 0.0
+    },
+    "award": {
+      "amount": 19306.06,
+      "amount_display": "$19.3K",
+      "agency": "Department of Health and Human Services",
+      "subagency": "Office of the Assistant Secretary for Financial Resources",
+      "contract_number": "7571TE27F80008",
+      "award_id": "7571TE27F80008",
+      "description": "NIH NCATS NAGIOS XI UNLIMITED NODE AND ENTERPRISE LICENSE",
+      "naics": "541519",
+      "psc": "7A21",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "VERNON HILLS, IL",
+      "place_of_performance": "BETHESDA, MD",
+      "work_locations": [
+        "BETHESDA, MD"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Software / IT",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27F80008_7571_HHSN316201500011W_7529/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27F80008_7571_HHSN316201500011W_7529/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": null,
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Edwina Wright",
+        "title": "Contracts Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PHZDZ8SJ5CM1/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "outside_company_working_in_moco",
+    "recipient_in_moco": false,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-a0ad8e470a752e9c",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-jeandjtz8hj3",
+      "canonical_name": "FCN, INC.",
+      "legal_name": "FCN, INC.",
+      "uei": "JEANDJTZ8HJ3",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 63530.72,
+      "amount_display": "$63.5K",
+      "agency": "Department of Health and Human Services",
+      "subagency": "Office of the Assistant Secretary for Financial Resources",
+      "contract_number": "7571TE27F80012",
+      "award_id": "7571TE27F80012",
+      "description": "THE PURPOSE OF RENEWAL NETAPP SUPPORT IS TO ENSURE CONTINUED OPERATIONAL SUPPORT, MAINTENANCE, AND TECHNICAL ASSISTANCE FOR THE EXISTING NETAPP STORAGE SYSTEMS.",
+      "naics": "541519",
+      "psc": "7A21",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "ROCKVILLE, MD",
+      "work_locations": [
+        "ROCKVILLE, MD"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Software / IT",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27F80012_7571_HHSN316201500046W_7529/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE27F80012_7571_HHSN316201500046W_7529/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Chris Gartin",
+        "title": "Operations Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JEANDJTZ8HJ3/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company_working_in_moco",
+    "recipient_in_moco": true,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-9bedb1d195137ccc",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-fzy1aqaz25d7",
+      "canonical_name": "THE MANHATTAN STRATEGY GROUP LLC",
+      "legal_name": "THE MANHATTAN STRATEGY GROUP LLC",
+      "uei": "FZY1AQAZ25D7",
+      "ultimate_parent": null,
+      "hq_city": "NEW YORK",
+      "hq_state": null,
+      "hq_county": null,
+      "hq_verified": false,
+      "hq_status": "not_moco",
+      "hq_confidence": 0.0,
+      "moco_city": "NEW YORK",
+      "moco_basis": null,
+      "moco_confidence": 0.0
+    },
+    "award": {
+      "amount": 0.0,
+      "amount_display": "$0",
+      "agency": "Department of Justice",
+      "subagency": "Office of Justice Programs",
+      "contract_number": "15PVCD25F00000003",
+      "award_id": "15PVCD25F00000003",
+      "description": "DEDICATED OVC TASK ORDER ON COMMS BPA (15PCMD24A00000002) IN THE AMOUNT OF $466,539.20. - NO COST EXTENSION",
+      "naics": "541519",
+      "psc": "R426",
       "award_type": "BPA CALL",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "NEW YORK, NY",
+      "place_of_performance": "BETHESDA, MD",
+      "work_locations": [
+        "BETHESDA, MD"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Software / IT",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_15PVCD25F00000003_1550_15PCMD24A00000002_1550/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_15PVCD25F00000003_1550_15PCMD24A00000002_1550/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": null,
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Shezad Habib",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/FZY1AQAZ25D7/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "outside_company_working_in_moco",
+    "recipient_in_moco": false,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-9964b61cd8072bad",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-w2glkc92zh73",
+      "canonical_name": "QIAGEN, LLC",
+      "legal_name": "QIAGEN, LLC",
+      "uei": "W2GLKC92ZH73",
+      "ultimate_parent": null,
+      "hq_city": "GERMANTOWN",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "GERMANTOWN",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 0.0,
+      "amount_display": "$0",
+      "agency": "Department of Commerce",
+      "subagency": "National Oceanic and Atmospheric Administration",
+      "contract_number": "1333MF25P0056",
+      "award_id": "1333MF25P0056",
+      "description": "QIACUBE DNA EXTRACTOR ROBOT SERVICE, REPAIRS, AND CALIBRATION FOR AUKE BAY LABORATORY IN JUNEAU, ALASKA.",
+      "naics": "811210",
+      "psc": "J066",
+      "award_type": "PURCHASE ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "GERMANTOWN, MD",
+      "place_of_performance": "JUNEAU, AK",
+      "work_locations": [
+        "JUNEAU, AK"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_1333MF25P0056_1330_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_1333MF25P0056_1330_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Ann Carlos",
+        "title": "Associate Director, Commercial Excellence Americas",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/W2GLKC92ZH73/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-9710d27bdca64a12",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-dzk7bkzmhdh1",
+      "canonical_name": "AMERITEL COMMUNICATIONS CORPORATION",
+      "legal_name": "AMERITEL COMMUNICATIONS CORPORATION",
+      "uei": "DZK7BKZMHDH1",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 0.0,
+      "amount_display": "$0",
+      "agency": "Department of Homeland Security",
+      "subagency": "U.S. Citizenship and Immigration Services",
+      "contract_number": "70SBUR26F00000295",
+      "award_id": "70SBUR26F00000295",
+      "description": "PURCHASE 3 COPIERS FOR NEW YORK ASYLUM OFFICE WITHIN REFUGEE  ASYLUM & INTERNATIONAL OPERATIONS. THE PURPOSE OF THIS  MODIFICATION IS TO ADJUST THE PERIOD OF PERFORMANCE FOR CLIN 0002.",
+      "naics": "333316",
+      "psc": "3610",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "LONG ISLAND CITY, NY",
+      "work_locations": [
+        "LONG ISLAND CITY, NY"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000295_7003_GS03F102CA_4732/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000295_7003_GS03F102CA_4732/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "HENRY L JALETTE",
+        "title": "VP",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DZK7BKZMHDH1/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-969356f42d670fee",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-u3w9udck31w7",
+      "canonical_name": "CAPITAL COLORS, LLC",
+      "legal_name": "CAPITAL COLORS, LLC",
+      "uei": "U3W9UDCK31W7",
+      "ultimate_parent": null,
+      "hq_city": "SILVER SPRING",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "SILVER SPRING",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 183463.54,
+      "amount_display": "$183.5K",
+      "agency": "Department of Labor",
+      "subagency": "Office of the Assistant Secretary for Administration and Management",
+      "contract_number": "1605C322C0007",
+      "award_id": "1605C322C0007",
+      "description": "DATABASE AND PORTAL SUPPORT SERVICES FOR THE SPACE MANAGEMENT SYSTEM (SMS), MOTOR FLEET MANAGEMENT SUPPORT [AUTOMOTIVE UTILIZATION AND TRACKING ONLINE SYSTEM] (AUTOS), GOVERNMENT PURCHASE CARD TRANSACTION DATABASE, FACILITY MANAGEMENT AND VISITOR PAR",
+      "naics": "541513",
+      "psc": "R497",
+      "award_type": "DEFINITIVE CONTRACT",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "SILVER SPRING, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Software / IT",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C322C0007_1605_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_1605C322C0007_1605_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Vernon Ramey",
+        "title": "Vice President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/U3W9UDCK31W7/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-9680ab160ed95480",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-g5ndfp17q5n9",
+      "canonical_name": "CYNURIA CONSULTING LLC",
+      "legal_name": "CYNURIA CONSULTING LLC",
+      "uei": "G5NDFP17Q5N9",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 50000.0,
+      "amount_display": "$50K",
+      "agency": "Department of Transportation",
+      "subagency": "Immediate Office of the Secretary of Transportation",
+      "contract_number": "693JK427F95001N",
+      "award_id": "693JK427F95001N",
+      "description": "ESTABLISH NEW BPA CALL UNDER BPA CONTRACT 693JK46A500010 FOR EXECUTIVE COACHING SERVICES DOT WIDE.",
+      "naics": "541611",
+      "psc": "R431",
+      "award_type": "BPA CALL",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Professional Services",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_693JK427F95001N_6901_693JK426A500010_6901/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_693JK427F95001N_6901_693JK426A500010_6901/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Houri Tamizifar",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/G5NDFP17Q5N9/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-8465940bdd9578dc",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-wqcedbm284l6",
+      "canonical_name": "INOVA HEALTH CARE SERVICES",
+      "legal_name": "INOVA HEALTH CARE SERVICES",
+      "uei": "WQCEDBM284L6",
+      "ultimate_parent": null,
+      "hq_city": "FAIRFAX",
+      "hq_state": null,
+      "hq_county": null,
+      "hq_verified": false,
+      "hq_status": "not_moco",
+      "hq_confidence": 0.0,
+      "moco_city": "FAIRFAX",
+      "moco_basis": null,
+      "moco_confidence": 0.0
+    },
+    "award": {
+      "amount": 0.0,
+      "amount_display": "$0",
+      "agency": "Department of Health and Human Services",
+      "subagency": "National Institutes of Health",
+      "contract_number": "75N90025P00782",
+      "award_id": "75N90025P00782",
+      "description": "25-009982 HOSPITAL BIOREPOSITORY",
+      "naics": "541380",
+      "psc": "6640",
+      "award_type": "PURCHASE ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "FAIRFAX, VA",
+      "place_of_performance": "BETHESDA, MD",
+      "work_locations": [
+        "BETHESDA, MD"
+      ],
+      "recipient_moco_evidence": null,
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N90025P00782_7529_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N90025P00782_7529_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": null,
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "John Moynihan",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/WQCEDBM284L6/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "outside_company_working_in_moco",
+    "recipient_in_moco": false,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-841b7c8d788c0339",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-dzk7bkzmhdh1",
+      "canonical_name": "AMERITEL COMMUNICATIONS CORPORATION",
+      "legal_name": "AMERITEL COMMUNICATIONS CORPORATION",
+      "uei": "DZK7BKZMHDH1",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": -55.9,
+      "amount_display": "$-56",
+      "agency": "Executive Office of the President",
+      "subagency": "Executive Office of the President",
+      "contract_number": "11316019P0003OAS",
+      "award_id": "11316019P0003OAS",
+      "description": "MAINTENANCE",
+      "naics": "811212",
+      "psc": "J074",
+      "award_type": "PURCHASE ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "WASHINGTON, DC",
+      "work_locations": [
+        "WASHINGTON, DC"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": null
+    },
+    "classification": {
+      "primary": "Other",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316019P0003OAS_1100_-NONE-_-NONE-/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_11316019P0003OAS_1100_-NONE-_-NONE-/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "HENRY L JALETTE",
+        "title": "VP",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DZK7BKZMHDH1/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company",
+    "recipient_in_moco": true,
+    "performance_in_moco": false
+  },
+  {
+    "id": "moco-71e4a9458f6f7c11",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-jeandjtz8hj3",
+      "canonical_name": "FCN, INC.",
+      "legal_name": "FCN, INC.",
+      "uei": "JEANDJTZ8HJ3",
+      "ultimate_parent": null,
+      "hq_city": "ROCKVILLE",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "ROCKVILLE",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 0.0,
+      "amount_display": "$0",
+      "agency": "Department of the Treasury",
+      "subagency": "Departmental Offices",
+      "contract_number": "20341226F00028",
+      "award_id": "20341226F00028",
+      "description": "SOLARWINDS LICENSES",
+      "naics": "541519",
+      "psc": "7A20",
+      "award_type": "DELIVERY ORDER",
+      "expected_completion": null,
+      "expected_completion_date": null,
+      "award_date": null,
+      "action_type": null,
+      "contract_type": null,
+      "modification_number": null,
+      "ceiling_value": null,
+      "obligated_amount": null,
+      "funds_obligated": null,
+      "cumulative_value": null,
+      "previous_cumulative_value": null,
+      "contracting_activity": null,
+      "funding": [],
+      "raw_description": null
+    },
+    "location": {
+      "recipient_location": "ROCKVILLE, MD",
+      "place_of_performance": "AUSTIN, TX",
+      "work_locations": [
+        "AUSTIN, TX"
+      ],
+      "recipient_moco_evidence": {
+        "basis": "federal_recipient_address",
+        "confidence": 0.95,
+        "reason": "Montgomery County recipient FIPS/county"
+      },
+      "performance_moco_evidence": {
+        "basis": "federal_place_of_performance",
+        "confidence": 0.95,
+        "reason": "Montgomery County place of performance FIPS/county"
+      }
+    },
+    "classification": {
+      "primary": "Software / IT",
+      "secondary": []
+    },
+    "source": {
+      "name": "USAspending",
+      "source_type": "structured_award",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341226F00028_2036_NNG15SC71B_8000/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
+      "primary": true
+    },
+    "sources": [
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341226F00028_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": true
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00070_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H624F00033_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00039_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00077_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00022_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H624F00108_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00023_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_20341226F00003_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H624F00137_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00090_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00055_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H622F00026_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00021_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H626F00102_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_9531CB22F0036_955F_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H625F00045_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H624F00068_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      },
+      {
+        "name": "USAspending",
+        "source_type": "structured_award",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_2033H625F00035_2036_NNG15SC71B_8000/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
+        "primary": false
+      }
+    ],
+    "match": {
+      "method": "federal_recipient_address",
+      "registry_company_id": null
+    },
+    "contacts": {
+      "company": {
+        "name": "Chris Gartin",
+        "title": "Operations Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JEANDJTZ8HJ3/coreData?status=Active",
+        "verified_date": null
+      },
+      "federal": null
+    },
+    "market_relationship": "moco_company_working_in_moco",
+    "recipient_in_moco": true,
+    "performance_in_moco": true
+  },
+  {
+    "id": "moco-6fd8738c78b9c87e",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
+    "company": {
+      "company_id": "uei-xx59c3rechk7",
+      "canonical_name": "AD ASTRA, INC.",
+      "legal_name": "AD ASTRA, INC.",
+      "uei": "XX59C3RECHK7",
+      "ultimate_parent": null,
+      "hq_city": "SILVER SPRING",
+      "hq_state": "MD",
+      "hq_county": "Montgomery County",
+      "hq_verified": false,
+      "hq_status": "local_entity",
+      "hq_confidence": 0.95,
+      "moco_city": "SILVER SPRING",
+      "moco_basis": "federal_recipient_address",
+      "moco_confidence": 0.95
+    },
+    "award": {
+      "amount": 131040.0,
+      "amount_display": "$131K",
+      "agency": "Department of Justice",
+      "subagency": "Offices, Boards and Divisions",
+      "contract_number": "15JUST27F00000002",
+      "award_id": "15JUST27F00000002",
+      "description": "TELEPHONIC TRANSLATION AND INTERPRETATION SERVICES FOR THE OFFICE OF OVERSIGHT.",
+      "naics": "541930",
+      "psc": "R608",
+      "award_type": "DELIVERY ORDER",
       "expected_completion": null,
       "expected_completion_date": null,
       "award_date": null,
@@ -2290,18 +2609,18 @@
     "source": {
       "name": "USAspending",
       "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B41827F00000019_1540_15BFA023A00000062_1540/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JUST27F00000002_1501_GS10F177AA_4732/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
       "primary": true
     },
     "sources": [
       {
         "name": "USAspending",
         "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_15B41827F00000019_1540_15BFA023A00000062_1540/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_15JUST27F00000002_1501_GS10F177AA_4732/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
         "primary": true
       }
     ],
@@ -2311,14 +2630,14 @@
     },
     "contacts": {
       "company": {
-        "name": "Kunle Eboda",
-        "title": "Mr:",
+        "name": "John Eick",
+        "title": "Manager of Compliance",
         "email": null,
         "phone": null,
         "contact_type": "governmentbusinesspoc",
         "contact_quality": "medium",
         "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/PFDWQAX9BHX6/coreData?status=Active",
+        "source_url": "https://sam.gov/entity/XX59C3RECHK7/coreData?status=Active",
         "verified_date": null
       },
       "federal": null
@@ -2328,142 +2647,35 @@
     "performance_in_moco": true
   },
   {
-    "id": "moco-19f280c277b433ba",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
+    "id": "moco-631586572a3c5117",
+    "announcement_date": "2026-10-28",
+    "action_date": "2026-10-28",
     "company": {
-      "company_id": "uei-vz7aq6ulc3b8",
-      "canonical_name": "LUMIA ONE, INC.",
-      "legal_name": "LUMIA ONE, INC.",
-      "uei": "VZ7AQ6ULC3B8",
+      "company_id": "uei-jsfgnjzzlla6",
+      "canonical_name": "BDR SOLUTIONS, LLC",
+      "legal_name": "BDR SOLUTIONS, LLC",
+      "uei": "JSFGNJZZLLA6",
       "ultimate_parent": null,
-      "hq_city": "GAITHERSBURG",
+      "hq_city": "SILVER SPRING",
       "hq_state": "MD",
       "hq_county": "Montgomery County",
       "hq_verified": false,
       "hq_status": "local_entity",
       "hq_confidence": 0.95,
-      "moco_city": "GAITHERSBURG",
+      "moco_city": "SILVER SPRING",
       "moco_basis": "federal_recipient_address",
       "moco_confidence": 0.95
     },
     "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "Department of Homeland Security",
-      "subagency": "U.S. Immigration and Customs Enforcement",
-      "contract_number": "70CMSW23C00000040",
-      "award_id": "70CMSW23C00000040",
-      "description": "KROME OPLA RENOVATIONS  THIS IS A CLOSEOUT MODIFICATION",
-      "naics": "238220",
-      "psc": "J059",
-      "award_type": "DEFINITIVE CONTRACT",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GAITHERSBURG, MD",
-      "place_of_performance": "GAITHERSBURG, MD",
-      "work_locations": [
-        "GAITHERSBURG, MD"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSW23C00000040_7012_-NONE-_-NONE-/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70CMSW23C00000040_7012_-NONE-_-NONE-/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Michael Valladares",
-        "title": "Mr.",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/VZ7AQ6ULC3B8/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company_working_in_moco",
-    "recipient_in_moco": true,
-    "performance_in_moco": true
-  },
-  {
-    "id": "moco-032f8cc52a718435",
-    "announcement_date": "2026-10-27",
-    "action_date": "2026-10-27",
-    "company": {
-      "company_id": "uei-dfadx5htrl54",
-      "canonical_name": "S.S. PAPADOPULOS & ASSOCIATES, INC.",
-      "legal_name": "S.S. PAPADOPULOS & ASSOCIATES, INC.",
-      "uei": "DFADX5HTRL54",
-      "ultimate_parent": null,
-      "hq_city": "ROCKVILLE",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "ROCKVILLE",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 0.0,
-      "amount_display": "$0",
-      "agency": "Environmental Protection Agency",
-      "subagency": "Environmental Protection Agency",
-      "contract_number": "68HE0923F0064",
-      "award_id": "68HE0923F0064",
-      "description": "MOD 19: PRICE REVISION #8",
-      "naics": "541620",
-      "psc": "R499",
+      "amount": 71767.08,
+      "amount_display": "$71.8K",
+      "agency": "Department of Veterans Affairs",
+      "subagency": "Department of Veterans Affairs",
+      "contract_number": "36C79126N0003",
+      "award_id": "36C79126N0003",
+      "description": "DLS FACILITIES INVENTORY VALIDATION SERVICES. THIS IS A FUNDING ONLY ACTION TO ADD FY27 FUNDS.",
+      "naics": "541611",
+      "psc": "R405",
       "award_type": "DELIVERY ORDER",
       "expected_completion": null,
       "expected_completion_date": null,
@@ -2481,10 +2693,10 @@
       "raw_description": null
     },
     "location": {
-      "recipient_location": "ROCKVILLE, MD",
-      "place_of_performance": "SAN FRANCISCO, CA",
+      "recipient_location": "SILVER SPRING, MD",
+      "place_of_performance": "GOLDEN, CO",
       "work_locations": [
-        "SAN FRANCISCO, CA"
+        "GOLDEN, CO"
       ],
       "recipient_moco_evidence": {
         "basis": "federal_recipient_address",
@@ -2500,18 +2712,18 @@
     "source": {
       "name": "USAspending",
       "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HE0923F0064_6800_47QRAA22D0037_4732/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-27",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C79126N0003_3600_VA119A17D0161_3600/",
+      "retrieved_at": "2026-10-30T17:03:19Z",
+      "announcement_date": "2026-10-28",
       "primary": true
     },
     "sources": [
       {
         "name": "USAspending",
         "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_68HE0923F0064_6800_47QRAA22D0037_4732/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-27",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C79126N0003_3600_VA119A17D0161_3600/",
+        "retrieved_at": "2026-10-30T17:03:19Z",
+        "announcement_date": "2026-10-28",
         "primary": true
       }
     ],
@@ -2521,14 +2733,14 @@
     },
     "contacts": {
       "company": {
-        "name": "SUSAN MURRAY-WOOD",
-        "title": null,
+        "name": "Burton Tu",
+        "title": "Chief Operating Officer",
         "email": null,
         "phone": null,
         "contact_type": "governmentbusinesspoc",
         "contact_quality": "medium",
         "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/DFADX5HTRL54/coreData?status=Active",
+        "source_url": "https://sam.gov/entity/JSFGNJZZLLA6/coreData?status=Active",
         "verified_date": null
       },
       "federal": null
@@ -2536,112 +2748,5 @@
     "market_relationship": "moco_company",
     "recipient_in_moco": true,
     "performance_in_moco": false
-  },
-  {
-    "id": "moco-ff627c0d71873010",
-    "announcement_date": "2026-10-26",
-    "action_date": "2026-10-26",
-    "company": {
-      "company_id": "uei-kf4vpnclcgu1",
-      "canonical_name": "TRIBILITY LLC",
-      "legal_name": "TRIBILITY LLC",
-      "uei": "KF4VPNCLCGU1",
-      "ultimate_parent": null,
-      "hq_city": "GAITHERSBURG",
-      "hq_state": "MD",
-      "hq_county": "Montgomery County",
-      "hq_verified": false,
-      "hq_status": "local_entity",
-      "hq_confidence": 0.95,
-      "moco_city": "GAITHERSBURG",
-      "moco_basis": "federal_recipient_address",
-      "moco_confidence": 0.95
-    },
-    "award": {
-      "amount": 514445.95,
-      "amount_display": "$514.4K",
-      "agency": "Department of Veterans Affairs",
-      "subagency": "Department of Veterans Affairs",
-      "contract_number": "36C10X24N0099",
-      "award_id": "36C10X24N0099",
-      "description": "MODIFICATION TO EXERCISE OPTION PERIOD 3.",
-      "naics": "541219",
-      "psc": "R704",
-      "award_type": "DELIVERY ORDER",
-      "expected_completion": null,
-      "expected_completion_date": null,
-      "award_date": null,
-      "action_type": null,
-      "contract_type": null,
-      "modification_number": null,
-      "ceiling_value": null,
-      "obligated_amount": null,
-      "funds_obligated": null,
-      "cumulative_value": null,
-      "previous_cumulative_value": null,
-      "contracting_activity": null,
-      "funding": [],
-      "raw_description": null
-    },
-    "location": {
-      "recipient_location": "GAITHERSBURG, MD",
-      "place_of_performance": "GAITHERSBURG, MD",
-      "work_locations": [
-        "GAITHERSBURG, MD"
-      ],
-      "recipient_moco_evidence": {
-        "basis": "federal_recipient_address",
-        "confidence": 0.95,
-        "reason": "Montgomery County recipient FIPS/county"
-      },
-      "performance_moco_evidence": {
-        "basis": "federal_place_of_performance",
-        "confidence": 0.95,
-        "reason": "Montgomery County place of performance FIPS/county"
-      }
-    },
-    "classification": {
-      "primary": "Other",
-      "secondary": []
-    },
-    "source": {
-      "name": "USAspending",
-      "source_type": "structured_award",
-      "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C10X24N0099_3600_36C10X23D0035_3600/",
-      "retrieved_at": "2026-10-29T17:27:17Z",
-      "announcement_date": "2026-10-26",
-      "primary": true
-    },
-    "sources": [
-      {
-        "name": "USAspending",
-        "source_type": "structured_award",
-        "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C10X24N0099_3600_36C10X23D0035_3600/",
-        "retrieved_at": "2026-10-29T17:27:17Z",
-        "announcement_date": "2026-10-26",
-        "primary": true
-      }
-    ],
-    "match": {
-      "method": "federal_recipient_address",
-      "registry_company_id": null
-    },
-    "contacts": {
-      "company": {
-        "name": "Danielle Krakora",
-        "title": "CEO",
-        "email": null,
-        "phone": null,
-        "contact_type": "governmentbusinesspoc",
-        "contact_quality": "medium",
-        "source_name": "SAM.gov Entity Management",
-        "source_url": "https://sam.gov/entity/KF4VPNCLCGU1/coreData?status=Active",
-        "verified_date": null
-      },
-      "federal": null
-    },
-    "market_relationship": "moco_company_working_in_moco",
-    "recipient_in_moco": true,
-    "performance_in_moco": true
   }
 ]
