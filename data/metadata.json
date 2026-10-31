@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T17:03:19Z",
+  "last_updated": "2026-10-31T16:11:13Z",
   "sources_checked": [
     "War.gov",
     "USAspending",
@@ -29,22 +29,22 @@
       "browser_attempts": 5,
       "browser_successes": 0,
       "structured_fallback_status": 200,
-      "structured_fallback_awards": 24,
+      "structured_fallback_awards": 25,
       "unresolved_announcements": 3,
       "status": "partial",
-      "records_retrieved": 24,
-      "moco_matches": 2
+      "records_retrieved": 25,
+      "moco_matches": 4
     },
     "usaspending": {
       "status": "success",
-      "records_retrieved": 243,
-      "known_company_matches": 7,
-      "county_discovery_matches": 140,
-      "place_of_performance_matches": 96,
-      "outside_company_performance_matches": 96,
+      "records_retrieved": 278,
+      "known_company_matches": 8,
+      "county_discovery_matches": 181,
+      "place_of_performance_matches": 89,
+      "outside_company_performance_matches": 89,
       "place_of_performance_lookback_days": 7,
-      "new_entities_discovered": 78,
-      "moco_matches": 144
+      "new_entities_discovered": 86,
+      "moco_matches": 186
     },
     "nasa": {
       "records_retrieved": 0,
@@ -72,20 +72,20 @@
       "moco_matches": 0
     }
   },
-  "record_count": 13112,
+  "record_count": 13148,
   "market_counts": {
-    "moco_company": 535,
-    "outside_company_working_in_moco": 6303,
-    "moco_company_working_in_moco": 6274
+    "moco_company": 556,
+    "moco_company_working_in_moco": 6285,
+    "outside_company_working_in_moco": 6307
   },
   "contact_stats": {
-    "companies_examined": 3034,
-    "company_contacts_found": 1925,
-    "named_company_contacts": 1925,
+    "companies_examined": 3035,
+    "company_contacts_found": 1992,
+    "named_company_contacts": 1992,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 70,
+    "sam_poc_names_found_this_run": 69,
     "federal_award_contacts": 0
   },
   "disclosed_value_note": "Totals include disclosed amounts only."
