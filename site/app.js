@@ -99,7 +99,6 @@ function setupMetadata() {
     $("#source-warning").hidden = false;
     $("#source-warning").textContent = `The latest update completed, but ${new Intl.ListFormat("en-US").format(failures)} could not be checked. Existing historical records remain available.`;
   }
-  $("#download-csv").href = `${dataBase}/contracts.csv`;
   $("#download-json").href = `${dataBase}/contracts.json`;
 }
 
@@ -140,7 +139,9 @@ function monthlyExportRecords() {
 function updateMonthlyExportState() {
   const records = $("#export-year").value ? monthlyExportRecords() : [];
   const label = state.activeView === "work" ? "external" : "internal";
-  $("#download-month").textContent = `Export ${label} month`;
+  const month = $("#export-month").selectedOptions[0]?.textContent || "selected month";
+  const year = $("#export-year").value;
+  $("#download-month").textContent = `Download ${month} ${year} ${label} CSV`;
   $("#download-month").disabled = records.length === 0;
   $("#monthly-export-count").textContent = `${records.length.toLocaleString()} qualifying ${records.length === 1 ? "award" : "awards"}`;
   $("#monthly-export-help").textContent = `Exports the ${state.activeView === "work" ? "External Companies in MoCo" : "Internal"} table for the selected month, including only disclosed values of at least $10,000.`;
@@ -256,10 +257,6 @@ function openDetail(r) {
   $("#detail-dialog").showModal();
 }
 
-function exportFilteredCsv() {
-  const exportObjects = MarketView.exportRows(state.filtered, state.activeView);
-  downloadCsv(exportObjects, state.activeView === "work" ? "external-companies-in-moco-filtered.csv" : "internal-montgomery-county-companies-filtered.csv");
-}
 function downloadCsv(exportObjects, filename) {
   const fallback = state.activeView === "work"
     ? {Date:"",Company:"","Company Location":"",Amount:"",Agency:"",Category:"","What It Was For":"","MoCo Work Location":"","Contract #":"",Source:""}
@@ -274,7 +271,8 @@ function exportMonthlyCsv() {
   const year = $("#export-year").value;
   const month = String(Number($("#export-month").value)).padStart(2, "0");
   const label = state.activeView === "work" ? "external-companies-in-moco" : "internal-montgomery-county-companies";
-  downloadCsv(MarketView.exportRows(monthlyExportRecords(), state.activeView), `${label}-${year}-${month}.csv`);
+  const exportObjects = MarketView.monthlyExportRows(state.records, state.activeView, year, month);
+  downloadCsv(exportObjects, `${label}-${year}-${month}.csv`);
 }
 function setActiveView(view) {
   state.activeView = view;
@@ -302,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".market-tab").forEach(button => button.addEventListener("click", () => setActiveView(button.dataset.view)));
   ["#search","#date-from","#date-to"].forEach(id => $(id).addEventListener("input", applyFilters));
   ["#date-filter","#category-filter","#agency-filter","#company-filter","#amount-filter","#hq-filter","#sort-filter"].forEach(id => $(id).addEventListener("change", () => { if (id === "#date-filter") $("#custom-dates").hidden = $(id).value !== "custom"; applyFilters(); }));
-  $("#clear-filters").addEventListener("click", clearFilters); $("#download-filtered").addEventListener("click", exportFilteredCsv);
+  $("#clear-filters").addEventListener("click", clearFilters);
   ["#export-month", "#export-year"].forEach(id => $(id).addEventListener("change", updateMonthlyExportState));
   $("#download-month").addEventListener("click", exportMonthlyCsv);
   $("#retry-load").addEventListener("click", loadData);

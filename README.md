@@ -13,7 +13,7 @@ A production-oriented static dashboard for finding newly announced federal contr
 
 The browser application is plain HTML, CSS, and JavaScript. Collection and processing use Python. GitHub Actions updates the data daily and deploys the static site to GitHub Pages. No application server or database is required.
 
-Both public views show only awards with a disclosed total value of at least **$10,000**. Lower-value and undisclosed-value records remain in the canonical historical archive; the threshold affects presentation and exports only. The monthly CSV control exports the visible table schema for the selected month and year from the active Internal or External tab.
+Both public views show only awards with a disclosed total value of at least **$10,000**. Lower-value and undisclosed-value records remain in the canonical historical archive; the threshold affects presentation and exports only. The dashboard exposes one CSV action: the monthly control exports only the selected month and year, using the visible table schema from the active Internal or External tab. The JSON archive remains available separately for complete historical data.
 
 ## Sources
 

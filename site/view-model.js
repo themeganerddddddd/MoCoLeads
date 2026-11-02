@@ -15,8 +15,15 @@
   }
 
   function recordsForMonth(records, year, month) {
-    const prefix = `${Number(year)}-${String(Number(month)).padStart(2, "0")}`;
+    const numericYear = Number(year);
+    const numericMonth = Number(month);
+    if (!Number.isInteger(numericYear) || numericYear < 1000 || numericYear > 9999 || !Number.isInteger(numericMonth) || numericMonth < 1 || numericMonth > 12) return [];
+    const prefix = `${numericYear}-${String(numericMonth).padStart(2, "0")}-`;
     return records.filter(record => String(record.announcement_date || record.action_date || "").startsWith(prefix));
+  }
+
+  function monthlyExportRows(records, view, year, month) {
+    return exportRows(recordsForMonth(recordsForView(records, view), year, month), view);
   }
 
   function summarize(records, techCategories) {
@@ -47,7 +54,7 @@
     });
   }
 
-  const api = {MIN_VISIBLE_AMOUNT, recordsForView, recordsForMonth, summarize, exportRows};
+  const api = {MIN_VISIBLE_AMOUNT, recordsForView, recordsForMonth, monthlyExportRows, summarize, exportRows};
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   root.MarketView = api;
 })(typeof globalThis !== "undefined" ? globalThis : this);

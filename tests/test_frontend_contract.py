@@ -34,13 +34,15 @@ const records = [
 ];
 const local = view.recordsForView(records, 'moco');
 const work = view.recordsForView(records, 'work');
-console.log(JSON.stringify({{local:view.summarize(local,['Defense']),work:view.summarize(work,['Defense']),october:view.recordsForMonth([...local,...work],2026,10).length,internalExports:view.exportRows(local,'moco'),externalExports:view.exportRows(work,'work')}}));
+console.log(JSON.stringify({{local:view.summarize(local,['Defense']),work:view.summarize(work,['Defense']),october:view.recordsForMonth([...local,...work],2026,10).length,november:view.recordsForMonth([...local,...work],2026,11).length,invalid:view.recordsForMonth(records,2026,13).length,internalExports:view.monthlyExportRows(records,'moco',2026,10),externalExports:view.monthlyExportRows(records,'work',2026,10)}}));
 """
     result = subprocess.run(["node", "-e", script], check=True, capture_output=True, text=True)
     payload = json.loads(result.stdout)
     assert payload["local"] == {"awards": 2, "value": 30000, "companies": 2, "techShare": 50}
     assert payload["work"] == {"awards": 1, "value": 30000, "companies": 1, "techShare": 100}
     assert payload["october"] == 3
+    assert payload["november"] == 0
+    assert payload["invalid"] == 0
     assert list(payload["internalExports"][0]) == ["Date", "Company", "Amount", "Agency", "Category", "What It Was For", "Work Location", "Contract #", "Source"]
     assert payload["externalExports"][0]["Company Location"] == "McLean, VA"
     assert payload["externalExports"][0]["Agency"] == "C Office"
@@ -56,6 +58,9 @@ def test_monthly_export_controls_and_daily_schedule_are_present():
     assert 'id="export-month"' in html
     assert 'id="export-year"' in html
     assert 'id="download-month"' in html
+    assert 'id="download-filtered"' not in html
+    assert 'id="download-csv"' not in html
     assert '<option value="10000" selected>$10K and above</option>' in html
     assert "recordsForMonth(viewRecords()" in javascript
+    assert "monthlyExportRows(state.records" in javascript
     assert 'cron: "17 11 * * *"' in workflow
