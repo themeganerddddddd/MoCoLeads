@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-01T17:08:31Z",
+  "generated_at": "2026-11-02T20:48:12Z",
   "contact_enrichment": {
-    "companies_examined": 3041,
-    "company_contacts_found": 2059,
-    "named_company_contacts": 2059,
+    "companies_examined": 3042,
+    "company_contacts_found": 2125,
+    "named_company_contacts": 2125,
     "company_contacts_with_email": 7,
     "gsa_contacts": 7,
     "generic_contacts": 0,
-    "sam_poc_names_found_this_run": 69,
+    "sam_poc_names_found_this_run": 67,
     "federal_award_contacts": 0
   },
   "bootstrap": {
-    "previous_archive_records": 13148,
+    "previous_archive_records": 13180,
     "required_moco_record_floor": 470,
-    "moco_company_records": 6864,
+    "moco_company_records": 6871,
     "moco_record_floor_passed": true,
     "outside_company_working_in_moco_records": 6316,
     "work_records_earliest_date": "2026-01-30",
