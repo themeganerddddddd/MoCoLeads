@@ -35117,57 +35117,137 @@
       "company_id": "uei-yv2mg1wkyeq3",
       "uei": "YV2MG1WKYEQ3",
       "company_name": "JOHNSON CONTROLS SECURITY SOLUTIONS LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Stephen Hicks",
+        "title": "Director of Government",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/YV2MG1WKYEQ3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-kezufnpf6715": {
       "company_id": "uei-kezufnpf6715",
       "uei": "KEZUFNPF6715",
       "company_name": "IN SILICHROM LTD",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Claire Marchal",
+        "title": "Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KEZUFNPF6715/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-kll1bbsp8mx4": {
       "company_id": "uei-kll1bbsp8mx4",
       "uei": "KLL1BBSP8MX4",
       "company_name": "AMERICAN NATIONAL STANDARDS INSTITUTE INCORPORATED",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Curtis Chaffin",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KLL1BBSP8MX4/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-p8zzbkw2blm6": {
       "company_id": "uei-p8zzbkw2blm6",
       "uei": "P8ZZBKW2BLM6",
       "company_name": "LAP OF AMERICA LASER APPLICATIONS, L.L.C.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Robyn J Lasker",
+        "title": "Sales Support Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/P8ZZBKW2BLM6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-nyxau6y1y2g5": {
       "company_id": "uei-nyxau6y1y2g5",
       "uei": "NYXAU6Y1Y2G5",
       "company_name": "CBRE INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Paul Huntington",
+        "title": "Alliance Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NYXAU6Y1Y2G5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-ez5gn68zndn9": {
       "company_id": "uei-ez5gn68zndn9",
       "uei": "EZ5GN68ZNDN9",
       "company_name": "TECHWERKS LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "MICHAEL D Fravell",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EZ5GN68ZNDN9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-uylvjz49bfc6": {
       "company_id": "uei-uylvjz49bfc6",
       "uei": "UYLVJZ49BFC6",
       "company_name": "4 STAR TECHNOLOGIES, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Blair Harrison",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/UYLVJZ49BFC6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-e7rcurln7b38": {
       "company_id": "uei-e7rcurln7b38",
       "uei": "E7RCURLN7B38",
       "company_name": "PEM CONSTRUCTION, LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Radagodage T Sumanaweera",
+        "title": "Managing Partner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/E7RCURLN7B38/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-gvu8qn8m81v1": {
       "company_id": "uei-gvu8qn8m81v1",
@@ -35180,134 +35260,324 @@
       "company_id": "uei-zgjnapem64l7",
       "uei": "ZGJNAPEM64L7",
       "company_name": "PATH-TEC LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Lauren Page",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZGJNAPEM64L7/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-enrujlmf3pc9": {
       "company_id": "uei-enrujlmf3pc9",
       "uei": "ENRUJLMF3PC9",
       "company_name": "CCS LINTECH JV LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Lorene Reeder",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ENRUJLMF3PC9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-cn3zsppkhlh5": {
       "company_id": "uei-cn3zsppkhlh5",
       "uei": "CN3ZSPPKHLH5",
       "company_name": "COMCAST BUSINESS COMMUNICATIONS, LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Lauren Kurtz",
+        "title": "Federal Contract Executive",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CN3ZSPPKHLH5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-m4kdz8gcl7j4": {
       "company_id": "uei-m4kdz8gcl7j4",
       "uei": "M4KDZ8GCL7J4",
       "company_name": "HOPEWELL DESIGNS, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Richard Warren",
+        "title": "Sales Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/M4KDZ8GCL7J4/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-j84gxv5zkjk9": {
       "company_id": "uei-j84gxv5zkjk9",
       "uei": "J84GXV5ZKJK9",
       "company_name": "ABBA TECHNOLOGIES, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Ron A Davis",
+        "title": "Federal Sales Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J84GXV5ZKJK9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-nhqjpmyjevj9": {
       "company_id": "uei-nhqjpmyjevj9",
       "uei": "NHQJPMYJEVJ9",
       "company_name": "KAY AND ASSOCIATES, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "BRADLEY J KAY",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NHQJPMYJEVJ9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-ms7lz6jpynq5": {
       "company_id": "uei-ms7lz6jpynq5",
       "uei": "MS7LZ6JPYNQ5",
       "company_name": "BIOCARE MEDICAL LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Kandice Creed",
+        "title": "VP Sales",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/MS7LZ6JPYNQ5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-ekj1ydsclmh1": {
       "company_id": "uei-ekj1ydsclmh1",
       "uei": "EKJ1YDSCLMH1",
       "company_name": "MOBILE MEDICAL INTERNATIONAL CORPORATION",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "JEFFREY T PAQUET",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/EKJ1YDSCLMH1/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-y4lxaa1dje55": {
       "company_id": "uei-y4lxaa1dje55",
       "uei": "Y4LXAA1DJE55",
       "company_name": "HMK CONSULTING, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "HELEN KUPELI",
+        "title": "Owner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y4LXAA1DJE55/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-vjrazsjr4ef5": {
       "company_id": "uei-vjrazsjr4ef5",
       "uei": "VJRAZSJR4EF5",
       "company_name": "MICHIGAN ENGINEERING SERVICES LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "NICKOLAS VLAHOPOULOS",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/VJRAZSJR4EF5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-v25ndjfkmka1": {
       "company_id": "uei-v25ndjfkmka1",
       "uei": "V25NDJFKMKA1",
       "company_name": "MEDIDATA SOLUTIONS, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Shamit Patel",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/V25NDJFKMKA1/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-nd7my2a4zue9": {
       "company_id": "uei-nd7my2a4zue9",
       "uei": "ND7MY2A4ZUE9",
       "company_name": "DIAGNOSTICA STAGO INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "James Digiambattista",
+        "title": "Commercial Finance Analyst",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ND7MY2A4ZUE9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-k63ncngklcx5": {
       "company_id": "uei-k63ncngklcx5",
       "uei": "K63NCNGKLCX5",
       "company_name": "SENTRYSCIENCES, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Erik Haugen",
+        "title": "Operations",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/K63NCNGKLCX5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-zk6muhqc6de4": {
       "company_id": "uei-zk6muhqc6de4",
       "uei": "ZK6MUHQC6DE4",
       "company_name": "DISTRIBUTED TECHNOLOGY GROUP LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Mark Matheson",
+        "title": "Mr",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZK6MUHQC6DE4/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-dufmb3p6rgb9": {
       "company_id": "uei-dufmb3p6rgb9",
       "uei": "DUFMB3P6RGB9",
       "company_name": "ALEUT CONSTRUCTION LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Edward Chaney",
+        "title": "General Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DUFMB3P6RGB9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-lcgchs5jku39": {
       "company_id": "uei-lcgchs5jku39",
       "uei": "LCGCHS5JKU39",
       "company_name": "SOLUTIONS ENGINEERING CORP",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "MIKEL J FRAZEE",
+        "title": "VICE PRESIDENT",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LCGCHS5JKU39/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-fjhujnjw92f3": {
       "company_id": "uei-fjhujnjw92f3",
       "uei": "FJHUJNJW92F3",
       "company_name": "NSCA, LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Andrew N Wheeler",
+        "title": "Owner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/FJHUJNJW92F3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-jznmt9hfjtb3": {
       "company_id": "uei-jznmt9hfjtb3",
       "uei": "JZNMT9HFJTB3",
       "company_name": "VANCRO",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Christopher J Crosby",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JZNMT9HFJTB3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-cj73bzx248a1": {
       "company_id": "uei-cj73bzx248a1",
       "uei": "CJ73BZX248A1",
       "company_name": "CULINARY DEPOT INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Eli Potash",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CJ73BZX248A1/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-nqbcz8jl3vm9": {
       "company_id": "uei-nqbcz8jl3vm9",
@@ -35320,148 +35590,358 @@
       "company_id": "uei-j4tdzhlcugw3",
       "uei": "J4TDZHLCUGW3",
       "company_name": "METGREEN SOLUTIONS INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Brian Moore",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/J4TDZHLCUGW3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-f7f8gzxl7q93": {
       "company_id": "uei-f7f8gzxl7q93",
       "uei": "F7F8GZXL7Q93",
       "company_name": "GENENTECH INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Jill Shotzberger",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/F7F8GZXL7Q93/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-skg7tlun8jh6": {
       "company_id": "uei-skg7tlun8jh6",
       "uei": "SKG7TLUN8JH6",
       "company_name": "ECOG-ACRIN MEDICAL RESEARCH FOUNDATION, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Donna Marinucci",
+        "title": "Executive Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SKG7TLUN8JH6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-ghumtnsymnh3": {
       "company_id": "uei-ghumtnsymnh3",
       "uei": "GHUMTNSYMNH3",
       "company_name": "WELLSPAN HEALTH",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Robert Ribblett",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GHUMTNSYMNH3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-rf2ew59t1lx6": {
       "company_id": "uei-rf2ew59t1lx6",
       "uei": "RF2EW59T1LX6",
       "company_name": "BPM SERVICES INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Riley Childers",
+        "title": "Government Acct Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/RF2EW59T1LX6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-udzbyre8pkz9": {
       "company_id": "uei-udzbyre8pkz9",
       "uei": "UDZBYRE8PKZ9",
       "company_name": "COLORNET PRINTING AND GRAPHICS, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "RUSSELL RAMEY",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/UDZBYRE8PKZ9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-kpj7mf5nj128": {
       "company_id": "uei-kpj7mf5nj128",
       "uei": "KPJ7MF5NJ128",
       "company_name": "Z SYSTEMS CORPORATION",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "MICHAEL MCCOY",
+        "title": "PRESIDENT/CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/KPJ7MF5NJ128/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-enjmsl3hfw77": {
       "company_id": "uei-enjmsl3hfw77",
       "uei": "ENJMSL3HFW77",
       "company_name": "ADVANCED NETWORK CONSULTING, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Carrie-Ann Barrow",
+        "title": "Consultant",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ENJMSL3HFW77/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-hkjepakujce3": {
       "company_id": "uei-hkjepakujce3",
       "uei": "HKJEPAKUJCE3",
       "company_name": "CRICO ENTERPRISE, LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Crystal Billingslea",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HKJEPAKUJCE3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-cpmvaxuujcu6": {
       "company_id": "uei-cpmvaxuujcu6",
       "uei": "CPMVAXUUJCU6",
       "company_name": "THE MILKEN INSTITUTE",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Sarah A Nelson",
+        "title": "Director",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CPMVAXUUJCU6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-zzgwx398rjj6": {
       "company_id": "uei-zzgwx398rjj6",
       "uei": "ZZGWX398RJJ6",
       "company_name": "FSR CONSULTING LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Rayan Smith",
+        "title": "Director Sales",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZZGWX398RJJ6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-z3vprax98924": {
       "company_id": "uei-z3vprax98924",
       "uei": "Z3VPRAX98924",
       "company_name": "RESTAURANT SOLUTIONS GROUP FLORIDA LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Jonathan Elias",
+        "title": "CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Z3VPRAX98924/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-csvgremtk6w9": {
       "company_id": "uei-csvgremtk6w9",
       "uei": "CSVGREMTK6W9",
       "company_name": "THE ARORA GROUP, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Sam Arora",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/CSVGREMTK6W9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-tx2dagqpenz5": {
       "company_id": "uei-tx2dagqpenz5",
       "uei": "TX2DAGQPENZ5",
       "company_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Denise D Ehlen",
+        "title": "UC Davis",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TX2DAGQPENZ5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-c7vndgkka2j7": {
       "company_id": "uei-c7vndgkka2j7",
       "uei": "C7VNDGKKA2J7",
       "company_name": "COMMUNICATION INSTITUTE INTERNATIONAL, INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "ROBB Heaton",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C7VNDGKKA2J7/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-g9aygheqeaw8": {
       "company_id": "uei-g9aygheqeaw8",
       "uei": "G9AYGHEQEAW8",
       "company_name": "OLGOONIK SPECIALTY CONTRACTORS LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Rob Hawthorne",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/G9AYGHEQEAW8/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-uyetymgfafp4": {
       "company_id": "uei-uyetymgfafp4",
       "uei": "UYETYMGFAFP4",
       "company_name": "LIN JIUNN",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "JIUNN LIN",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/UYETYMGFAFP4/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-nah3h9rufxa1": {
       "company_id": "uei-nah3h9rufxa1",
       "uei": "NAH3H9RUFXA1",
       "company_name": "KELVIN HUGHES LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Delores White",
+        "title": "Director of Contracts & Secretary",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NAH3H9RUFXA1/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-y4nzcwwqt728": {
       "company_id": "uei-y4nzcwwqt728",
       "uei": "Y4NZCWWQT728",
       "company_name": "ALLTECH VENTURES LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Michael Alberi",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y4NZCWWQT728/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-lxkgclumex61": {
       "company_id": "uei-lxkgclumex61",
       "uei": "LXKGCLUMEX61",
       "company_name": "NTI CORPORATION",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Edward H Kavanagh",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/LXKGCLUMEX61/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-tqbuthge3l57": {
       "company_id": "uei-tqbuthge3l57",
       "uei": "TQBUTHGE3L57",
       "company_name": "MORGAN SCIENTIFIC, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Keith Lebel",
+        "title": "Mr.",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/TQBUTHGE3L57/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-yctkrznb2yw5": {
       "company_id": "uei-yctkrznb2yw5",
@@ -35474,106 +35954,256 @@
       "company_id": "uei-dbu6xe8phxk4",
       "uei": "DBU6XE8PHXK4",
       "company_name": "PERSONNEL MANAGEMENT, U S OFFICE OF",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Brent Green",
+        "title": "Business Operations Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DBU6XE8PHXK4/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-sm28eaqlf5n3": {
       "company_id": "uei-sm28eaqlf5n3",
       "uei": "SM28EAQLF5N3",
       "company_name": "EDCO, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Leslie Smith",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/SM28EAQLF5N3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-jh9gz7g5jre3": {
       "company_id": "uei-jh9gz7g5jre3",
       "uei": "JH9GZ7G5JRE3",
       "company_name": "CAPITAL OFFICE SYSTEMS, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Bernard Freed",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/JH9GZ7G5JRE3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-n7cefmpjz9k1": {
       "company_id": "uei-n7cefmpjz9k1",
       "uei": "N7CEFMPJZ9K1",
       "company_name": "PRECISEPOINT JV LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Zhensen Huang",
+        "title": "Managing Partner",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/N7CEFMPJZ9K1/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-zld8l5jh9lt3": {
       "company_id": "uei-zld8l5jh9lt3",
       "uei": "ZLD8L5JH9LT3",
       "company_name": "FLORIDA ARMOR LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Chaim Wolf",
+        "title": "Member",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/ZLD8L5JH9LT3/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-t3wuus8bn893": {
       "company_id": "uei-t3wuus8bn893",
       "uei": "T3WUUS8BN893",
       "company_name": "CYCLOMEDICA USA, LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Rebecca Wilson",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/T3WUUS8BN893/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-hhjacbkxawn6": {
       "company_id": "uei-hhjacbkxawn6",
       "uei": "HHJACBKXAWN6",
       "company_name": "ADVANCED MEASUREMENT TECHNOLOGY INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Sonya Bishop",
+        "title": "Customer Support Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HHJACBKXAWN6/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-y3wew9mq6nh5": {
       "company_id": "uei-y3wew9mq6nh5",
       "uei": "Y3WEW9MQ6NH5",
       "company_name": "COLORADO DEPARTMENT OF PUBLIC HEALTH & ENVIRONMENT",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Kurt A Williams",
+        "title": "Department Controller",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/Y3WEW9MQ6NH5/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-h5fne93vlag7": {
       "company_id": "uei-h5fne93vlag7",
       "uei": "H5FNE93VLAG7",
       "company_name": "NEWCOMER SUPPLY, INC.",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "David Prine",
+        "title": "Technical Sales Manager",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/H5FNE93VLAG7/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-hccuej1rmcp8": {
       "company_id": "uei-hccuej1rmcp8",
       "uei": "HCCUEJ1RMCP8",
       "company_name": "PT78 LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Jermon Bafaty",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/HCCUEJ1RMCP8/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-ngblah7ngba9": {
       "company_id": "uei-ngblah7ngba9",
       "uei": "NGBLAH7NGBA9",
       "company_name": "CTR MANAGEMENT GROUP LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Carlo Marfori",
+        "title": "President",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/NGBLAH7NGBA9/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-guvxx8dyyn75": {
       "company_id": "uei-guvxx8dyyn75",
       "uei": "GUVXX8DYYN75",
       "company_name": "BRAXTON-GRANT TECHNOLOGIES INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "CLAUDE Braxton",
+        "title": "VP",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/GUVXX8DYYN75/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-dvewfntglk96": {
       "company_id": "uei-dvewfntglk96",
       "uei": "DVEWFNTGLK96",
       "company_name": "TRIGON ASSOCIATES LLC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Michelle Herbert",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/DVEWFNTGLK96/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-pjdznfzvjj87": {
       "company_id": "uei-pjdznfzvjj87",
       "uei": "PJDZNFZVJJ87",
       "company_name": "MAGADIA CONSULTING INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Magdalena Gebrekristos",
+        "title": "President/CEO",
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/PJDZNFZVJJ87/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-c1akzeh2uz83": {
       "company_id": "uei-c1akzeh2uz83",
       "uei": "C1AKZEH2UZ83",
       "company_name": "CARRADORA HEALTH INC",
-      "company": null,
-      "last_checked": null
+      "company": {
+        "name": "Michael J Flanigan",
+        "title": null,
+        "email": null,
+        "phone": null,
+        "contact_type": "governmentbusinesspoc",
+        "contact_quality": "medium",
+        "source_name": "SAM.gov Entity Management",
+        "source_url": "https://sam.gov/entity/C1AKZEH2UZ83/coreData?status=Active",
+        "verified_date": null
+      },
+      "last_checked": "2026-11-03"
     },
     "uei-t6a1wr7u83l4": {
       "company_id": "uei-t6a1wr7u83l4",
@@ -39646,7 +40276,7 @@
         "source_url": "https://sam.gov/entity/MEHKFS2PMM16/coreData?status=Active",
         "verified_date": null
       },
-      "last_checked": "2026-11-02"
+      "last_checked": "2026-11-03"
     },
     "uei-nh2jnm9jasd5": {
       "company_id": "uei-nh2jnm9jasd5",
@@ -45587,5 +46217,5 @@
     "CM39N6XPQF41": "uei-cm39n6xpqf41",
     "HYWMRA3B7T75": "uei-hywmra3b7t75"
   },
-  "updated_at": "2026-11-02T20:48:12Z"
+  "updated_at": "2026-11-03T18:29:14Z"
 }
